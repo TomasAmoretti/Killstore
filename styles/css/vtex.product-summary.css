@@ -1,0 +1,48 @@
+
+.productNameContainer, .sellingPriceContainer{
+    color: black;
+    font-weight: bold;
+}
+
+.nameContainer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 60px;
+}
+
+.productBrandName {
+    font-size: 13px;
+    color: #959595;
+}
+
+.productBrand{
+    font-size: 15px;
+    display: inline-flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.brandName {
+    min-height: 50px;
+    font-family: NeutraFace2Text;
+}
+
+.priceContainer{
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 65px;
+}
+
+.element:hover{
+    border-top: solid 2px #FF5A07;
+    filter: opacity(0.5);
+}
+
+.containerNormal {
+    border-radius: 0;
+}
+
+.price_sellingPrice {
+    font-weight: bold;
+}
+

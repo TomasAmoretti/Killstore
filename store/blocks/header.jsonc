@@ -1,0 +1,212 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop",
+      "flex-layout.row#nav-text"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "header-principal"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#categorias-nav",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "search-bar":{
+    "props":{
+      "autoFocus": true,
+      "blurOnSubmit": true,
+      "displayMode": "search-and-clear-buttons",
+      "blockClass": "busqueda",
+      "compactMode": false
+    }
+  },
+  "flex-layout.row#nav-text": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "nav-texto-envio"
+    },
+    "children": [
+      "rich-text#header",
+      "rich-text#header2"
+    ]
+  },
+  "rich-text#header": {
+    "props": {
+      "text": "**Despacho GRATIS**",
+      "textPosition": "CENTER",
+      "blockClass": "nav-texto-envio"
+    }
+  },
+  "rich-text#header2": {
+    "props": {
+      "text": "**en Región Metropolitana Para compras a partir de 19.990**",
+      "textPosition": "CENTER",
+      "blockClass": "nav-texto-envio2"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#header"
+    ]
+  },
+  "logo#header": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo.png"
+    }
+  },
+  "login": {
+    "props": {
+      "optionsTitle": "Elija una forma de logueo",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Recibir codigo de acceso por mail",
+      "emailPraceholder": "E-mail",
+      "passwordPlaceholder": "Contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "hideIconLabel": true,
+      "blockClass": "login-header"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#main-mobile",
+      "search-bar#mobile",
+      "flex-layout.row#nav-text-mobile"
+    ],
+    "props": {
+      "blockClass": "header-mobile"
+    }
+  },
+  "header-row#main-mobile": {
+    "children": [
+      "drawer",
+      "flex-layout.col#spacer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "inverted": true
+    }
+  },
+  "search-bar#mobile":{
+    "props":{
+      "autoFocus": false,
+      "blurOnSubmit": true,
+      "displayMode": "search-and-clear-buttons",
+      "blockClass": "busqueda-mobile",
+      "compactMode": false
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ],
+    "props": {
+      "blockClass": "drawer-mobile"
+    }
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#categorias-nav#Mayo-mobile",
+      "menu-item#categorias-nav#Burger-mobile",
+      "menu-item#categorias-nav#Icecream-mobile",
+      "menu-item#categorias-nav#Milk-mobile",
+      "menu-item#categorias-nav#Combos-mobile",
+      "menu-item#categorias-nav#Burger-box-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#nav-text-mobile": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      /*"fullWidth": true,*/
+      "blockClass": "nav-texto-envio-mobile"
+    },
+    "children": [
+      "rich-text#header-mobile",
+      "rich-text#header2-mobile"
+    ]
+  },
+  "rich-text#header-mobile": {
+    "props": {
+      "text": "**FLETE GRATIS**",
+      "textPosition": "CENTER",
+      "blockClass": "nav-texto-envio-mobile"
+    }
+  },
+  "rich-text#header2-mobile": {
+    "props": {
+      "text": "**PARA COMPRAS DE MÁS DE 3 ITEMS**",
+      "textPosition": "CENTER",
+      "blockClass": "nav-texto-envio2-mobile"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo.png",
+      "width": "70",
+      "blockClass":"logo-mobile"
+    }
+  },
+  "flex-layout.col#categorias-nav": {
+    "children": [
+      "vtex.menu@2.x:menu#categorias-nav"
+    ]
+  }
+}

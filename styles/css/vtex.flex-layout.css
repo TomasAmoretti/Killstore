@@ -1,0 +1,197 @@
+
+
+.stretchChildrenWidth{
+    text-align: center;
+}
+
+/* Header */
+
+.flexRow--nav-texto-envio {
+    background: black;
+}
+
+.flexRowContent--nav-texto-envio-mobile {
+    display: flex;
+}
+
+.flexRow--nav-texto-envio-mobile {
+    background: black;
+}
+
+.flexRowContent--header-principal {
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+/* Vitrinas */
+.flexRow--row-milk, .flexRow--row-mayo, .flexRow--row-icecream, .flexRow--row-burger {
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+    border-bottom: solid 0.1px #a5a4a4;
+}
+
+.flexRowContent--row-burger {
+    justify-content: flex-start;
+}   
+
+.flexColChild--col-mayo, .flexColChild--col-milk, .flexColChild--col-icecream, .flexColChild--col-burger {
+    max-width: 1075px;
+    text-align: center;
+}
+
+.flexRow--categorias-verticales {
+    margin-top: 20px;
+}
+
+/* Nosotros */
+.flexRow--nosotros {
+    margin-bottom: 30px;
+}
+
+.flexRow--nosotros-mobile {
+    margin-bottom: 30px;
+}
+
+.flexRowContent--col-no-contiene1-col1-r1-mobile, .flexRowContent--col-no-contiene1-col1-r2-mobile, .flexRowContent--col-no-contiene1-col2-r1-mobile, .flexRowContent--col-no-contiene1-col2-r2-mobile, .flexRowContent--col-no-contiene1-col3-mobile {
+    display: block;
+}
+
+.flexRowContent--row-no-contiene1-mobile, .flexRowContent--row-no-contiene2-mobile {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--col-no-contiene1-col2-r2-mobile, .flexRowContent--col-no-contiene1-col1-r2-mobile {
+    padding-left: 30px;
+}
+
+/* Producto */
+.flexColChild--product-lef-col {
+    width: 85%;
+    margin: auto;
+}
+
+.flexRowContent--row-descripcion {
+    width: 75%;
+    margin: auto;
+}
+/* Footer */
+.flexRow--footer-logo, .flexRowContent--footer-logo-mobile {
+    background: black;
+}
+
+.flexRow--general-container{
+    background: black;
+    padding: 20px 20px 20px 20px;
+}
+
+.flexRow--footer-newsletter{
+    background: black;
+}
+
+.flexRowContent--footer-medios-de-pago {
+    background: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.flexRowContent--footer-pie-de-pagina{
+    align-items: center;
+    padding: 5px 0;
+    background: white;
+}
+
+.flexCol--contenedor-marcas-footer{
+    min-height: 140px;
+}
+
+.flexRowContent--footer-contacto-whatsapp, .flexRowContent--footer-contacto-email, .flexRowContent--footer-contacto-facebook, .flexRowContent--footer-contacto-instagram{
+    align-items: center;
+}
+
+.flexRowContent--footer-contacto-whatsapp, .flexRowContent--footer-contacto-email {
+    max-height: 32px;
+}
+
+.flexRow--footer-medios-de-pago {
+    display: inline-flex;
+}
+
+.flexColChild--contenedor-marcas-footer {
+    min-height: 60px;
+    margin-top: 10px;
+}
+
+.flexRowContent--footer-brands{
+    background: url(/arquivos/bloque-redes-desk-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 169px;
+}
+
+.flexRowContent--footer-brands-mobile {
+    display: flex;
+    align-items: flex-end;
+    background: url(/arquivos/bloque-redes-mobile-2.png) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    min-height: 360px;
+}
+
+.flexRowContent--footer-medios-de-pago, .flexRowContent--footer-contacto-whatsapp, .flexRowContent--footer-contacto-email {
+    display: flex;
+}
+
+.flexRowContent--footer-pie-de-pagina-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--footer-ministerio {
+    display: flex;
+}
+
+.flexRow--footer-pie-de-pagina-mobile {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flexRow--footer-brands {
+    margin-top: 30px;
+}
+
+.flexRowContent--footer-logo {
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* Resultado de busqueda */
+
+.flexCol--search-result-filtros {
+    width: 220px!important;
+    margin-left: 20px;
+}
+
+.flexColChild--search-result-filtros {
+    border: solid 1px #FF5A07;
+    padding: 10px;
+}
+
+.filter__container--title {
+    display: none;
+}
+
+/* Imagenes categorias */
+.flexRow--imagenes-categorias {
+    margin-bottom: 30px;
+}
+
+.flexRowContent--imagenes-categorias {
+    margin-top: 50px;
+}

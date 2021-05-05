@@ -1,0 +1,103 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "Mostrar mas"
+    }
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "Mostrar mas"
+    }
+  },
+  "search-not-found-layout": {
+    "children": [
+      "not-found"
+    ]
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#results": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#search"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "search-result"
+    }
+  },
+  "search-title.v2":{
+    "props":{
+
+    }
+  },
+  "flex-layout.col#filter": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass": "search-result-filtros"
+    }
+  },
+  "flex-layout.col#search": {
+    "children": [
+      "search-content"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass":"search-result-productos"
+    }
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props":{
+      "maxItemsPerRow":{
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2
+      }
+    }
+  }
+}

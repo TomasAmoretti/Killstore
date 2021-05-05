@@ -1,0 +1,6 @@
+@import url(//db.onlinewebfonts.com/c/57944866f6b02a6133e1a7dc372d2316?family=Neutraface+2+Text+Book);
+@font-face {font-family: "Neutraface 2 Text Book"; src: url("//db.onlinewebfonts.com/t/57944866f6b02a6133e1a7dc372d2316.eot"); src: url("//db.onlinewebfonts.com/t/57944866f6b02a6133e1a7dc372d2316.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/57944866f6b02a6133e1a7dc372d2316.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/57944866f6b02a6133e1a7dc372d2316.woff") format("woff"), url("//db.onlinewebfonts.com/t/57944866f6b02a6133e1a7dc372d2316.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/57944866f6b02a6133e1a7dc372d2316.svg#Neutraface 2 Text Book") format("svg"); }
+
+body{
+    font-family: Neutraface2Text,sans-serif;
+}

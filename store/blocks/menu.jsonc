@@ -1,0 +1,275 @@
+{
+    "vtex.menu@2.x:menu#footer#Quienes-somos": {
+      "children": [
+        "menu-item#Institucionales#QuienesSomos",
+        "menu-item#Institucionales#HableNosotros",
+        "menu-item#Institucionales#MisPedidos"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "vtex.menu@2.x:menu#footer#Productos":{
+      "children": [
+        "menu-item#Footer#Milk",
+        "menu-item#Footer#Mayo",
+        "menu-item#Footer#Icecream",        
+        "menu-item#Footer#Burger"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "vtex.menu@2.x:menu#footer#Ayuda": {
+      "children": [
+        "menu-item#Ayuda#PoliticaEntrega",
+        "menu-item#Ayuda#PoliticaPrivacidad",
+        "menu-item#Ayuda#Garantia",
+        "menu-item#Ayuda#Mail",
+        "menu-item#Ayuda#Telefono"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "vtex.menu@2.x:menu#categorias-nav": {
+      "children": [
+        "menu-item#categorias-nav#Mayo",
+        "menu-item#categorias-nav#Burger",
+        "menu-item#categorias-nav#Icecream",
+        "menu-item#categorias-nav#Milk",
+        "menu-item#categorias-nav#Combos",
+        "menu-item#categorias-nav#Burger-box"
+      ],
+      "props": {
+        "blockClass": "categorias-nav-header"
+      }
+    }
+    /*"vtex.menu@2.x:submenu#Milk": {
+      "children": [
+        "flex-layout.row#Menu-milk"
+      ],
+      "props": {
+        "orientation": "horizontal",
+        "blockClass": "menu-milk"
+      }
+    },
+    "flex-layout.row#Menu-milk":{
+      "children":[
+        "image#Milk-izq",
+        "shelf#milk-menu",
+        "image#Milk-der"
+      ],
+      "props":{
+        "blockClass":"flex-menu-milk",
+        "preventHorizontalStretch": true,
+        "fullWidth": true
+      }
+    },
+    "image#Milk-izq": {
+      "props": {
+        "src": "/arquivos/logo-notmilk.png",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-milk-izq"
+      }
+    },
+    "image#Milk-der": {
+      "props": {
+        "src": "https://dummyimage.com/180x355/000/fff&text=Feito",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-milk-der"
+      }
+    },
+    "vtex.menu@2.x:submenu#Mayo":{
+      "children": [
+        "flex-layout.row#Menu-mayo"
+      ],
+      "props": {
+        "orientation": "horizontal",
+        "blockClass": "menu-mayo"
+      }
+    },
+    "flex-layout.row#Menu-mayo":{
+      "children":[
+        "image#Mayo-izq",
+        "shelf#mayo-menu",
+        "image#Mayo-der"
+      ],
+      "props":{
+        "blockClass":"flex-menu-mayo",
+        "preventHorizontalStretch": true,
+        "fullWidth": true
+      }
+    },
+    "image#Mayo-izq": {
+      "props": {
+        "src": "/arquivos/logo-notmayo.png",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-milk-izq"
+      }
+    },
+    "image#Mayo-der": {
+      "props": {
+        "src": "https://dummyimage.com/180x355/000/fff&text=Feito",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-milk-der"
+      }
+    },
+    "vtex.menu@2.x:submenu#Icecream": {
+      "children": [
+        "flex-layout.row#Menu-icecream"
+      ],
+      "props": {
+        "orientation": "horizontal",
+        "blockClass": "menu-icecream"
+      }
+    },
+    "flex-layout.row#Menu-icecream":{
+      "children":[
+        "image#Icecream-izq",
+        "shelf#icecream-menu",
+        "image#Icecream-der"
+      ],
+      "props":{
+        "blockClass":"flex-menu-icecream",
+        "preventHorizontalStretch": true,
+        "fullWidth": true
+      }
+    },
+    "image#Icecream-izq": {
+      "props": {
+        "src": "/arquivos/logo-noticecream.png",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-milk-izq"
+      }
+    },
+    "image#Icecream-der": {
+      "props": {
+        "src": "https://dummyimage.com/180x355/000/fff&text=Feito",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-milk-der"
+      }
+    },
+    "vtex.menu@2.x:submenu#Combos": {
+      "children": [
+        "flex-layout.row#Menu-combos"
+      ],
+      "props": {
+        "orientation": "horizontal",
+        "blockClass": "menu-combos"
+      }
+    },
+    "flex-layout.row#Menu-combos":{
+      "children":[
+        "image#Combos-menu-1",
+        "image#Combos-menu-2",
+        "image#Combos-menu-3",
+        "image#Combos-menu-4"
+      ],
+      "props":{
+        "blockClass":"flex-menu-combos",
+        "preventHorizontalStretch": true,
+        "fullWidth": true
+      }
+    },
+    "image#Combos-menu-1": {
+      "props": {
+        "src": "/arquivos/tamanos-ecommerce_combo-menu-notburger.png",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-combos-menu"
+      }
+    },
+    "image#Combos-menu-2": {
+      "props": {
+        "src": "/arquivos/tamanos-ecommerce_combo-menu-notcombo.png",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-combos-menu"
+      }
+    },
+    "image#Combos-menu-3": {
+      "props": {
+        "src": "/arquivos/tamanos-ecommerce_combo-menu-notcomo-fam.png",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-combos-menu"
+      }
+    },
+    "image#Combos-menu-4": {
+      "props": {
+        "src": "/arquivos/tamanos-ecommerce_combo-menu-shakes.png",
+        "link":{
+          "url":"/#"
+        },
+        "blockClass": "imagen-combos-menu"
+      }
+    }*/
+    /* Menu mobile */
+    /*"vtex.menu@2.x:submenu#Panes-mobile": {
+      "children": [
+        "menu-item#categorias-nav#Panes-molde",
+        "menu-item#categorias-nav#Panes-pan-pita",
+        "menu-item#categorias-nav#Panes-hot-dog",
+        "menu-item#categorias-nav#Panes-hamburguesa",
+        "menu-item#categorias-nav#Panes-rallado",
+        "menu-item#categorias-nav#Panes-otros"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "menu-panes-mobile"
+      }
+    },
+    "vtex.menu@2.x:submenu#PizzasYTortillas-mobile":{
+      "children": [
+        "menu-item#categorias-nav#PYT-pizzas",
+        "menu-item#categorias-nav#PYT-tortillas"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "menu-PYT-mobile"
+      }
+    },
+    "vtex.menu@2.x:submenu#Dulces-mobile": {
+      "children": [
+        "menu-item#categorias-nav#Dulces-pastelitos",
+        "menu-item#categorias-nav#Dulces-brownies",
+        "menu-item#categorias-nav#Dulces-queques-individuales",
+        "menu-item#categorias-nav#Dulces-queques-familiares",
+        "menu-item#categorias-nav#Dulces-alfajores",
+        "menu-item#categorias-nav#Dulces-galletas",
+        "menu-item#categorias-nav#Dulces-chilenos",
+        "menu-item#categorias-nav#Dulces-barras"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "menu-dulces-mobile"
+      }
+    },
+    "vtex.menu@2.x:submenu#Snacks-mobile": {
+      "children": [
+        "menu-item#categorias-nav#Snacks-salmas",
+        "menu-item#categorias-nav#Snacks-takis"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "menu-Snacks-mobile"
+      }
+    }*/
+    /* End menu mobile */
+  }

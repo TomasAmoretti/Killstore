@@ -1,0 +1,9 @@
+
+.socialNetworksContainer{
+    display: inline-flex;
+}
+
+.acceptedPaymentMethodContainer{
+    text-align: center;
+    display: inline-flex;
+}

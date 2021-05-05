@@ -1,0 +1,9 @@
+.quantitySelectorTitle--product-qty{
+    text-align: left;
+    font-family: Neutraface2text;
+}
+
+.quantitySelectorContainer--product-qty {
+    display: flex;
+    align-items: center;
+}

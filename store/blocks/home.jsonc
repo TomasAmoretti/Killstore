@@ -1,0 +1,540 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#desktop-home",
+      "responsive-layout.mobile#mobile-home"
+    ]
+  },
+  "responsive-layout.desktop#desktop-home": {
+    "children": [
+      "slider-layout#home",
+      "flex-layout.row#categorias",
+      "flex-layout.row#mayo",
+      "flex-layout.row#burger",
+      "flex-layout.row#icecream",
+      "flex-layout.row#milk2",
+      "flex-layout.row#nosotros",
+      "back-to-top-button"
+    ]
+  },
+  "responsive-layout.mobile#mobile-home": {
+    "children": [
+      "slider-layout#home-mobile",
+      "flex-layout.row#categorias",
+      "flex-layout.row#burger-mobile",
+      "flex-layout.row#mayo-mobile",
+      "flex-layout.row#icecream-mobile",
+      "flex-layout.row#milk2-mobile",
+      "flex-layout.row#nosotros-mobile"
+    ]
+  },
+  "slider-layout#home": {
+    "children": [
+      "image#slider-home-1",
+      "image#slider-home-2",
+      "image#slider-home-3",
+      "image#slider-home-4",
+      "image#slider-home-5"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "itemsPerPage": { 
+        "desktop": 1,
+        "tablet": 1
+      },
+      "showPaginationDots": "always",
+      "fullWidth": false,
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-1": {
+    "props": {
+      "src": "/arquivos/notcocom_BANNER_OK.jpg",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-2": {
+    "props": {
+      "src": "/arquivos/banner-notburger.png",
+      "link":{
+        "url":"/Notco/NotBurger"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-3": {
+    "props": {
+      "src": "/arquivos/banner-notmayo.png",
+      "link":{
+        "url":"/Notco/NotMayo"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-4": {
+    "props": {
+      "src": "/arquivos/banner-notmilk.png",
+      "link":{
+        "url":"/Notco/NotMilk"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-5": {
+    "props": {
+      "src": "/arquivos/banner-icecream.png",
+      "link":{
+        "url":"/Notco/NotIceCream"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "slider-layout#home-mobile": {
+    "children": [
+      "image#slider-home-1-mobile",
+      "image#slider-home-2-mobile",
+      "image#slider-home-3-mobile",
+      "image#slider-home-4-mobile",
+      "image#slider-home-5-mobile"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "itemsPerPage": { 
+        "tablet": 1,
+        "phone": 1
+      },
+      "showPaginationDots": "mobileOnly",
+      "fullWidth": false,
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-1-mobile": {
+    "props": {
+      "src": "/arquivos/notcocom_BANNER-mobile_2.jpg",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-2-mobile": {
+    "props": {
+      "src": "/arquivos/banner-mobile-notburger.png",
+      "link":{
+        "url":"/Notco/NotBurger"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-3-mobile": {
+    "props": {
+      "src": "/arquivos/banner-mobile-notmayo.png",
+      "link":{
+        "url":"/Notco/NotMayo"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-4-mobile": {
+    "props": {
+      "src": "/arquivos/banner-mobile-notmilk.png",
+      "link":{
+        "url":"/Notco/NotMilk"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-5-mobile": {
+    "props": {
+      "src": "/arquivos/banner-mobile-icecream.png",
+      "link":{
+        "url":"/Notco/NotIceCream"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "rich-text#Not-combos-titulo":{
+    "props":{
+        "text": "**NOT** \n **COMBO'S**",
+        "textPosition": "CENTER",
+        "blockClass": "texto-not-combos-titulo"
+    }
+  },
+  "flex-layout.row#categorias": {
+    "children": [
+      "image#categoria1",
+      "image#categoria2",
+      "image#categoria3",
+      "image#categoria4"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias"
+    }
+  },
+  "image#categoria1": {
+    "props": {
+      "src": "/arquivos/banner-combo-a.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria2": {
+    "props": {
+      "src": "/arquivos/banner-combo-b.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria3": {
+    "props": {
+      "src": "/arquivos/banner-combo-c.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria4": {
+    "props": {
+      "src": "/arquivos/banner-combo-d.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "flex-layout.row#milk2": {
+    "children": [
+      "flex-layout.col#milk2-left",
+      "flex-layout.col#milk2-right"
+    ],
+    "props":{
+      "blockClass": "row-mayo",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#milk2-right":{
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "blockClass": "col-mayo"
+    },
+    "children":[
+      "shelf#milk2"
+    ]
+  },
+  "flex-layout.col#milk2-left":{
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "blockClass": "col-mayo"
+    },
+    "children":[
+      "image#row-milk2",
+      "rich-text#not-milk2"
+    ]
+  },
+  "image#row-milk2": {
+    "props": {
+      "src": "/arquivos/logo-notmilk.png",
+      "maxWidth": "162px",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-row"
+    }
+  },
+  "rich-text#not-milk2": {
+    "props": {
+      "text": "[VER TODOS LOS PRODUCTOS](/Notco/NotMilk)",
+      "textPosition": "CENTER",
+      "blockClass": "texto-not-milk"
+    }
+  },
+  "flex-layout.row#mayo": {
+    "children": [
+      "flex-layout.col#mayo-left",
+      "flex-layout.col#mayo-right"
+    ],
+    "props":{
+      "blockClass": "row-mayo",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#mayo-right":{
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "blockClass": "col-mayo"
+    },
+    "children":[
+      "shelf#mayo"
+    ]
+  },
+  "flex-layout.col#mayo-left":{
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "blockClass": "col-mayo"
+    },
+    "children":[
+      "image#row-mayo",
+      "rich-text#not-mayo"
+    ]
+  },
+  "image#row-mayo": {
+    "props": {
+      "src": "/arquivos/logo-notmayo.png",
+      "maxWidth": "162px",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-row"
+    }
+  },
+  "rich-text#not-mayo": {
+    "props": {
+      "text": "[VER TODOS LOS PRODUCTOS](/Notco/NotMayo)",
+      "textPosition": "CENTER",
+      "blockClass": "texto-not-mayo"
+    }
+  },
+  "flex-layout.row#icecream": {
+    "children": [
+      "flex-layout.col#icecream-left",
+      "flex-layout.col#icecream-right"
+    ],
+    "props":{
+      "blockClass": "row-icecream",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#icecream-left":{
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "blockClass": "col-icecream"
+    },
+    "children":[
+      "image#row-icecream",
+      "rich-text#not-icecream"
+    ]
+  },
+  "flex-layout.col#icecream-right":{
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "blockClass": "col-icecream"
+    },
+    "children":[
+      "shelf#icecream"
+    ]
+  },
+  "image#row-icecream": {
+    "props": {
+      "src": "/arquivos/logo-noticecream.png",
+      "maxWidth": "162px",
+      "link":{
+        "url":"/Notco/NotIceCream"
+      },
+      "blockClass": "imagen-row"
+    }
+  },
+  "rich-text#not-icecream": {
+    "props": {
+      "text": "[VER TODOS LOS PRODUCTOS](/Notco/NotIceCream)",
+      "textPosition": "CENTER",
+      "blockClass": "texto-not-icecream"
+    }
+  },
+  "flex-layout.row#burger": {
+    "children": [
+      "flex-layout.col#burger-left",
+      "flex-layout.col#burger-right"
+    ],
+    "props":{
+      "blockClass": "row-burger",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#burger-left":{
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "col-burger"
+    },
+    "children":[
+      "image#row-burger",
+      "rich-text#not-burger"
+    ]
+  },
+  "flex-layout.col#burger-right":{
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true,
+      "blockClass": "col-burger"
+    },
+    "children":[
+      "shelf#burger"
+    ]
+  },
+  "image#row-burger": {
+    "props": {
+      "src": "/arquivos/tamanos-ecommerce_logo-NotBurger.png",
+      "maxWidth": "162px",
+      "link":{
+        "url":"/Notco/Notburger"
+      },
+      "blockClass": "imagen-row-burger"
+    }
+  },
+  "rich-text#not-burger": {
+    "props": {
+      "text": "[VER TODOS LOS PRODUCTOS](/Notco/Notburger)",
+      "textPosition": "CENTER",
+      "blockClass": "texto-not-burger"
+    }
+  },
+  /* Vitrinas mobile */
+  "flex-layout.row#milk2-mobile": {
+    "children": [
+      "flex-layout.col#milk2-left",
+      "flex-layout.col#milk2-right"
+    ],
+    "props":{
+      "blockClass": "row-vitrina",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#mayo-mobile": {
+    "children": [
+      "flex-layout.col#mayo-left",
+      "flex-layout.col#mayo-right"
+    ],
+    "props":{
+      "blockClass": "row-vitrina",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#icecream-mobile": {
+    "children": [
+      "flex-layout.col#icecream-left",
+      "flex-layout.col#icecream-right"
+    ],
+    "props":{
+      "blockClass": "row-vitrina",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#burger-mobile": {
+    "children": [
+      "flex-layout.col#burger-left",
+      "flex-layout.col#burger-right"
+    ],
+    "props":{
+      "blockClass": "row-vitrina",
+      "preventHorizontalStretch": true
+    }
+  },
+  /* End vitrinas mobile */
+  /* Nosotros */
+  "flex-layout.row#nosotros":{
+    "children": [
+      "image#nosotros",
+      "flex-layout.col#texto-nosotros"
+    ],
+    "props":{
+      "blockClass": "nosotros",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#nosotros": {
+    "props": {
+      "src": "/arquivos/humbur.jpg",
+      "maxWidth": 610,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-nosotros"
+    }
+  },
+  "flex-layout.col#texto-nosotros":{
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "col-nosotros"
+    },
+    "children":[
+      "rich-text#nosotros",
+      "menu-item#Nosotros"
+    ]
+  },
+  "rich-text#nosotros":{
+    "props": {
+      "text": "LA COMIDA QUE AMAMOS COMER, **REINVENTADA.**",
+      "textPosition": "CENTER",
+      "blockClass": "texto-nosotros"
+    }
+  },
+  /* Mobile Nosotros */
+  "flex-layout.row#nosotros-mobile":{
+    "children": [
+      "image#nosotros-mobile",
+      "flex-layout.col#texto-nosotros-mobile"
+    ],
+    "props":{
+      "blockClass": "nosotros-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#nosotros-mobile": {
+    "props": {
+      "src": "/arquivos/humbur.jpg",
+      "maxWidth": 610,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-nosotros-mobile"
+    }
+  },
+  "flex-layout.col#texto-nosotros-mobile":{
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "col-nosotros-mobile"
+    },
+    "children":[
+      "rich-text#nosotros-mobile",
+      "menu-item#Nosotros"
+    ]
+  },
+  "rich-text#nosotros-mobile":{
+    "props": {
+      "text": "LA COMIDA QUE AMAMOS COMER, **REINVENTADA.**",
+      "textPosition": "CENTER",
+      "blockClass": "texto-nosotros-mobile"
+    }
+  },
+  /* End Nostros */
+  "back-to-top-button":{
+    "props":{
+      "displayThreshold": 800,
+      "display": "caret-icon"
+    }
+  }
+}

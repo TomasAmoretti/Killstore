@@ -1,0 +1,13 @@
+
+.galleryTitle--layout {
+    text-align: center;
+}
+
+.galleryTitle--layout {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background: black;
+    font-family: NeutraTitling,Neutraface2Text;
+    font-weight: 700;
+}

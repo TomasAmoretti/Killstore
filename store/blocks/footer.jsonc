@@ -1,0 +1,270 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer#marcas",
+      "flex-layout.row#footer#logo",
+      "flex-layout.row#footer#general",
+      "flex-layout.row#footer#pie-de-pagina"
+      
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer#marcas-mobile",
+      "flex-layout.row#footer#logo-mobile",
+      "flex-layout.row#footer#general",
+      "flex-layout.row#footer#pie-de-pagina-mobile"
+    ]
+  },
+  "flex-layout.row#footer#marcas": {
+    "children": [
+      "flex-layout.col#espaciador1",
+      "menu-item#footer#Redes-Facebook",
+      "menu-item#footer#Redes-Instagram",
+      "menu-item#footer#Redes-Youtube",
+      "menu-item#footer#Redes-Linkedin",
+      "flex-layout.col#espaciador2"
+    ],
+    "props": {
+      "blockClass": "footer-brands",
+      "preventHorizontalStretch": false
+    }
+  },
+  "flex-layout.row#footer#marcas-mobile": {
+    "children": [
+      "menu-item#footer#Redes-Facebook",
+      "menu-item#footer#Redes-Instagram",
+      "menu-item#footer#Redes-Youtube",
+      "menu-item#footer#Redes-Linkedin"
+    ],
+    "props": {
+      "blockClass": "footer-brands-mobile",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false
+    }
+  },
+  "flex-layout.col#espaciador1":{
+    "props":{
+      "width": "38%"
+    }
+  },
+  "flex-layout.col#espaciador2":{
+    "props":{
+      "width": "38%"
+    }
+  },
+  "flex-layout.row#footer#logo":{
+    "children":[
+      "image#logo-footer"
+    ],
+    "props":{
+      "horizontalAlign":"left",
+      "fullWidth": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "footer-logo"
+    }
+  },
+  "image#logo-footer":{
+    "props": {
+      "src": "/arquivos/logo-footer.png",
+      "maxWidth": 90,
+      "blockClass": "logo-footer"
+    }
+  },
+  "flex-layout.row#footer#logo-mobile":{
+    "children":[
+      "image#logo-footer-mobile"
+    ],
+    "props":{
+      "horizontalAlign":"left",
+      "fullWidth": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "footer-logo-mobile"
+    }
+  },
+  "image#logo-footer-mobile":{
+    "props": {
+      "src": "/arquivos/logo-footer.png",
+      "maxWidth": 90,
+      "blockClass": "logo-footer-mobile"
+    }
+  },
+  "flex-layout.col#footer#Newsletter": {
+    "children": [
+      "rich-text#Newsletter",
+      "flex-layout.row#formNewsletter"
+    ],
+    "props": {
+      "blockClass": "footer-newsletter",
+      "preventVerticalStretch": true,
+      "maxHeight": 130
+    }
+  },
+  "rich-text#Newsletter": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "**SUSCRÍBETE \n Y GANA 10% DE DESCUENTO \n EN TU PRIMERA COMPRA**",
+      "blockClass": "footer-newsletter"
+    }
+  },
+  "flex-layout.row#formNewsletter": {
+    "children": [
+      "flex-layout.col#formNewsletter"
+    ]
+  },
+  "flex-layout.col#formNewsletter": {
+    "children": [
+      "newsletter"
+    ],
+    "props":{
+      "blockClass": "form-newsletter"
+    }
+  },
+  "newsletter":{
+    "props":{
+      "hideLabel": true,
+      "submit": "Enviar",
+      "placeholder":"Email",
+      "blockClass": "form-newsletter"
+    }
+  },
+  "flex-layout.row#footer#general": {
+    "children": [
+      "flex-layout.col#footer#Quienes-somos",
+      "flex-layout.col#footer#Productos",
+      "flex-layout.col#footer#Ayuda",
+      "flex-layout.col#footer#Newsletter"
+    ],
+    "props": {
+      "blockClass": "general-container"
+    }
+  },
+  "flex-layout.col#footer#Quienes-somos": {
+    "children": [
+      "rich-text#footer#Quienes-somos",
+      "vtex.menu@2.x:menu#footer#Quienes-somos"
+    ],
+    "props":{
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer#Quienes-somos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "QUIÉNES SOMOS",
+      "blockClass": "footer-general-titulo"
+    }
+  },
+  "flex-layout.col#footer#Productos": {
+    "children": [
+      "rich-text#footer#Productos",
+      "vtex.menu@2.x:menu#footer#Productos"
+    ],
+    "props":{
+      "preventVerticalStretch": true,
+      "blockClass": "footer-productos"
+    }
+  },
+  "rich-text#footer#Productos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PRODUCTOS**",
+      "blockClass": "footer-general-titulo"
+    }
+  },
+  "flex-layout.col#footer#Ayuda": {
+    "children": [
+      "rich-text#footer#Ayuda",
+      "vtex.menu@2.x:menu#footer#Ayuda"
+    ],
+    "props":{
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer#Ayuda": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**NECESITA AYUDA?**",
+      "blockClass": "footer-general-titulo"
+    }
+  },
+  "flex-layout.row#footer#pie-de-pagina":{
+    "children":[
+      "image#logo-vtex",
+      "image#logo-ko"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "horizontalAlign":"center",
+      "blockClass": "footer-pie-de-pagina"
+    }
+  },
+  "image#logo-vtex":{
+    "props": {
+      "src": "/arquivos/vtex-logo.png",
+      "link":{
+        "url": "https://www.vtex.com/"
+      },
+      "blockClass": "logo-vtex"
+    }
+  },
+  "image#logo-ko":{
+    "props": {
+      "src": "/arquivos/logo_ko.png",
+      "link":{
+        "url": "https://knownonline.com/"
+      },
+      "blockClass": "logo-ko"
+    }
+  },
+  "flex-layout.row#footer#pie-de-pagina-mobile":{
+    "children":[
+      "image#logo-vtex-mobile",
+      "image#logo-ko-mobile"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "horizontalAlign":"center",
+      "blockClass": "footer-pie-de-pagina-mobile"
+    }
+  },
+  "image#logo-vtex-mobile":{
+    "props": {
+      "src": "/arquivos/vtex-logo.png",
+      "link":{
+        "url": "https://www.vtex.com/"
+      },
+      "blockClass": "logo-vtex-mobile"
+    }
+  },
+  "image#logo-ko-mobile":{
+    "props": {
+      "src": "/arquivos/logo_ko.png",
+      "link":{
+        "url": "https://knownonline.com/"
+      },
+      "blockClass": "logo-ko-mobile"
+    }
+  },
+  "flex-layout.row#footer#formas-pago":{
+    "children":[
+
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign":"center",
+      "verticalAlign":"middle",
+      "blockClass": "footer-pago"
+    }
+  }
+}

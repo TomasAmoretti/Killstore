@@ -1,0 +1,11 @@
+.cartIcon{
+    color: black;
+}
+
+.openIconContainer :hover{
+    background: grey;
+}
+
+.minicartQuantityBadgeDefault, .minicartQuantityBadgeDefault:hover {
+    background: #FF5A07;
+}

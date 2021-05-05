@@ -1,0 +1,168 @@
+
+.infoCardContainer{
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    border-bottom: 0;
+}
+
+.searchBarContainer{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.searchBarContainer {
+    align-items: center;
+    display: flex;
+    margin-left: 0; 
+}
+
+.imageElement--lanzamiento1, .imageElement--lanzamiento2{
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Header */
+.imageElementLink--imagen-milk-izq, .imageElementLink--imagen-milk-der {
+    align-items: center;
+    display: flex;
+}
+
+.imageElementLink--imagen-milk-izq{
+    margin-left: 7px;
+}
+
+.imageElementLink--imagen-milk-der{
+    margin-right: 7px;
+}
+
+.logoLink--logo-mobile {
+    margin-right: 55px;
+}
+
+.imageElement--imagen-combos-menu {
+    margin-right: 70px;
+}
+
+.imageElement--imagen-row {
+    display: flex;
+    margin: auto;
+}
+
+/* Nosotros */
+.imageElement--imagen-nosotros-mobile {
+    width: 90%;
+    margin: 20px 20px 0 18px;
+}
+
+.imageElement--imagen-nosotros {
+    margin-left: 25px;
+    padding-top: 30px;
+}
+
+.imageElement--imagen-nosotros-colesterol-mobile, .imageElement--imagen-nosotros-huevos-mobile, .imageElement--imagen-nosotros-transgenicos-mobile, .imageElement--imagen-nosotros-lactosa-mobile, .imageElement--imagen-nosotros-gluten-mobile {
+    margin: auto;
+}
+
+/* Vitrina */
+.sellingPrice {
+    font-weight: bold;
+}
+.discountInsideContainer {
+    background: #FF5A07;
+}
+
+/* Producto */
+.productImagesContainer--image-producto{
+    width: 75%;
+    margin: auto;
+}
+
+.sellingPrice, .productNameContainer--product-name{
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: NeutraFace2Text;
+    text-transform: uppercase;
+}
+
+.shareButtons {
+    display: inline-flex;
+}
+
+.productBrandContainer--marca-product {
+    text-align: left;
+    font-size: 22px;
+    font-family: Neutraface2text;
+}
+
+.price_listPriceContainer--product-price {
+    text-align: initial;
+}
+
+.specificationsTabsContainer--specifications-product{
+    padding-top: 0;
+}
+
+.shareContainer {
+    padding-top: 70px;
+}
+
+.productDescriptionText--descripcion {
+    font-family: NeutraFace2text;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.productDescriptionTitle--descripcion {
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: NeutraFace2text;
+}   
+
+.shareLabel {
+    font-family: Neutraface2text;
+}
+
+/* Footer */
+
+.container--form-newsletter {
+    padding-top: 0!important;
+}
+
+.imageElement--logo-footer {
+    margin-left: 90%;
+    margin-top: 25px;
+}
+
+.imageElement--logo-footer-mobile {
+    margin-top: 25px!important;
+    margin: auto;
+}
+
+.imageElementLink--logo-vtex-mobile {
+    width: 30%;
+    margin: auto;
+}
+
+.imageElementLink--logo-ko-mobile {
+    width: 60%;
+}
+
+.imageElementLink--logo-vtex {
+    width: 40%;
+}
+
+.imageElementLink--logo-ko {
+    width: 75%;
+}
+
+.imageElement--logo-vtex-mobile {
+    margin-left: 35%;
+}

@@ -1,0 +1,95 @@
+
+.menuContainerNav{
+    text-align: center;
+    margin: auto;
+}
+
+.menuContainer{
+    display: inline-flex;
+}
+
+.styledLinkContent--footer-general {
+    color: white;
+    font-family: NeutraFace2Text;
+}
+
+.styledLinkContent--categorias-nav-header, .styledLinkContent--categorias-nav-header-mobile{
+    margin: auto;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Neutraface2Text,sans-serif;
+}
+
+.submenuWrapper--menu-milk, .submenuWrapper--menu-mayo, .submenuWrapper--menu-icecream, .submenuWrapper--menu-combos{
+    position: fixed;
+    width: 100%;
+    max-height: 515px;
+    padding-top: 0;
+}
+
+.styledLinkContent--categorias-nav-header-mobile{
+    position: inherit;
+}
+
+.styledLinkContainer--categorias-nav-header{
+    height: 100%;
+    align-items: center;
+    display: inline-flex;
+    margin-right: 55px;
+    margin-left: 0;
+}
+
+.menuItem--categorias-nav-header, .menuContainer--categorias-nav-header, .menuContainerNav--categorias-nav-header{
+    height: 100%;
+}
+
+.styledLinkContent--nav-bar-categorias:hover, .styledLinkContent--categorias-nav-header:hover{
+    color: #FF5A07;
+}
+
+.styledLinkContent--footer-general:hover{
+    color: #FF5A07!important;
+}
+
+.styledLinkContent--boton-nosotros:hover {
+    color: white;
+}
+
+.styledLinkContainer--footer-general-facebook, .styledLinkContainer--footer-general-instagram{
+    margin-left: 0;
+}
+
+.menuItem--footer-general-instagram, .menuItem--footer-general-facebook{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.styledLinkContent--boton-nosotros {
+    width: fit-content;
+    font-family: Neutraface2Text,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #000;
+    letter-spacing: 0;
+    background: #FF5A07;
+    margin-left: 9%;
+    border-radius: 24px;
+    padding: 0px 45px;
+    height: 48px;
+    margin-top: 60px;
+}
+
+.styledLinkContainer--redes-instagram, .styledLinkContainer--redes-facebook, .styledLinkContainer--redes-youtube, .styledLinkContainer--redes-linkedin{
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+}
+
+.styledLinkContent--redes-facebook, .styledLinkContent--redes-instagram, .styledLinkContent--redes-youtube, .styledLinkContent--redes-linkedin {
+    width: 100%;
+    height: 100%;
+    min-height: 120px;
+}

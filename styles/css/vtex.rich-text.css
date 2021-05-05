@@ -1,0 +1,222 @@
+
+/* Footer */
+.strong--footer-texto-marcas{
+    font-family: "Neutraface 2 Text", sans-serif;
+}
+
+.headingLevel4--footer-texto-marcas{
+    font-size: 30px;
+    color: #0F3E99;
+    font-family: Neutraface2Text, sans-serif;
+}
+
+.headingLevel3--footer-newsletter {
+    margin-bottom: 0;
+}
+
+.headingLevel5--footer-newsletter {
+    text-align: center;
+    margin-top: 0;
+}
+
+.strong--footer-general-titulo{
+    font-family: NeutraFace2Text;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: inherit;
+    color: #fff;
+    text-transform: none;
+}
+
+.paragraph--footer-general-titulo {
+    font-weight: 400;
+    padding: 0;
+    font-size: 16px;
+    line-height: inherit;
+    color: #fff;
+    text-transform: none;
+}
+
+.container--institucional{
+    width: 80%;
+    margin: auto;
+    font-family: "Neutraface 2 Text", sans-serif;
+}
+
+.container--institucional-condiciones-y-servicios{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 35px;
+    font-family: "Neutraface 2 Text", sans-serif;
+}
+
+.strong--footer-newsletter{
+    color: white;
+}
+
+.paragraph--texto-ministerio {
+    font-family: arial;
+    color: white;
+}
+
+.container--texto-ministerio{
+    display: inline-flex;
+    align-items: center;
+}
+
+.wrapper--footer-general-email, .wrapper--footer-general-whatsapp {
+    margin-left: 10px;
+}
+
+.container--footer-newsletter{
+    align-items: flex-start;
+}
+
+.link--footer-general-email, .link--footer-general-whatsapp {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.wrapper--footer-newsletter {
+    width: 100%;
+}
+/* Header */
+.strong--header-separador {
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.paragraph--header-separador {
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+
+.paragraph--nav-texto-envio {
+    text-align: center;
+}
+
+.container--nav-texto-envio-mobile {
+    margin-right: 2px;
+}
+
+.container--nav-texto-envio {
+    background: #000;
+    color: #FF5A07;
+    font-size: 14px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.container--nav-texto-envio2{
+    background: #000;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.strong--nav-texto-envio2-mobile {
+    font-size: 12px;
+    color: white;
+}
+
+.strong--nav-texto-envio-mobile {
+    font-size: 12px;
+    color: #FF5A07;
+}
+
+/* Vitrinas */
+.link--texto-not-milk, .link--texto-not-mayo, .link--texto-not-icecream, .link--texto-not-burger {
+        font-weight: bold;
+        color: white;
+        font-size: 13px;
+        padding: 10px 7px 10px 7px;
+        font-family: NeutraFace2Text;
+        border-radius: 4px;
+        background: black;
+        text-decoration: none;
+}
+
+.paragraph--texto-not-mayo, .paragraph--texto-not-milk, .paragraph--texto-not-icecream {
+    min-width: 216px;
+    text-align: center;
+}
+
+.link--texto-not-milk:hover{
+    color: #33d8fe;
+}
+
+.link--texto-not-mayo:hover{
+    color: #fe0092;
+}
+
+.link--texto-not-icecream:hover{
+    color: #9900ff;
+}
+
+.link--texto-not-burger:hover{
+    color: #f5dc01;
+}
+
+/* Nosotros */
+.paragraph--texto-nosotros {
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 80px;
+    line-height: 44px;
+    margin-right: 45px;
+    color: black;
+    margin-bottom: 0;
+    text-align: left;
+    font-family: Neutraface2Text;
+}
+
+.strong--texto-nosotros {
+    color: #fe0092;
+    font-weight: bold;
+    font-family: Neutraface2Text;
+}
+
+.strong--texto-nosotros-mobile {
+    font-size: 28px;
+    font-family: Neutraface2Text;
+    font-weight: 700;
+    line-height: 32px;
+    color: #000;
+    letter-spacing: 0;
+}
+
+.paragraph--texto-nosotros-mobile {
+    margin-left: 15px;
+}
+
+.paragraph--texto-sin-transgenicos, .paragraph--texto-sin-lactosa, .paragraph--texto-sin-gluten, .paragraph--texto-sin-huevos, .paragraph--texto-sin-colesterol{
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.container--texto-sin-colesterol-mobile {
+    margin: auto;
+}
+
+/* Home */
+.paragraph--texto-not-combos-titulo {
+    margin-bottom: 0;
+    font-family: NeutraFace2Text;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+/* Institucioanl */
+.headingLevel3--institucional {
+    text-align: initial;
+}
+
+.paragraph--institucional {
+    text-align: initial;
+}

@@ -1,0 +1,23 @@
+.slide {
+    padding: 15px;
+    font-family: NeutraFace2Text;
+}
+
+.title {
+    font-family: "Neutraface2Text",sans-serif;
+    color: #FF5A07;
+    font-weight: 700;
+    background: black;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.container--mas-vistos {
+    margin-top: 60px;
+}
+
+.container--vitrina-milk, .container--vitrina-mayo, .container--vitrina-icecream, .container--vitrina-combos {
+    max-width: 905px;
+    margin-right: 20px;
+}

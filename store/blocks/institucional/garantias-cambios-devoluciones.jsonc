@@ -1,0 +1,42 @@
+{
+    "store.custom#garantias-cambios-devoluciones": {
+        "blocks": [
+            "flex-layout.row#institucional-garantias-cambios-devoluciones"
+        ]
+    },
+    "flex-layout.row#institucional-garantias-cambios-devoluciones":{
+        "children":[
+            "flex-layout.col#institucional-garantias-cambios-devoluciones"
+        ],
+        "props":{
+            "blockClass": "row-institucional",
+            "horizontalAlign": "left"
+        }
+    },
+    "flex-layout.col#institucional-garantias-cambios-devoluciones":{
+        "children":[
+            "rich-text#garantias-cambios-devoluciones",
+            "rich-text#garantias-cambios-devoluciones2"
+        ],
+        "props":{
+            "blockClass": "col-institucional",
+            "horizontalAlign": "left"
+        }
+    },
+    "rich-text#garantias-cambios-devoluciones": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "## **Garantías, cambios y devoluciones**",
+            "blockClass": "institucional-titulo"
+        }
+    },
+    "rich-text#garantias-cambios-devoluciones2": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "text": "### **Pago** \n\n El USUARIO tiene las siguientes opciones de pago:\n\n - Entregados por la plataforma Mercado Pago y Web pay mall Transbank. \n - Tarjetas de crédito y débito con convenio con la plataforma Mercado Pago y Web pay mall Transbank. \n\n Los precios presentados en www.Notco.cl pueden ser diferentes de los ofrecidos en tiendas físicas y/o online de otros minoristas, y solamente son válidos para las compras finalizadas en el acto de su exhibición. La simple inclusión de productos en el 'carrito de compras' no implica en su reserva por el consumidor. En cuanto los pedidos se encuentren efectivamente formulados y aceptados no se aplicarán eventuales alteraciones posteriores de precio de los productos. \n\n El USUARIO podrá combinar cuantos cupones y/o otros métodos de pago que quiera para redimir productos. \n\n Pedidos que sean pagados con tarjeta de crédito están sujetos a la aprobación de la administradora de la tarjeta y a otros dispositivos de verificación de fraude. \n\n El plazo para entrega es considerado a partir del chequeo de los datos de registro y de la confirmación del pago, que podrá ser realizada en hasta 2 (dos) días hábiles. Caso sea notada cualquier diferencia de información con los datos registrados, LUM entrará en contacto con el USUARIO. \n\n El vale-presente es una tarjeta virtual que tiene un valor y un código que, cuando informado durante su compra, es descontado del valor total de su compra. Su validez es de 9 (nueve) meses. \n\n Al efectuar la compra, el USUARIO debe estar atento a las informaciones del producto, tales como dimensiones, descripción, composición, además de todas las informaciones disponibles en la página de cada producto. Caso el USUARIO tenga dudas, podrá acceder a la Central de Atención al Cliente. \n\n Después de escoger el(los) producto(s) que desea adquirir, el USUARIO tendrá a su disposición diversos tipos de flete, los cuales pueden variar de acuerdo con su localización y tipo de producto adquirido. El proceso de entrega del (de los) producto(s) adquirido(s) se dará después de la confirmación del pago. \n\n",
+            "blockClass": "institucional"
+        }
+    }
+}

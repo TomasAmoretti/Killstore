@@ -1,0 +1,60 @@
+{
+    "store.custom#politicas-de-entrega": {
+        "blocks": [
+            "flex-layout.row#institucional-politicas-de-entrega"
+        ]
+    },
+    "flex-layout.row#institucional-politicas-de-entrega":{
+        "children":[
+            "flex-layout.col#institucional-politicas-de-entrega"
+        ],
+        "props":{
+            "blockClass": "row-institucional",
+            "horizontalAlign": "left"
+        }
+    },
+    "flex-layout.col#institucional-politicas-de-entrega":{
+        "children":[
+            "rich-text#politicas-de-entrega",
+            "rich-text#politicas-de-entrega2",
+            "rich-text#politicas-de-entrega3",
+            "rich-text#politicas-de-entrega4"
+        ],
+        "props":{
+            "blockClass": "col-institucional",
+            "horizontalAlign": "left"
+        }
+    },
+    "rich-text#politicas-de-entrega": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "## **Políticas de Entrega**",
+            "blockClass": "institucional-titulo"
+        }
+    },
+    "rich-text#politicas-de-entrega2": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "text": "Las entregas serán realizadas a través de los servicios de los Correos o de transportadoras colaboradoras.\n\n El plazo de entrega es contado a partir de la confirmación del pago en días hábiles, o sea, no incluye sábados, domingos y feriados. \n\n La fecha estipulada de entrega, con nuestros actuales portales se deja en regiones 7 días hábiles, y en RM 3-4 días hábiles. Excepcionalmente entregas pueden ocurrir los sábados, domingos y feriados. \n\n Después de la confirmación del pago, el plazo para emisión de la Nota Fiscal es de hasta 7 días hábiles. \n\n Es indispensable que, en la dirección solicitada, haya una persona autorizada por el USUARIO, mayor de 18 años, y portando documento de identificación para recibir la mercancía y firmar el protocolo. \n\n IMPORTANTE: después de la finalización del pedido no es posible alterar la forma de entrega, solicitar adelanto o prioridad. Todos los plazos de entrega toman en consideración las existencias, la región, el proceso de emisión de la nota fiscal y el tiempo de preparación del producto. En cada actualización en el estatus del pedido, nuestro sistema envía, automáticamente, correos electrónicos de alerta. Por eso, es importante mantener su correo electrónico actualizado en el registro. \n\n Una vez que el pedido haya sido concluido, no será posible alterar los productos solicitados, la dirección o la forma de pago. Si el USUARIO desistió de la compra, o si la forma de pago escogida no es la que más le conviene, el pedido debe ser cancelado y una nueva compra realizada. Si quiere añadir un producto a su compra, debe hacer un nuevo pedido para ese nuevo producto.",
+            "blockClass": "institucional"
+        }
+    },
+    "rich-text#politicas-de-entrega3": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "text": "### **Atraso en la entrega** \n\n En caso de cualquier atraso en la entrega de los productos, el USUARIO deberá ponerse en contacto con la Central de Atención al Cliente <a href='mailto:sac.cl@notco.com'>sac.cl@notco.com</a> \n\n En caso de que haya las dos o tres tentativas de entrega sin éxito, conforme antes detallado, el pedido retornará al Centro de Distribución. Para que sea realizada una nueva tentativa, es preciso confirmar la dirección. El plazo para reenvío del producto será el mismo que fue informado en la finalización del pedido y cuenta a partir de la confirmación de la dirección. \n\n Después de la conclusión del pedido, no es posible alterar la dirección de entrega. En caso de que haya informado la dirección errada, entre en contacto con la Central de Atención al Cliente. \n\n IMPORTANTE: por motivos de seguridad, bajo ninguna hipótesis nuestros operadores alteran la dirección de entrega o los datos de registro de los clientes. \n\n Caso haya suministrado la dirección incompleta, entre en contacto con la Central de Atención al Cliente e informe los datos que faltaron. \n\n Factores naturales y adversos que pueden alterar la fecha de entrega de los productos: lluvias fuertes, accidentes, huelgas, pandemias y, en general cualquier evento que pueda ser catalogado como fuerza mayor o caso fortuito, en la región donde el producto debería ser entregado imposibilitan la llegada del transportador, lo eximirán de responsabilidad por dichos retrasos. \n\n ### **Rechazo de la Entrega** \n\n Si ocurre cualquier de las hipótesis a continuación, rechace el recibimiento de la mercancía y escriba el motivo del rechazo en el reverso del documento de entrega (Nota Fiscal): \n - embalaje abierto o averiado \n - producto averiado \n - producto en desacuerdo con el pedido. \n\n Si, aun así, el usuario acepta el producto, por favor, entre en contacto con Central de Atención al Cliente Enel plazo de 7 (siete) días hábiles. \n\n",
+            "blockClass": "institucional"
+        }
+    },
+    "rich-text#politicas-de-entrega4": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "text": "### **Compromiso de las transportadoras colaboradoras** \n\n En caso de ausencia del destinatario, las transportadoras tienen el compromiso de realizar hasta dos tentativas de entrega, en días alternados. \n\n La entrega sólo puede ser realizada a una persona mayor de 18 años que presente documento de identificación. \n\n Está prohibido al transportador: \n - entrar en el domicilio \n - entregar por medios alternativos (ejemplo: izar producto por ventana) \n - realizar instalación o mantenimiento de productos \n - abrir el embalaje del producto \n - realizar entrega en dirección diferente a la que consta en la guía de despacho \n - realizar entrega a menores de edad o sin documento de identificación. \n\n ### **Plazos de entrega por formas de pago** \n\n **Tarjeta de crédito** \n\n En caso de pago en tarjeta de crédito, el plazo para entrega es considerado a partir de la confirmación del pago por la administradora de la tarjeta, lo que puede ocurrir en hasta 2 (dos) días hábiles. \n\n Para ampliar aún más su seguridad, los pedidos pagados con tarjeta de crédito pasan por un chequeo de datos de registro. \n\n Si hubiere divergencia de registro, entraremos en contacto con el USUARIO. \n\n **Devolución del producto** \n\n Para efectuar la devolución por arrepentimiento, las siguientes condiciones deberán ser observadas: \n - el plazo para desistir de la compra del producto es de hasta 10 días contados desde la recepción del producto \n - el producto deberá ser enviado en el embalaje original, sin indicios de uso, sin violación del lacre original del fabricante, acompañado de la guía de despacho (Documento Boleta de compra o Factura), del manual y todos sus accesorios en caso de proceder \n\n Para solicitar el cambio del producto por arrepentimiento, el USUARIO deberá contactar el Sector de Relación con el Cliente. \n\n Para solicitar el cambio del producto por defecto, el USUARIO deberá contactar el Sector de Relación con el Cliente. [Sac.cl@notco.com](mailto:Sac.cl@notco.com) \n\n ### **Cancelación del Pedido** \n\n Pedidos cuyo pago fue aprobado pueden ser cancelados si la nota fiscal no hubiese sido emitida. Basta realizar la cancelación del pedido en el sitio web en el área Mis Pedidos. \n\n De la restitución de los productos devueltos y/o pedidos cancelados \n\n LUM hará la restitución total de los valores pagados utilizando la misma forma de pago escogida en el proceso de compra: \n\n en compras con tarjeta de crédito la administradora de la tarjeta será notificada y la devolución ocurrirá en la factura siguiente o en la posterior, de una sola vez, sea cual sea el número de plazos utilizado en la compra. El plazo de resarcimiento depende de la administradora de la tarjeta. \n\n IMPORTANTE: en caso de devolución, la restitución de los valores será procesada solamente después del recibimiento y análisis del (de los) producto(s) en el Centro de Distribución de LUM. \n\n LUM tiene hasta 30 (treinta) días, contados a partir de la fecha del recibimiento del producto en su Centro de Distribución, para verificar si la solicitud cumple los requisitos de estos términos de uso en cuanto a las devoluciones. En caso afirmativo, enviará otro producto al cliente. \n\n LUM se exenta de la obligación de cancelar cualquier producto que no cumpla los requisitos de la Política de Cambios y Devoluciones.",
+            "blockClass": "institucional"
+        }
+    }
+}

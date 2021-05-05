@@ -1,0 +1,15 @@
+.container--breadcrumb{
+    text-align: left;
+}
+
+.link:hover {
+    color: #FF5A07;
+}
+
+.term--breadcrumb {
+    font-family: NeutraFace2Text;
+}
+
+.container--breadcrumb {
+    font-family: NeutraFace2Text;
+}

@@ -1,0 +1,34 @@
+.sliderLayoutContainer--slider-home{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.paginationDotsContainer--slider-home {
+    top: 90%;
+}
+
+.paginationDot--slider-home--isActive {
+    background: black!important;
+}
+
+.paginationDot--slider-home {
+    background: #FF5A07;
+}
+
+.sliderLayoutContainer--slider-marcas{
+    padding-bottom: 25px;
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0f3e99;
+}
+
+.slideChildrenContainer--slider-marcas {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slideChildrenContainer--slider-milk:hover {
+    filter: opacity(0.5);
+}
