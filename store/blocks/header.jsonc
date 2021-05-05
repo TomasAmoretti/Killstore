@@ -96,8 +96,9 @@
   "logo#header": {
     "props": {
       "title": "Logo",
+      "width": 100,
       "href": "/",
-      "url": "/arquivos/logo.png"
+      "url": "/arquivos/logo-texto.jpg"
     }
   },
   "login": {

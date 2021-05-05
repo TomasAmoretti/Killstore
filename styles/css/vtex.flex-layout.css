@@ -25,14 +25,6 @@
 
 
 /* Vitrinas */
-.flexRow--row-milk, .flexRow--row-mayo, .flexRow--row-icecream, .flexRow--row-burger {
-    margin-left: 30px;
-    margin-right: 30px;
-    justify-content: center;
-    display: flex;
-    margin-top: 5px;
-    border-bottom: solid 0.1px #a5a4a4;
-}
 
 .flexRowContent--row-burger {
     justify-content: flex-start;

@@ -3,7 +3,7 @@
 }
 
 .openIconContainer :hover{
-    background: grey;
+    background: #5e5e5e;
 }
 
 .minicartQuantityBadgeDefault, .minicartQuantityBadgeDefault:hover {

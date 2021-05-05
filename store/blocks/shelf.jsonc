@@ -4,17 +4,19 @@
       "product-summary.shelf#main"
     ],
     "props": {
-      "category": "1/2",
+      "category": 1,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "none",
+      "simulationBehavour":"default",
       "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
+        "maxItems": 1,
+        "itemsPerPage": 1,
         "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "Productos Destacados"
-      }
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Destacados"
+      },
+      "blockClass": "shelf-destacados"
     }
   },
   "product-summary.shelf#main": {
@@ -36,209 +38,21 @@
       "showInstallments": false
     }
   },
-  "shelf#milk2": {
-    "blocks": [
-      "product-summary.shelf#main"
-    ],
-    "props": {
-      "category": "1/2",
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": " "
-      },
-      "blockClass":"mayo"
-    }
-  },
-  "shelf#mayo": {
-    "blocks": [
-      "product-summary.shelf#main"
-    ],
-    "props": {
-      "category": "1/3",
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": " "
-      },
-      "blockClass":"mayo"
-    }
-  },
-  "shelf#icecream": {
-    "blocks": [
-      "product-summary.shelf#main"
-    ],
-    "props": {
-      "category": "1/4",
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": " "
-      },
-      "blockClass":"icecream"
-    }
-  },
-  "shelf#burger": {
-    "blocks": [
-      "product-summary.shelf#main"
-    ],
-    "props": {
-      "category": "1/5",
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": " "
-      },
-      "blockClass":"burger"
-    }
-  },
-  "shelf#combos": {
-    "blocks": [
-      "product-summary.shelf#main"
-    ],
-    "props": {
-      "category": 1,
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": " "
-      }
-    }
-  },
   "shelf#relatedProducts": {
     "blocks": [
       "product-summary.shelf#main"
     ],
     "props": {
-      "category": 1,
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "Productos más vistos"
-      },
-      "blockClass":"mas-vistos"
-    }
-  },
-  /* Menu */
-  "product-summary.shelf#menu": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-price",
-      "add-to-cart-button#product"
-    ],
-    "props":{
-      "blockClass":"product-summary-menu"
-    }
-  },
-  "shelf#milk-menu": {
-    "blocks": [
-      "product-summary.shelf#menu"
-    ],
-    "props": {
-      "category": 1,
-      "collection": 137,
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": " "
-      },
-      "blockClass":"vitrina-milk"
-    }
-  },
-  "shelf#mayo-menu": {
-    "blocks": [
-      "product-summary.shelf#menu"
-    ],
-    "props": {
-      "category": 1,
-      "collection": 138,
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": " "
-      },
-      "blockClass":"vitrina-mayo"
-    }
-  },
-  "shelf#icecream-menu": {
-    "blocks": [
-      "product-summary.shelf#menu"
-    ],
-    "props": {
-      "category": 1,
-      "collection": 139,
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": " "
-      },
-      "blockClass":"vitrina-icecream"
-    }
-  },
-  "shelf#combos-menu": {
-    "blocks": [
-      "product-summary.shelf#menu"
-    ],
-    "props": {
-      "category": 1,
-      "collection": 140,
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "none",
-      "productList": {
-        "maxItems": 20,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": " "
-      },
-      "blockClass":"vitrina-combos"
+        "recommendation": "view",
+        "productList": {
+            "titleText": "Productos relacionados",
+            "maxItems": 20,
+            "itemsPerPage": 5,
+            "minItemsPerPage": 1,
+            "scroll": "BY_PAGE",
+            "arrows": true
+        },
+        "blockClass": "shelf-relacionados"
     }
   }
 }

@@ -47,13 +47,13 @@
         "tablet": 1
       },
       "showPaginationDots": "always",
-      "fullWidth": false,
+      "fullWidth": true,
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-1": {
     "props": {
-      "src": "/arquivos/notcocom_BANNER_OK.jpg",
+      "src": "https://dummyimage.com/1200x300/000/fff",
       "link":{
         "url":"#"
       },
@@ -62,7 +62,7 @@
   },
   "image#slider-home-2": {
     "props": {
-      "src": "/arquivos/banner-notburger.png",
+      "src": "https://dummyimage.com/1200x300/000/fff",
       "link":{
         "url":"/Notco/NotBurger"
       },
@@ -71,7 +71,7 @@
   },
   "image#slider-home-3": {
     "props": {
-      "src": "/arquivos/banner-notmayo.png",
+      "src": "https://dummyimage.com/1200x300/000/fff",
       "link":{
         "url":"/Notco/NotMayo"
       },
@@ -80,7 +80,7 @@
   },
   "image#slider-home-4": {
     "props": {
-      "src": "/arquivos/banner-notmilk.png",
+      "src": "https://dummyimage.com/1200x300/000/fff",
       "link":{
         "url":"/Notco/NotMilk"
       },
@@ -89,7 +89,7 @@
   },
   "image#slider-home-5": {
     "props": {
-      "src": "/arquivos/banner-icecream.png",
+      "src": "https://dummyimage.com/1200x300/000/fff",
       "link":{
         "url":"/Notco/NotIceCream"
       },
@@ -101,8 +101,7 @@
       "image#slider-home-1-mobile",
       "image#slider-home-2-mobile",
       "image#slider-home-3-mobile",
-      "image#slider-home-4-mobile",
-      "image#slider-home-5-mobile"
+      "image#slider-home-4-mobile"
     ],
     "props": {
       "autoplay": {
@@ -121,7 +120,7 @@
   },
   "image#slider-home-1-mobile": {
     "props": {
-      "src": "/arquivos/notcocom_BANNER-mobile_2.jpg",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "link":{
         "url":"#"
       },
@@ -130,7 +129,7 @@
   },
   "image#slider-home-2-mobile": {
     "props": {
-      "src": "/arquivos/banner-mobile-notburger.png",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "link":{
         "url":"/Notco/NotBurger"
       },
@@ -139,7 +138,7 @@
   },
   "image#slider-home-3-mobile": {
     "props": {
-      "src": "/arquivos/banner-mobile-notmayo.png",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "link":{
         "url":"/Notco/NotMayo"
       },
@@ -148,25 +147,16 @@
   },
   "image#slider-home-4-mobile": {
     "props": {
-      "src": "/arquivos/banner-mobile-notmilk.png",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "link":{
         "url":"/Notco/NotMilk"
       },
       "blockClass": "slider-home"
     }
   },
-  "image#slider-home-5-mobile": {
-    "props": {
-      "src": "/arquivos/banner-mobile-icecream.png",
-      "link":{
-        "url":"/Notco/NotIceCream"
-      },
-      "blockClass": "slider-home"
-    }
-  },
   "rich-text#Not-combos-titulo":{
     "props":{
-        "text": "**NOT** \n **COMBO'S**",
+        "text": "Titulo",
         "textPosition": "CENTER",
         "blockClass": "texto-not-combos-titulo"
     }
@@ -184,7 +174,7 @@
   },
   "image#categoria1": {
     "props": {
-      "src": "/arquivos/banner-combo-a.png",
+      "src": "https://dummyimage.com/200x380/000/fff",
       "link":{
         "url":"#"
       },
@@ -193,7 +183,7 @@
   },
   "image#categoria2": {
     "props": {
-      "src": "/arquivos/banner-combo-b.png",
+      "src": "https://dummyimage.com/200x380/000/fff",
       "link":{
         "url":"#"
       },
@@ -202,7 +192,7 @@
   },
   "image#categoria3": {
     "props": {
-      "src": "/arquivos/banner-combo-c.png",
+      "src": "https://dummyimage.com/200x380/000/fff",
       "link":{
         "url":"#"
       },
@@ -211,7 +201,7 @@
   },
   "image#categoria4": {
     "props": {
-      "src": "/arquivos/banner-combo-d.png",
+      "src": "https://dummyimage.com/200x380/000/fff",
       "link":{
         "url":"#"
       },
@@ -235,7 +225,7 @@
       "blockClass": "col-mayo"
     },
     "children":[
-      "shelf#milk2"
+      "shelf#Destacados"
     ]
   },
   "flex-layout.col#milk2-left":{
@@ -251,7 +241,7 @@
   },
   "image#row-milk2": {
     "props": {
-      "src": "/arquivos/logo-notmilk.png",
+      "src": "https://dummyimage.com/150x250/000/fff",
       "maxWidth": "162px",
       "link":{
         "url":"#"
@@ -283,7 +273,7 @@
       "blockClass": "col-mayo"
     },
     "children":[
-      "shelf#mayo"
+      "shelf#Destacados"
     ]
   },
   "flex-layout.col#mayo-left":{
@@ -299,7 +289,7 @@
   },
   "image#row-mayo": {
     "props": {
-      "src": "/arquivos/logo-notmayo.png",
+      "src": "https://dummyimage.com/150x250/000/fff",
       "maxWidth": "162px",
       "link":{
         "url":"#"
@@ -309,7 +299,7 @@
   },
   "rich-text#not-mayo": {
     "props": {
-      "text": "[VER TODOS LOS PRODUCTOS](/Notco/NotMayo)",
+      "text": "[VER TODOS LOS PRODUCTOS](#)",
       "textPosition": "CENTER",
       "blockClass": "texto-not-mayo"
     }
@@ -342,12 +332,12 @@
       "blockClass": "col-icecream"
     },
     "children":[
-      "shelf#icecream"
+      "shelf#Destacados"
     ]
   },
   "image#row-icecream": {
     "props": {
-      "src": "/arquivos/logo-noticecream.png",
+      "src": "https://dummyimage.com/150x250/000/fff",
       "maxWidth": "162px",
       "link":{
         "url":"/Notco/NotIceCream"
@@ -357,7 +347,7 @@
   },
   "rich-text#not-icecream": {
     "props": {
-      "text": "[VER TODOS LOS PRODUCTOS](/Notco/NotIceCream)",
+      "text": "[VER TODOS LOS PRODUCTOS](#)",
       "textPosition": "CENTER",
       "blockClass": "texto-not-icecream"
     }
@@ -392,12 +382,12 @@
       "blockClass": "col-burger"
     },
     "children":[
-      "shelf#burger"
+      "shelf#Destacados"
     ]
   },
   "image#row-burger": {
     "props": {
-      "src": "/arquivos/tamanos-ecommerce_logo-NotBurger.png",
+      "src": "https://dummyimage.com/150x250/000/fff",
       "maxWidth": "162px",
       "link":{
         "url":"/Notco/Notburger"
@@ -407,7 +397,7 @@
   },
   "rich-text#not-burger": {
     "props": {
-      "text": "[VER TODOS LOS PRODUCTOS](/Notco/Notburger)",
+      "text": "[VER TODOS LOS PRODUCTOS](#)",
       "textPosition": "CENTER",
       "blockClass": "texto-not-burger"
     }
@@ -467,7 +457,7 @@
   },
   "image#nosotros": {
     "props": {
-      "src": "/arquivos/humbur.jpg",
+      "src": "https://dummyimage.com/700x380/000/fff",
       "maxWidth": 610,
       "link":{
         "url":"#"
@@ -487,7 +477,7 @@
   },
   "rich-text#nosotros":{
     "props": {
-      "text": "LA COMIDA QUE AMAMOS COMER, **REINVENTADA.**",
+      "text": "Texto...",
       "textPosition": "CENTER",
       "blockClass": "texto-nosotros"
     }
@@ -505,7 +495,7 @@
   },
   "image#nosotros-mobile": {
     "props": {
-      "src": "/arquivos/humbur.jpg",
+      "src": "https://dummyimage.com/480x380/000/fff.jpg",
       "maxWidth": 610,
       "link":{
         "url":"#"
@@ -525,7 +515,7 @@
   },
   "rich-text#nosotros-mobile":{
     "props": {
-      "text": "LA COMIDA QUE AMAMOS COMER, **REINVENTADA.**",
+      "text": "Lorem impsum",
       "textPosition": "CENTER",
       "blockClass": "texto-nosotros-mobile"
     }

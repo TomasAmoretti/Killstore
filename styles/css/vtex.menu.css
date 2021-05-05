@@ -15,7 +15,7 @@
 
 .styledLinkContent--categorias-nav-header, .styledLinkContent--categorias-nav-header-mobile{
     margin: auto;
-    color: black;
+    color: #5e5e5e;
     font-size: 14px;
     font-weight: bold;
     font-family: Neutraface2Text,sans-serif;
@@ -72,7 +72,7 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 48px;
-    color: #000;
+    color: #fff;
     letter-spacing: 0;
     background: #FF5A07;
     margin-left: 9%;
