@@ -1,7 +1,6 @@
-
 .menuContainerNav{
     text-align: center;
-    margin: auto;
+    margin-left: 30px;
 }
 
 .menuContainer{
@@ -10,15 +9,25 @@
 
 .styledLinkContent--footer-general {
     color: white;
-    font-family: NeutraFace2Text;
+    font-family: 'Gotham Regular';
+    font-size: 12px;
+    justify-content: end;
+}
+
+.styledLinkIcon--footer-general {
+    color: #FF5A07;
+}
+
+.styledLinkContainer--footer-general {
+    margin-left: 0;
 }
 
 .styledLinkContent--categorias-nav-header, .styledLinkContent--categorias-nav-header-mobile{
     margin: auto;
-    color: #5e5e5e;
-    font-size: 14px;
+    color: #000;
+    font-size: 16px;
     font-weight: bold;
-    font-family: Neutraface2Text,sans-serif;
+    font-family: 'Gotham Bold';
 }
 
 .submenuWrapper--menu-milk, .submenuWrapper--menu-mayo, .submenuWrapper--menu-icecream, .submenuWrapper--menu-combos{
@@ -36,7 +45,6 @@
     height: 100%;
     align-items: center;
     display: inline-flex;
-    margin-right: 55px;
     margin-left: 0;
 }
 
@@ -68,7 +76,7 @@
 
 .styledLinkContent--boton-nosotros {
     width: fit-content;
-    font-family: Neutraface2Text,sans-serif;
+    font-family: "Gotham Regular";
     font-size: 16px;
     font-weight: 600;
     line-height: 48px;

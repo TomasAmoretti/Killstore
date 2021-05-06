@@ -90,8 +90,8 @@
   },
   "add-to-cart-button#product": {
     "props": {
-      "text": "Agregar",
-      "unavailableText": "Agotado",
+      "text": "AGREGAR",
+      "unavailableText": "AGOTADO",
       "showTooltipOnSkuNotSelected": true,
       "showToast": true,
       "blockClass": "product-buy-button"

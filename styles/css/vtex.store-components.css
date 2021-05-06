@@ -12,6 +12,10 @@
     margin-left: 20px;
 }
 
+.suffixWrapper--busqueda {
+    display: none;
+}
+
 .searchBarContainer {
     align-items: center;
     display: flex;

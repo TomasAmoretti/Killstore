@@ -1,4 +1,21 @@
 {
+  "product-summary.shelf#main": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button#product"
+    ],
+    "props":{
+      "blockClass":"product-summary"
+    }
+  },
+  "product-summary-price": {
+    "props": {
+      "showLabels": false,
+      "showInstallments": false
+    }
+  },
   "shelf#Destacados": {
     "blocks": [
       "product-summary.shelf#main"
@@ -19,23 +36,24 @@
       "blockClass": "shelf-destacados"
     }
   },
-  "product-summary.shelf#main": {
-    "children": [
-      "product-summary-image",
-      "product-summary-brand",
-      "product-summary-name",
-      "product-summary-price",
-      "product-summary-sku-selector",
-      "add-to-cart-button#product"
+  "shelf#Recomendados": {
+    "blocks": [
+      "product-summary.shelf#main"
     ],
-    "props":{
-      "blockClass":"product-summary"
-    }
-  },
-  "product-summary-price": {
     "props": {
-      "showLabels": false,
-      "showInstallments": false
+      "category": 1,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour":"default",
+      "productList": {
+        "maxItems": 1,
+        "itemsPerPage": 1,
+        "minItemsPerPage": 1,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Productos Recomendados"
+      },
+      "blockClass": "shelf-destacados"
     }
   },
   "shelf#relatedProducts": {

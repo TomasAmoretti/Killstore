@@ -1,14 +1,4 @@
 {
-  "menu-item#Institucionales#HableNosotros": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "mailto:sac.cl@notco.com",
-        "text": "Habla con nosotros"
-      },
-      "blockClass": "footer-general"
-    }
-  },
   "menu-item#Institucionales#MisPedidos": {
     "props": {
       "type": "custom",
@@ -29,557 +19,205 @@
       "blockClass": "footer-general"
     }
   },
-  "menu-item#Footer#Icecream": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "/Notco/NotIceCream",
-        "text": "NotIcecream"
-      },
-      "blockClass": "footer-general"
-    }
-  },
-  "menu-item#Footer#Mayo": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "/Notco/NotMayo",
-        "text": "NotMayo"
-      },
-      "blockClass": "footer-general"
-    }
-  },
-  "menu-item#Footer#Milk": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "/Notco/NotMilk",
-        "text": "NotMilk"
-      },
-      "blockClass": "footer-general"
-    }
-  },
-  "menu-item#Footer#Burger": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "/Notco/NotBurger",
-        "text": "NotBurger"
-      },
-      "blockClass": "footer-general"
-    }
-  },
   "menu-item#Ayuda#PoliticaEntrega": {
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/institucional/politicas-de-entrega",
-        "text": "Política de Entrega"
+        "href": "#",
+        "text": "Política de Envío"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "footer-general"
     }
   },
-  "menu-item#Ayuda#PoliticaPrivacidad": {
+  "menu-item#Ayuda#Terminos-condiciones": {
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/institucional/politicas-de-privacidad",
-        "text": "Política de Privacidad y Seguridad"
+        "href": "#",
+        "text": "Términos y condiciones"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "footer-general"
     }
   },
-  "menu-item#Ayuda#Garantia": {
+  "menu-item#Ayuda#Preguntas-frecuentes": {
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/institucional/garantias-cambios-devoluciones",
-        "text": "Garantías, cambios y devoluciones"
+        "href": "#",
+        "text": "Preguntas Frecuentes"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "footer-general"
     }
   },
-  "menu-item#Ayuda#Mail": {
+  "menu-item#Ayuda#PoliticaDevolucion": {
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "mailto:sac.cl@notco.com",
-        "text": "Email: sac.cl@notco.com"
+        "href": "#",
+        "text": "Políticas de devolución"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "footer-general"
     }
   },
-  "menu-item#Ayuda#Telefono": {
+  "menu-item#Ayuda#Trabaja-Nosotros": {
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "tel:+56974624781",
-        "text": "Tel: +56 9 7462 4781"
+        "href": "#",
+        "text": "Trabaja con nosotros"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "footer-general"
     }
   },
-  "menu-item#footer#Redes-Facebook": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "https://www.facebook.com/thenotcompany"
-      },
-      "blockClass": "redes-facebook"
-    }
-  },
-  "menu-item#footer#Redes-Instagram": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "https://www.instagram.com/thenotco/"
-      },
-      "blockClass": "redes-instagram"
-    }
-  },
-  "menu-item#footer#Redes-Youtube": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "https://www.youtube.com/channel/UCT2H7LfjkiIQpusjjVlclxg"
-      },
-      "blockClass": "redes-youtube"
-    }
-  },
-  "menu-item#footer#Redes-Linkedin": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "https://www.linkedin.com/company/the-not-co-/"
-      },
-      "blockClass": "redes-linkedin"
-    }
-  },
-  "menu-item#categorias-nav#Milk": {
+  "menu-item#categorias-nav#Categorias": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOTMILK",
-        "href": "/Notco/NotMilk"
+        "text": "Categorías",
+        "href": "#"
       },
       "blockClass": "categorias-nav-header"
-    } /*,
-      "blocks": [
-        "vtex.menu@2.x:submenu#Milk"
-      ]*/
-  },
-  /* SubMenu Milk */
-  "menu-item#categorias-nav#Milk-chocolate1L": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT MILK CHOCOLATE 1L",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
     }
   },
-  "menu-item#categorias-nav#Milk-integral": {
+  "menu-item#categorias-nav#KillieKits": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOT MILK INTEGRAL 1L",
+        "text": "KillieKits",
         "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Milk-semi": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT MILK SEMI 1L",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Milk-chocolate2": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT MILK CHOCOLATE 200ML",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Mayo": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOTMAYO",
-        "href": "/Notco/NotMayo"
       },
       "blockClass": "categorias-nav-header"
-    } /*,
-      "blocks": [
-        "vtex.menu@2.x:submenu#Mayo"
-      ]*/
-  },
-  /* SubMenu Mayo */
-  "menu-item#categorias-nav#Mayo-garlic": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT MAYO GARLIC 350G",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
     }
   },
-  "menu-item#categorias-nav#Mayo-original": {
+  "menu-item#categorias-nav#Ofertas": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOT MAYO ORIGINAL 350G",
+        "text": "Ofertas",
         "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Icecream": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOTICECREAM",
-        "href": "/Notco/NotIceCream"
       },
       "blockClass": "categorias-nav-header"
-    } /*,
-      "blocks": [
-        "vtex.menu@2.x:submenu#Icecream"
-      ]*/
+    }
   },
-  /* SubMenu Icream */
-  "menu-item#categorias-nav#Icecream-vainilla1": {
+  "menu-item#categorias-nav#Novedades": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOT ICECREAM VAINILLA 120ML",
+        "text": "Novedades",
         "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Icecream-vainilla4": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT ICECREAM VAINILLA 473ML",
-        "href": "/tienda/dulces/brownies"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Icecream-chocolate1": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT ICECREAM CHOCOLATE CHIPS 120ML",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Icecream-chocolate4": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT ICECREAM CHOCOLATE 473ML",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Icecream-cookies1": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT ICECREAM COOKIES AND CREAM 120ML",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Icecream-cookies4": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT ICECREAM COOKIES AND CREAM 473ML",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Burger": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOTBURGER",
-        "href": "/Notco/NotBurger"
       },
       "blockClass": "categorias-nav-header"
-    } /*,
-      "blocks": [
-        "vtex.menu@2.x:submenu#Icecream"
-      ]*/
-  },
-  "menu-item#categorias-nav#Combos": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOTCOMBOS",
-        "href": "/Notco/NotCombos"
-      },
-      "blockClass": "categorias-nav-header"
-    } /*,
-      "blocks": [
-        "vtex.menu@2.x:submenu#Combos"
-      ]*/
-  },
-  "menu-item#categorias-nav#Burger-box": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOTBURGER BOX",
-        "href": "http://notburgerbox.notco.cl/"
-      },
-      "blockClass": "categorias-nav-header"
-    } /*,
-      "blocks": [
-        "vtex.menu@2.x:submenu#Icecream"
-      ]*/
-  },
-  /* SubMenu Combos */
-  "menu-item#categorias-nav#Combos-milkshake": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT MILKSHAKE",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Combos-lanzamiento": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "NOT LANZAMIENTO SEMANAL",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Combos-leches": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "COMBO LECHES",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Combos-icecream": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "COMBO NOT ICECREAM",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Combos-notco": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "COMBO NOTCO",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
-    }
-  },
-  "menu-item#categorias-nav#Combos-viernes": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "COMBO VIERNES",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header-submenu"
     }
   },
   /* Menu item mobile */
-  "menu-item#categorias-nav#Milk-mobile": {
+  "menu-item#categorias-nav#Categorias-mobile": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOTMILK",
-        "href": "/Notco/NotMilk"
+        "text": "Categorías",
+        "href": "#"
       },
-      "blockClass": "categorias-nav-header-mobile"
+      "blockClass": "categorias-nav-header"
     }
   },
-  "menu-item#categorias-nav#Mayo-mobile": {
+  "menu-item#categorias-nav#KillieKits-mobile": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOTMAYO",
-        "href": "/Notco/NotMayo"
+        "text": "KillieKits",
+        "href": "#"
       },
-      "blockClass": "categorias-nav-header-mobile"
+      "blockClass": "categorias-nav-header"
     }
   },
-  "menu-item#categorias-nav#Icecream-mobile": {
+  "menu-item#categorias-nav#Ofertas-mobile": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOTICECREAM",
-        "href": "/Notco/NotIcecream"
+        "text": "Ofertas",
+        "href": "#"
       },
-      "blockClass": "categorias-nav-header-mobile"
+      "blockClass": "categorias-nav-header"
     }
   },
-  "menu-item#categorias-nav#Burger-mobile": {
+  "menu-item#categorias-nav#Novedades-mobile": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOTBURGER",
-        "href": "/Notco/NotBurger"
+        "text": "Novedades",
+        "href": "#"
       },
-      "blockClass": "categorias-nav-header-mobile"
+      "blockClass": "categorias-nav-header"
     }
   },
-  "menu-item#categorias-nav#Combos-mobile": {
+  "menu-item#Contacto-form": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOTCOMBOS",
-        "href": "/Notco/NotCombos"
+        "text": "Solicita un vendedor a tu local",
+        "href": "/contacto"
       },
-      "blockClass": "categorias-nav-header-mobile"
+      "blockClass": "footer-contacto-local"
     }
   },
-  "menu-item#categorias-nav#Burger-box-mobile": {
+  "menu-item#footer#Contacto#Vendedor": {
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "NOTBURGER BOX",
-        "href": "http://notburgerbox.notco.cl/"
+        "text": "Solicitar un vendedor",
+        "href": "/contacto"
       },
-      "blockClass": "categorias-nav-header-mobile"
+      "blockClass": "footer-general"
     }
   },
-    "menu-item#Contacto-form": {
-      "props": {
-        "type": "custom",
-        "highlight": true,
-        "itemProps": {
-          "text": "Solicita un vendedor a tu local",
-          "href": "/contacto"
-        },
-        "blockClass": "footer-contacto-local"
-      }
-    },
-    "menu-item#Facebook": {
-      "props": {
-        "type": "custom",
-        "highlight": true,
-        "itemProps": {
-          "href": "https://www.facebook.com/thenotcompany"
-        },
-        "blockClass": "redes-facebook"
+  "menu-item#Nosotros": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Conoce más de Killstore"
       },
-      "children": [
-        "image#Facebook-marcas"
-      ],
-      "blocks": []
-    },
-    "image#Facebook-marcas": {
-      "props": {
-        "src": "/arquivos/logo-facebook-textofinal2.png",
-        "maxWidth": "80px",
-        "blockClass": "social-facebook-marcas"
-      }
-    },
-    "menu-item#Instagram": {
-      "props": {
-        "type": "custom",
-        "highlight": true,
-        "itemProps": {
-          "href": "https://www.instagram.com/thenotco/"
-        },
-        "blockClass": "redes-instagram"
-      },
-      "children": [
-        "image#Instagram-marcas"
-      ],
-      "blocks": []
-    },
-    "image#Instagram-marcas": {
-      "props": {
-        "src": "/arquivos/logo-instagram-11.png",
-        "maxWidth": "80px",
-        "blockClass": "social-instagram-marcas"
-      }
-    },
-    "menu-item#footer#Contacto#Vendedor": {
-      "props": {
-        "type": "custom",
-        "highlight": true,
-        "itemProps": {
-          "text": "Solicitar un vendedor",
-          "href": "/contacto"
-        },
-        "blockClass": "footer-general"
-      }
-    },
-    "menu-item#Nosotros": {
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "Conoce más de NotCo"
-        },
-        "blockClass": "boton-nosotros"
-      }
+      "blockClass": "boton-nosotros"
     }
+  }
 }

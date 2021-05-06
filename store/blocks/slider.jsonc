@@ -1,10 +1,10 @@
 {
-  "slider-layout#Milk-menu": {
+  "slider-layout#home": {
     "children": [
-      "image#slider-Milk-1",
-      "image#slider-Milk-2",
-      "image#slider-Milk-3",
-      "image#slider-Milk-4"
+      "image#slider-home-1",
+      "image#slider-home-2",
+      "image#slider-home-3",
+      "image#slider-home-4"
     ],
     "props": {
       "autoplay": {
@@ -12,55 +12,58 @@
         "stopOnHover": false
       },
       "infinite": true,
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 4
+      "itemsPerPage": { 
+        "desktop": 1,
+        "tablet": 1
       },
-      "showPaginationDots": "mobileOnly",
+      "showPaginationDots": "always",
       "fullWidth": true,
-      "blockClass": "slider-milk"
+      "blockClass": "slider-home"
     }
   },
-  "image#slider-Milk-1": {
+  "image#slider-home-1": {
     "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
+      "src": "https://dummyimage.com/1400x500/000/fff",
+      "link":{
+        "url":"#"
       },
-      "blockClass": "slider-milk-menu"
+      "blockClass": "slider-home"
     }
   },
-  "image#slider-Milk-2": {
+  "image#slider-home-2": {
     "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
+      "src": "https://dummyimage.com/1400x500/000/fff",
+      "link":{
+        "url":"/Notco/NotBurger"
       },
-      "blockClass": "slider-milk-menu"
+      "blockClass": "slider-home"
     }
   },
-  "image#slider-Milk-3": {
+  "image#slider-home-3": {
     "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
+      "src": "https://dummyimage.com/1400x500/000/fff",
+      "link":{
+        "url":"/Notco/NotMayo"
       },
-      "blockClass": "slider-milk-menu"
+      "blockClass": "slider-home"
     }
   },
-  "image#slider-Milk-4": {
+  "image#slider-home-4": {
     "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
+      "src": "https://dummyimage.com/1400x500/000/fff",
+      "link":{
+        "url":"/Notco/NotMilk"
       },
-      "blockClass": "slider-milk-menu"
+      "blockClass": "slider-home"
     }
   },
-  "slider-layout#Mayo-menu": {
+  /* MOBILE */
+  "slider-layout#home-mobile": {
     "children": [
-      "image#slider-Mayo-1",
-      "image#slider-Mayo-2"
+      "image#slider-home-1-mobile",
+      "image#slider-home-2-mobile",
+      "image#slider-home-3-mobile",
+      "image#slider-home-4-mobile"
     ],
     "props": {
       "autoplay": {
@@ -68,187 +71,49 @@
         "stopOnHover": false
       },
       "infinite": true,
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 4
+      "itemsPerPage": { 
+        "tablet": 1,
+        "phone": 1
       },
       "showPaginationDots": "mobileOnly",
-      "fullWidth": true,
-      "blockClass": "slider-mayo"
+      "fullWidth": false,
+      "blockClass": "slider-home"
     }
   },
-  "image#slider-Mayo-1": {
+  "image#slider-home-1-mobile": {
     "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
+      "src": "https://dummyimage.com/480x480/000/fff",
+      "link":{
+        "url":"#"
       },
-      "blockClass": "slider-mayo-menu"
+      "blockClass": "slider-home"
     }
   },
-  "image#slider-Mayo-2": {
+  "image#slider-home-2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
+      "src": "https://dummyimage.com/480x480/000/fff",
+      "link":{
+        "url":"/Notco/NotBurger"
       },
-      "blockClass": "slider-mayo-menu"
+      "blockClass": "slider-home"
     }
   },
-  "slider-layout#Icecream-menu": {
-    "children": [
-      "image#slider-Icecream-1",
-      "image#slider-Icecream-2",
-      "image#slider-Icecream-3",
-      "image#slider-Icecream-4",
-      "image#slider-Icecream-5",
-      "image#slider-Icecream-6"
-    ],
+  "image#slider-home-3-mobile": {
     "props": {
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
+      "src": "https://dummyimage.com/480x480/000/fff",
+      "link":{
+        "url":"/Notco/NotMayo"
       },
-      "infinite": true,
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 4
-      },
-      "showPaginationDots": "mobileOnly",
-      "fullWidth": true,
-      "blockClass": "slider-milk"
+      "blockClass": "slider-home"
     }
   },
-  "image#slider-Icecream-1": {
+  "image#slider-home-4-mobile": {
     "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
+      "src": "https://dummyimage.com/480x480/000/fff",
+      "link":{
+        "url":"/Notco/NotMilk"
       },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Icecream-2": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Icecream-3": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Icecream-4": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Icecream-5": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Icecream-6": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "slider-layout#Combos-menu": {
-    "children": [
-      "image#slider-Combos-1",
-      "image#slider-Combos-2",
-      "image#slider-Combos-3",
-      "image#slider-Combos-4",
-      "image#slider-Combos-5",
-      "image#slider-Combos-6"
-    ],
-    "props": {
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      },
-      "infinite": true,
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 4
-      },
-      "showPaginationDots": "mobileOnly",
-      "fullWidth": true,
-      "blockClass": "slider-milk"
-    }
-  },
-  "image#slider-Combos-1": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Combos-2": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Combos-3": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Combos-4": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Combos-5": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
-    }
-  },
-  "image#slider-Combos-6": {
-    "props": {
-      "src": "https://dummyimage.com/240x355/000/fff&text=Producto",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "slider-milk-menu"
+      "blockClass": "slider-home"
     }
   }
 }

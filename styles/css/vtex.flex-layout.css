@@ -1,5 +1,3 @@
-
-
 .stretchChildrenWidth{
     text-align: center;
 }
@@ -23,6 +21,9 @@
     margin: auto;
 }
 
+.flexCol--spacer-small {
+    width: 160px;
+}
 
 /* Vitrinas */
 
@@ -83,6 +84,11 @@
 
 .flexRow--footer-newsletter{
     background: black;
+}
+
+.flexRowContent--general-container {
+    max-width: 1280px;
+    margin: auto;
 }
 
 .flexRowContent--footer-medios-de-pago {
@@ -185,5 +191,7 @@
 }
 
 .flexRowContent--imagenes-categorias {
-    margin-top: 50px;
+    margin-top: 20px!important;
+    max-width: 1280px;
+    margin: auto;
 }

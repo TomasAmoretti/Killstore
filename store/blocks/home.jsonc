@@ -8,151 +8,28 @@
   "responsive-layout.desktop#desktop-home": {
     "children": [
       "slider-layout#home",
-      "flex-layout.row#categorias",
-      "flex-layout.row#mayo",
-      "flex-layout.row#burger",
-      "flex-layout.row#icecream",
-      "flex-layout.row#milk2",
-      "flex-layout.row#nosotros",
-      "back-to-top-button"
+      "flex-layout.row#categorias-1",
+      "flex-layout.row#categorias-2",
+      "shelf#Recomendados",
+      "flex-layout.row#categorias-1",
+      "flex-layout.row#categorias-2",
+      "shelf#Recomendados",
+      "flex-layout.row#categorias-1",
+      "flex-layout.row#categorias-2",
+      "shelf#Recomendados",
+      "flex-layout.row#categorias-1",
+      "flex-layout.row#categorias-2",
+      "shelf#Recomendados",
+      "flex-layout.row#nosotros"
     ]
   },
   "responsive-layout.mobile#mobile-home": {
     "children": [
       "slider-layout#home-mobile",
-      "flex-layout.row#categorias",
-      "flex-layout.row#burger-mobile",
-      "flex-layout.row#mayo-mobile",
-      "flex-layout.row#icecream-mobile",
-      "flex-layout.row#milk2-mobile",
+      "flex-layout.row#categorias-1",
+      "flex-layout.row#categorias-2",
       "flex-layout.row#nosotros-mobile"
     ]
-  },
-  "slider-layout#home": {
-    "children": [
-      "image#slider-home-1",
-      "image#slider-home-2",
-      "image#slider-home-3",
-      "image#slider-home-4",
-      "image#slider-home-5"
-    ],
-    "props": {
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      },
-      "infinite": true,
-      "itemsPerPage": { 
-        "desktop": 1,
-        "tablet": 1
-      },
-      "showPaginationDots": "always",
-      "fullWidth": true,
-      "blockClass": "slider-home"
-    }
-  },
-  "image#slider-home-1": {
-    "props": {
-      "src": "https://dummyimage.com/1200x300/000/fff",
-      "link":{
-        "url":"#"
-      },
-      "blockClass": "slider-home"
-    }
-  },
-  "image#slider-home-2": {
-    "props": {
-      "src": "https://dummyimage.com/1200x300/000/fff",
-      "link":{
-        "url":"/Notco/NotBurger"
-      },
-      "blockClass": "slider-home"
-    }
-  },
-  "image#slider-home-3": {
-    "props": {
-      "src": "https://dummyimage.com/1200x300/000/fff",
-      "link":{
-        "url":"/Notco/NotMayo"
-      },
-      "blockClass": "slider-home"
-    }
-  },
-  "image#slider-home-4": {
-    "props": {
-      "src": "https://dummyimage.com/1200x300/000/fff",
-      "link":{
-        "url":"/Notco/NotMilk"
-      },
-      "blockClass": "slider-home"
-    }
-  },
-  "image#slider-home-5": {
-    "props": {
-      "src": "https://dummyimage.com/1200x300/000/fff",
-      "link":{
-        "url":"/Notco/NotIceCream"
-      },
-      "blockClass": "slider-home"
-    }
-  },
-  "slider-layout#home-mobile": {
-    "children": [
-      "image#slider-home-1-mobile",
-      "image#slider-home-2-mobile",
-      "image#slider-home-3-mobile",
-      "image#slider-home-4-mobile"
-    ],
-    "props": {
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      },
-      "infinite": true,
-      "itemsPerPage": { 
-        "tablet": 1,
-        "phone": 1
-      },
-      "showPaginationDots": "mobileOnly",
-      "fullWidth": false,
-      "blockClass": "slider-home"
-    }
-  },
-  "image#slider-home-1-mobile": {
-    "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
-      "link":{
-        "url":"#"
-      },
-      "blockClass": "slider-home"
-    }
-  },
-  "image#slider-home-2-mobile": {
-    "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
-      "link":{
-        "url":"/Notco/NotBurger"
-      },
-      "blockClass": "slider-home"
-    }
-  },
-  "image#slider-home-3-mobile": {
-    "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
-      "link":{
-        "url":"/Notco/NotMayo"
-      },
-      "blockClass": "slider-home"
-    }
-  },
-  "image#slider-home-4-mobile": {
-    "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
-      "link":{
-        "url":"/Notco/NotMilk"
-      },
-      "blockClass": "slider-home"
-    }
   },
   "rich-text#Not-combos-titulo":{
     "props":{
@@ -161,7 +38,34 @@
         "blockClass": "texto-not-combos-titulo"
     }
   },
-  "flex-layout.row#categorias": {
+  "flex-layout.row#categorias-1": {
+    "children": [
+      "image#categoria-top-1",
+      "image#categoria-top-2"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias"
+    }
+  },
+  "image#categoria-top-1": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria-top-2": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "flex-layout.row#categorias-2": {
     "children": [
       "image#categoria1",
       "image#categoria2",
@@ -174,7 +78,7 @@
   },
   "image#categoria1": {
     "props": {
-      "src": "https://dummyimage.com/200x380/000/fff",
+      "src": "https://dummyimage.com/300x380/000/fff",
       "link":{
         "url":"#"
       },
@@ -183,7 +87,7 @@
   },
   "image#categoria2": {
     "props": {
-      "src": "https://dummyimage.com/200x380/000/fff",
+      "src": "https://dummyimage.com/300x380/000/fff",
       "link":{
         "url":"#"
       },
@@ -192,7 +96,7 @@
   },
   "image#categoria3": {
     "props": {
-      "src": "https://dummyimage.com/200x380/000/fff",
+      "src": "https://dummyimage.com/300x380/000/fff",
       "link":{
         "url":"#"
       },
@@ -201,249 +105,13 @@
   },
   "image#categoria4": {
     "props": {
-      "src": "https://dummyimage.com/200x380/000/fff",
+      "src": "https://dummyimage.com/300x380/000/fff",
       "link":{
         "url":"#"
       },
       "blockClass": "imagen-categoria"
     }
   },
-  "flex-layout.row#milk2": {
-    "children": [
-      "flex-layout.col#milk2-left",
-      "flex-layout.col#milk2-right"
-    ],
-    "props":{
-      "blockClass": "row-mayo",
-      "preventHorizontalStretch": true
-    }
-  },
-  "flex-layout.col#milk2-right":{
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true,
-      "blockClass": "col-mayo"
-    },
-    "children":[
-      "shelf#Destacados"
-    ]
-  },
-  "flex-layout.col#milk2-left":{
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true,
-      "blockClass": "col-mayo"
-    },
-    "children":[
-      "image#row-milk2",
-      "rich-text#not-milk2"
-    ]
-  },
-  "image#row-milk2": {
-    "props": {
-      "src": "https://dummyimage.com/150x250/000/fff",
-      "maxWidth": "162px",
-      "link":{
-        "url":"#"
-      },
-      "blockClass": "imagen-row"
-    }
-  },
-  "rich-text#not-milk2": {
-    "props": {
-      "text": "[VER TODOS LOS PRODUCTOS](/Notco/NotMilk)",
-      "textPosition": "CENTER",
-      "blockClass": "texto-not-milk"
-    }
-  },
-  "flex-layout.row#mayo": {
-    "children": [
-      "flex-layout.col#mayo-left",
-      "flex-layout.col#mayo-right"
-    ],
-    "props":{
-      "blockClass": "row-mayo",
-      "preventHorizontalStretch": true
-    }
-  },
-  "flex-layout.col#mayo-right":{
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true,
-      "blockClass": "col-mayo"
-    },
-    "children":[
-      "shelf#Destacados"
-    ]
-  },
-  "flex-layout.col#mayo-left":{
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true,
-      "blockClass": "col-mayo"
-    },
-    "children":[
-      "image#row-mayo",
-      "rich-text#not-mayo"
-    ]
-  },
-  "image#row-mayo": {
-    "props": {
-      "src": "https://dummyimage.com/150x250/000/fff",
-      "maxWidth": "162px",
-      "link":{
-        "url":"#"
-      },
-      "blockClass": "imagen-row"
-    }
-  },
-  "rich-text#not-mayo": {
-    "props": {
-      "text": "[VER TODOS LOS PRODUCTOS](#)",
-      "textPosition": "CENTER",
-      "blockClass": "texto-not-mayo"
-    }
-  },
-  "flex-layout.row#icecream": {
-    "children": [
-      "flex-layout.col#icecream-left",
-      "flex-layout.col#icecream-right"
-    ],
-    "props":{
-      "blockClass": "row-icecream",
-      "preventHorizontalStretch": true
-    }
-  },
-  "flex-layout.col#icecream-left":{
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true,
-      "blockClass": "col-icecream"
-    },
-    "children":[
-      "image#row-icecream",
-      "rich-text#not-icecream"
-    ]
-  },
-  "flex-layout.col#icecream-right":{
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true,
-      "blockClass": "col-icecream"
-    },
-    "children":[
-      "shelf#Destacados"
-    ]
-  },
-  "image#row-icecream": {
-    "props": {
-      "src": "https://dummyimage.com/150x250/000/fff",
-      "maxWidth": "162px",
-      "link":{
-        "url":"/Notco/NotIceCream"
-      },
-      "blockClass": "imagen-row"
-    }
-  },
-  "rich-text#not-icecream": {
-    "props": {
-      "text": "[VER TODOS LOS PRODUCTOS](#)",
-      "textPosition": "CENTER",
-      "blockClass": "texto-not-icecream"
-    }
-  },
-  "flex-layout.row#burger": {
-    "children": [
-      "flex-layout.col#burger-left",
-      "flex-layout.col#burger-right"
-    ],
-    "props":{
-      "blockClass": "row-burger",
-      "preventHorizontalStretch": true,
-      "fullWidth": true
-    }
-  },
-  "flex-layout.col#burger-left":{
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "blockClass": "col-burger"
-    },
-    "children":[
-      "image#row-burger",
-      "rich-text#not-burger"
-    ]
-  },
-  "flex-layout.col#burger-right":{
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true,
-      "blockClass": "col-burger"
-    },
-    "children":[
-      "shelf#Destacados"
-    ]
-  },
-  "image#row-burger": {
-    "props": {
-      "src": "https://dummyimage.com/150x250/000/fff",
-      "maxWidth": "162px",
-      "link":{
-        "url":"/Notco/Notburger"
-      },
-      "blockClass": "imagen-row-burger"
-    }
-  },
-  "rich-text#not-burger": {
-    "props": {
-      "text": "[VER TODOS LOS PRODUCTOS](#)",
-      "textPosition": "CENTER",
-      "blockClass": "texto-not-burger"
-    }
-  },
-  /* Vitrinas mobile */
-  "flex-layout.row#milk2-mobile": {
-    "children": [
-      "flex-layout.col#milk2-left",
-      "flex-layout.col#milk2-right"
-    ],
-    "props":{
-      "blockClass": "row-vitrina",
-      "preventHorizontalStretch": true
-    }
-  },
-  "flex-layout.row#mayo-mobile": {
-    "children": [
-      "flex-layout.col#mayo-left",
-      "flex-layout.col#mayo-right"
-    ],
-    "props":{
-      "blockClass": "row-vitrina",
-      "preventHorizontalStretch": true
-    }
-  },
-  "flex-layout.row#icecream-mobile": {
-    "children": [
-      "flex-layout.col#icecream-left",
-      "flex-layout.col#icecream-right"
-    ],
-    "props":{
-      "blockClass": "row-vitrina",
-      "preventHorizontalStretch": true
-    }
-  },
-  "flex-layout.row#burger-mobile": {
-    "children": [
-      "flex-layout.col#burger-left",
-      "flex-layout.col#burger-right"
-    ],
-    "props":{
-      "blockClass": "row-vitrina",
-      "preventHorizontalStretch": true
-    }
-  },
-  /* End vitrinas mobile */
   /* Nosotros */
   "flex-layout.row#nosotros":{
     "children": [
@@ -519,12 +187,6 @@
       "textPosition": "CENTER",
       "blockClass": "texto-nosotros-mobile"
     }
-  },
-  /* End Nostros */
-  "back-to-top-button":{
-    "props":{
-      "displayThreshold": 800,
-      "display": "caret-icon"
-    }
   }
+  /* End Nostros */
 }

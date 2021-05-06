@@ -9,10 +9,15 @@
 
 .paginationDot--slider-home--isActive {
     background: black!important;
+    border: solid 1px #FF5A07
 }
 
 .paginationDot--slider-home {
     background: #FF5A07;
+}
+
+.caretIcon--slider-home {
+    color: #FF5A07;
 }
 
 .sliderLayoutContainer--slider-marcas{

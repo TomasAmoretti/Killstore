@@ -21,8 +21,8 @@
       "blockClass": "sticky-header"
     },
     "children": [
-      "flex-layout.row#desktop",
-      "flex-layout.row#nav-text"
+      "flex-layout.row#nav-text",
+      "flex-layout.row#desktop"
     ]
   },
   "flex-layout.row#desktop": {
@@ -37,7 +37,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#categorias-nav",
-      "flex-layout.col#spacer",
+      "flex-layout.col#spacer2",
       "search-bar",
       "login",
       "minicart.v2"
@@ -47,10 +47,17 @@
     "props":{
       "autoFocus": true,
       "blurOnSubmit": true,
-      "displayMode": "search-and-clear-buttons",
+      "displayMode": "clear-button",
+      "hasIconLeft": true,
+      "placeholder": "Busca tu producto",
       "blockClass": "busqueda",
       "compactMode": false
     }
+  },
+  "flex-layout.col#categorias-nav": {
+    "children": [
+      "vtex.menu@2.x:menu#categorias-nav"
+    ]
   },
   "flex-layout.row#nav-text": {
     "props": {
@@ -62,27 +69,25 @@
       "blockClass": "nav-texto-envio"
     },
     "children": [
-      "rich-text#header",
-      "rich-text#header2"
+      "rich-text#header"
     ]
   },
   "rich-text#header": {
     "props": {
-      "text": "**Despacho GRATIS**",
+      "text": "**APROVECHA DESPACHO GRATIS - POR COMPRAS SUPERIORES A $100.000 (EXCEPTO FONDOS Y SILLAS)**",
       "textPosition": "CENTER",
       "blockClass": "nav-texto-envio"
-    }
-  },
-  "rich-text#header2": {
-    "props": {
-      "text": "**en Región Metropolitana Para compras a partir de 19.990**",
-      "textPosition": "CENTER",
-      "blockClass": "nav-texto-envio2"
     }
   },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
+    }
+  },
+  "flex-layout.col#spacer2": {
+    "props": {
+      "width": "small",
+      "blockClass": "spacer-small"
     }
   },
   "flex-layout.col#logo-desktop": {
@@ -144,6 +149,7 @@
       "autoFocus": false,
       "blurOnSubmit": true,
       "displayMode": "search-and-clear-buttons",
+      "hasIconLeft": true,
       "blockClass": "busqueda-mobile",
       "compactMode": false
     }
@@ -158,12 +164,10 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#categorias-nav#Mayo-mobile",
-      "menu-item#categorias-nav#Burger-mobile",
-      "menu-item#categorias-nav#Icecream-mobile",
-      "menu-item#categorias-nav#Milk-mobile",
-      "menu-item#categorias-nav#Combos-mobile",
-      "menu-item#categorias-nav#Burger-box-mobile"
+      "menu-item#categorias-nav#Categorias-mobile",
+      "menu-item#categorias-nav#KillieKits-mobile",
+      "menu-item#categorias-nav#Ofertas-mobile",
+      "menu-item#categorias-nav#Novedades-mobile"
     ],
     "props": {
       "orientation": "vertical"
@@ -204,10 +208,5 @@
       "width": "70",
       "blockClass":"logo-mobile"
     }
-  },
-  "flex-layout.col#categorias-nav": {
-    "children": [
-      "vtex.menu@2.x:menu#categorias-nav"
-    ]
   }
 }

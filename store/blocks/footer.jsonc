@@ -7,8 +7,6 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer#marcas",
-      "flex-layout.row#footer#logo",
       "flex-layout.row#footer#general",
       "flex-layout.row#footer#pie-de-pagina"
       
@@ -16,59 +14,9 @@
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer#marcas-mobile",
-      "flex-layout.row#footer#logo-mobile",
       "flex-layout.row#footer#general",
       "flex-layout.row#footer#pie-de-pagina-mobile"
     ]
-  },
-  "flex-layout.row#footer#marcas": {
-    "children": [
-      "flex-layout.col#espaciador1",
-      "menu-item#footer#Redes-Facebook",
-      "menu-item#footer#Redes-Instagram",
-      "menu-item#footer#Redes-Youtube",
-      "menu-item#footer#Redes-Linkedin",
-      "flex-layout.col#espaciador2"
-    ],
-    "props": {
-      "blockClass": "footer-brands",
-      "preventHorizontalStretch": false
-    }
-  },
-  "flex-layout.row#footer#marcas-mobile": {
-    "children": [
-      "menu-item#footer#Redes-Facebook",
-      "menu-item#footer#Redes-Instagram",
-      "menu-item#footer#Redes-Youtube",
-      "menu-item#footer#Redes-Linkedin"
-    ],
-    "props": {
-      "blockClass": "footer-brands-mobile",
-      "preventHorizontalStretch": false,
-      "preventVerticalStretch": false
-    }
-  },
-  "flex-layout.col#espaciador1":{
-    "props":{
-      "width": "38%"
-    }
-  },
-  "flex-layout.col#espaciador2":{
-    "props":{
-      "width": "38%"
-    }
-  },
-  "flex-layout.row#footer#logo":{
-    "children":[
-      "image#logo-footer"
-    ],
-    "props":{
-      "horizontalAlign":"left",
-      "fullWidth": true,
-      "preventHorizontalStretch": true,
-      "blockClass": "footer-logo"
-    }
   },
   "image#logo-footer":{
     "props": {
@@ -95,51 +43,11 @@
       "blockClass": "logo-footer-mobile"
     }
   },
-  "flex-layout.col#footer#Newsletter": {
-    "children": [
-      "rich-text#Newsletter",
-      "flex-layout.row#formNewsletter"
-    ],
-    "props": {
-      "blockClass": "footer-newsletter",
-      "preventVerticalStretch": true,
-      "maxHeight": 130
-    }
-  },
-  "rich-text#Newsletter": {
-    "props": {
-      "textPosition": "RIGHT",
-      "text": "**SUSCRÍBETE \n Y GANA 10% DE DESCUENTO \n EN TU PRIMERA COMPRA**",
-      "blockClass": "footer-newsletter"
-    }
-  },
-  "flex-layout.row#formNewsletter": {
-    "children": [
-      "flex-layout.col#formNewsletter"
-    ]
-  },
-  "flex-layout.col#formNewsletter": {
-    "children": [
-      "newsletter"
-    ],
-    "props":{
-      "blockClass": "form-newsletter"
-    }
-  },
-  "newsletter":{
-    "props":{
-      "hideLabel": true,
-      "submit": "Enviar",
-      "placeholder":"Email",
-      "blockClass": "form-newsletter"
-    }
-  },
   "flex-layout.row#footer#general": {
     "children": [
       "flex-layout.col#footer#Quienes-somos",
-      "flex-layout.col#footer#Productos",
       "flex-layout.col#footer#Ayuda",
-      "flex-layout.col#footer#Newsletter"
+      "flex-layout.col#footer#Ubicanos"
     ],
     "props": {
       "blockClass": "general-container"
@@ -148,7 +56,7 @@
   "flex-layout.col#footer#Quienes-somos": {
     "children": [
       "rich-text#footer#Quienes-somos",
-      "vtex.menu@2.x:menu#footer#Quienes-somos"
+      "image#medios-de-pago"
     ],
     "props":{
       "preventVerticalStretch": true
@@ -158,43 +66,54 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "QUIÉNES SOMOS",
-      "blockClass": "footer-general-titulo"
+      "text": "Killstore es una tienda integral para fotógrafos, audiovisuales y generadores de contenido; acá podras encontrar desde un accesorio a todo tu equipamiento para producciones, reparación de equipos, arriendo de estudio, e incluso capacitarte a través de clases presenciales y online. \n\n **Casa Matriz: CERRADO** \n Eulogia Sanchez #065, Providencia, Santiago. \n\n **Las Condes: ABIERTO** \n Evaristo Lillo #48, Local 6, Las Condes, Santiago. \n **Horario:**Lunes a Viernes de 10:30hs a 14:00hs y 15:00hs a 19:00hs \n\n **Viña del Mar: ABIERTO** \n Av Libertad 63, Local 31, Viña del Mar. \n **Horario:** Lunes a Viernes de 10:30hs a 14:00hs y 15:00hs a 19:00hs \n\n",
+      "blockClass": "footer-general-somos"
     }
   },
-  "flex-layout.col#footer#Productos": {
-    "children": [
-      "rich-text#footer#Productos",
-      "vtex.menu@2.x:menu#footer#Productos"
-    ],
-    "props":{
-      "preventVerticalStretch": true,
-      "blockClass": "footer-productos"
-    }
-  },
-  "rich-text#footer#Productos": {
+  "image#medios-de-pago":{
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "**PRODUCTOS**",
-      "blockClass": "footer-general-titulo"
+      "src": "/arquivos/medios_de_pago.png",
+      "blockClass": "medios-de-pago"
     }
   },
   "flex-layout.col#footer#Ayuda": {
     "children": [
-      "rich-text#footer#Ayuda",
-      "vtex.menu@2.x:menu#footer#Ayuda"
+      "rich-text#footer#Institucionales",
+      "vtex.menu@2.x:menu#footer#Institucionales"
     ],
     "props":{
       "preventVerticalStretch": true
     }
   },
-  "rich-text#footer#Ayuda": {
+  "rich-text#footer#Institucionales": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "**NECESITA AYUDA?**",
+      "text": "**TÉRMINOS Y CONDICIONES**",
       "blockClass": "footer-general-titulo"
+    }
+  },
+  "flex-layout.col#footer#Ubicanos": {
+    "children": [
+      "rich-text#footer#Ubicanos",
+      "iframe#ubicanos"
+    ],
+    "props":{
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer#Ubicanos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**UBÍCANOS**",
+      "blockClass": "footer-general-titulo"
+    }
+  },
+  "iframe#ubicanos": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13317.454921993136!2d-70.6334023!3d-33.439829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xddf49daf27b8d5f0!2sKillStore!5e0!3m2!1ses!2sar!4v1620321181881!5m2!1ses!2sar",
+      "blockClass": "mapa"
     }
   },
   "flex-layout.row#footer#pie-de-pagina":{

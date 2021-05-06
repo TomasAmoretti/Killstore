@@ -20,13 +20,13 @@
 }
 
 .strong--footer-general-titulo{
-    font-family: NeutraFace2Text;
+    font-family: 'Gotham Bold';
     padding: 0;
     font-size: 14px;
-    font-weight: bold;
     line-height: inherit;
     color: #fff;
     text-transform: none;
+    margin-left: 15px;
 }
 
 .paragraph--footer-general-titulo {
@@ -106,10 +106,29 @@
 
 .container--nav-texto-envio {
     background: #000;
-    color: #FF5A07;
+    color: #ffffff;
     font-size: 14px;
     margin-right: 5px;
     text-transform: uppercase;
+}
+
+.paragraph--nav-texto-envio {
+    margin: 7px;
+}
+
+.wrapper--footer-general-somos {
+    color: white;
+    font-family: 'Gotham Regular';
+    font-size: 12px;
+    text-align: initial;
+}
+
+.container--footer-general-somos {
+    margin-bottom: 20px;
+}
+
+.strong--nav-texto-envio {
+    font-size: 12px;
 }
 
 .container--nav-texto-envio2{
@@ -144,22 +163,6 @@
 .paragraph--texto-not-mayo, .paragraph--texto-not-milk, .paragraph--texto-not-icecream {
     min-width: 216px;
     text-align: center;
-}
-
-.link--texto-not-milk:hover{
-    color: #33d8fe;
-}
-
-.link--texto-not-mayo:hover{
-    color: #fe0092;
-}
-
-.link--texto-not-icecream:hover{
-    color: #9900ff;
-}
-
-.link--texto-not-burger:hover{
-    color: #f5dc01;
 }
 
 /* Nosotros */
