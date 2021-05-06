@@ -74,11 +74,11 @@
 }
 /* Footer */
 .flexRow--footer-logo, .flexRowContent--footer-logo-mobile {
-    background: black;
+    background: #0D080E;
 }
 
 .flexRow--general-container{
-    background: black;
+    background: #0D080E;
     padding: 20px 20px 20px 20px;
 }
 
