@@ -11,32 +11,17 @@
       "flex-layout.row#categorias-1",
       "flex-layout.row#categorias-2",
       "shelf#Recomendados",
-      "flex-layout.row#categorias-1",
-      "flex-layout.row#categorias-2",
-      "shelf#Recomendados",
-      "flex-layout.row#categorias-1",
-      "flex-layout.row#categorias-2",
-      "shelf#Recomendados",
-      "flex-layout.row#categorias-1",
-      "flex-layout.row#categorias-2",
-      "shelf#Recomendados",
+      "flex-layout.row#categorias-1-2",
+      "flex-layout.row#categorias-2-2",
+      "shelf#Recomendados-2",
+      "flex-layout.row#categorias-1-3",
+      "flex-layout.row#categorias-2-3",
+      "shelf#Recomendados-3",
+      "flex-layout.row#categorias-1-4",
+      "flex-layout.row#categorias-2-4",
+      "shelf#Recomendados-4",
       "flex-layout.row#nosotros"
     ]
-  },
-  "responsive-layout.mobile#mobile-home": {
-    "children": [
-      "slider-layout#home-mobile",
-      "flex-layout.row#categorias-1",
-      "flex-layout.row#categorias-2",
-      "flex-layout.row#nosotros-mobile"
-    ]
-  },
-  "rich-text#Not-combos-titulo":{
-    "props":{
-        "text": "Titulo",
-        "textPosition": "CENTER",
-        "blockClass": "texto-not-combos-titulo"
-    }
   },
   "flex-layout.row#categorias-1": {
     "children": [
@@ -112,6 +97,228 @@
       "blockClass": "imagen-categoria"
     }
   },
+  "flex-layout.row#categorias-1-2": {
+    "children": [
+      "image#categoria-top-1-2",
+      "image#categoria-top-2-2"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias"
+    }
+  },
+  "image#categoria-top-1-2": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria-top-2-2": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "flex-layout.row#categorias-2-2": {
+    "children": [
+      "image#categoria1-2",
+      "image#categoria2-2",
+      "image#categoria3-2",
+      "image#categoria4-2"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias"
+    }
+  },
+  "image#categoria1-2": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria2-2": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria3-2": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria4-2": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "flex-layout.row#categorias-1-3": {
+    "children": [
+      "image#categoria-top-1-3",
+      "image#categoria-top-2-3"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias"
+    }
+  },
+  "image#categoria-top-1-3": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria-top-2-3": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "flex-layout.row#categorias-2-3": {
+    "children": [
+      "image#categoria1-3",
+      "image#categoria2-3",
+      "image#categoria3-3",
+      "image#categoria4-3"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias"
+    }
+  },
+  "image#categoria1-3": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria2-3": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria3-3": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria4-3": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "flex-layout.row#categorias-1-4": {
+    "children": [
+      "image#categoria-top-1-4",
+      "image#categoria-top-2-4"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias"
+    }
+  },
+  "image#categoria-top-1-4": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria-top-2-4": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "flex-layout.row#categorias-2-4": {
+    "children": [
+      "image#categoria1-4",
+      "image#categoria2-4",
+      "image#categoria3-4",
+      "image#categoria4-4"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias"
+    }
+  },
+  "image#categoria1-4": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria2-4": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria3-4": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria4-4": {
+    "props": {
+      "src": "https://dummyimage.com/300x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
   /* Nosotros */
   "flex-layout.row#nosotros":{
     "children": [
@@ -148,6 +355,353 @@
       "text": "Texto...",
       "textPosition": "CENTER",
       "blockClass": "texto-nosotros"
+    }
+  },
+  /* MOBILE */
+  "responsive-layout.mobile#mobile-home": {
+    "children": [
+      "slider-layout#home-mobile",
+      "flex-layout.row#categorias-1-mobile",
+      "flex-layout.row#categorias-bottom-1-mobile",
+      "flex-layout.row#categorias-bottom-2-mobile",
+      "shelf#Recomendados",
+      "flex-layout.row#categorias-1-2-mobile",
+      "flex-layout.row#categorias-bottom-1-2-mobile",
+      "flex-layout.row#categorias-bottom-2-2-mobile",
+      "shelf#Recomendados-2",
+      "flex-layout.row#categorias-1-3-mobile",
+      "flex-layout.row#categorias-bottom-1-3-mobile",
+      "flex-layout.row#categorias-bottom-2-3-mobile",
+      "shelf#Recomendados-3",
+      "flex-layout.row#categorias-1-4-mobile",
+      "flex-layout.row#categorias-bottom-1-4-mobile",
+      "flex-layout.row#categorias-bottom-2-4-mobile",
+      "shelf#Recomendados-4",
+      "flex-layout.row#nosotros-mobile"
+    ]
+  },
+  "flex-layout.row#categorias-1-mobile": {
+    "children": [
+      "image#categoria-top-1-mobile",
+      "image#categoria-top-2-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-top-mobile"
+    }
+  },
+  "image#categoria-top-1-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria-top-2-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "flex-layout.row#categorias-bottom-1-mobile": {
+    "children": [
+      "image#categoria1-mobile",
+      "image#categoria2-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-mobile"
+    }
+  },
+  "flex-layout.row#categorias-bottom-2-mobile": {
+    "children": [
+      "image#categoria3-mobile",
+      "image#categoria4-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-mobile"
+    }
+  },
+  "image#categoria1-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria2-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria3-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria4-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "flex-layout.row#categorias-1-2-mobile": {
+    "children": [
+      "image#categoria-top-1-2-mobile",
+      "image#categoria-top-2-2-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-top-mobile"
+    }
+  },
+  "image#categoria-top-1-2-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria-top-2-2-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "flex-layout.row#categorias-bottom-1-2-mobile": {
+    "children": [
+      "image#categoria1-2-mobile",
+      "image#categoria2-2-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-mobile"
+    }
+  },
+  "flex-layout.row#categorias-bottom-2-2-mobile": {
+    "children": [
+      "image#categoria3-2-mobile",
+      "image#categoria4-2-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-mobile"
+    }
+  },
+  "image#categoria1-2-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria2-2-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria3-2-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria4-2-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "flex-layout.row#categorias-1-3-mobile": {
+    "children": [
+      "image#categoria-top-1-3-mobile",
+      "image#categoria-top-2-3-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-top-mobile"
+    }
+  },
+  "image#categoria-top-1-3-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria-top-2-3-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "flex-layout.row#categorias-bottom-1-3-mobile": {
+    "children": [
+      "image#categoria1-3-mobile",
+      "image#categoria2-3-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-mobile"
+    }
+  },
+  "flex-layout.row#categorias-bottom-2-3-mobile": {
+    "children": [
+      "image#categoria3-3-mobile",
+      "image#categoria4-3-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-mobile"
+    }
+  },
+  "image#categoria1-3-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria2-3-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria3-3-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria4-3-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "flex-layout.row#categorias-1-4-mobile": {
+    "children": [
+      "image#categoria-top-1-4-mobile",
+      "image#categoria-top-2-4-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-top-mobile"
+    }
+  },
+  "image#categoria-top-1-4-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria-top-2-4-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/620x380/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "flex-layout.row#categorias-bottom-1-4-mobile": {
+    "children": [
+      "image#categoria1-4-mobile",
+      "image#categoria2-4-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-mobile"
+    }
+  },
+  "flex-layout.row#categorias-bottom-2-4-mobile": {
+    "children": [
+      "image#categoria3-4-mobile",
+      "image#categoria4-4-mobile"
+    ],
+    "props":{
+      "blockClass": "imagenes-categorias-mobile"
+    }
+  },
+  "image#categoria1-4-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria2-4-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria3-4-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
+    }
+  },
+  "image#categoria4-4-mobile": {
+    "props": {
+      "src": "https://dummyimage.com/250x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-mobile"
     }
   },
   /* Mobile Nosotros */

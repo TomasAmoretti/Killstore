@@ -16,6 +16,10 @@
     background: black;
 }
 
+.flexRowContent--imagenes-categorias-mobile {
+    display: flex;
+}
+
 .flexRowContent--header-principal {
     max-width: 1600px;
     margin: auto;

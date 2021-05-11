@@ -56,6 +56,66 @@
       "blockClass": "shelf-destacados"
     }
   },
+  "shelf#Recomendados-2": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "category": 1,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour":"default",
+      "productList": {
+        "maxItems": 1,
+        "itemsPerPage": 1,
+        "minItemsPerPage": 1,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Productos Recomendados"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Recomendados-3": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "category": 1,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour":"default",
+      "productList": {
+        "maxItems": 1,
+        "itemsPerPage": 1,
+        "minItemsPerPage": 1,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Productos Recomendados"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Recomendados-4": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "category": 1,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour":"default",
+      "productList": {
+        "maxItems": 1,
+        "itemsPerPage": 1,
+        "minItemsPerPage": 1,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Productos Recomendados"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
   "shelf#relatedProducts": {
     "blocks": [
       "product-summary.shelf#main"
