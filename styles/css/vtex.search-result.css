@@ -8,6 +8,28 @@
     padding: 5px;
     color: white;
     background: black;
-    font-family: NeutraTitling,Neutraface2Text;
+    font-family: "Gotham Regular";
     font-weight: 700;
+}
+
+.categoryItemChildren {
+    font-family: 'Gotham Regular';
+    font-size: 14px;
+}
+
+.selectedCategory {
+    font-family: 'Gotham Regular';
+}
+
+.categoryItemName {
+    font-family: 'Gotham Regular';
+}
+
+.filterTitle {
+    font-family: 'Gotham Regular';
+}
+
+.filterItem {
+    font-family: 'Gotham Regular';
+    font-size: 14px;
 }

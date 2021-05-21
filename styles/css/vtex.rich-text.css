@@ -1,7 +1,7 @@
 
 /* Footer */
 .strong--footer-texto-marcas{
-    font-family: "Neutraface 2 Text", sans-serif;
+    font-family: "Gotham Regular", sans-serif;
 }
 
 .headingLevel4--footer-texto-marcas{
@@ -20,7 +20,7 @@
 }
 
 .strong--footer-general-titulo{
-    font-family: 'Gotham Bold';
+    font-family: "Gotham Regular";
     padding: 0;
     font-size: 14px;
     line-height: inherit;
@@ -41,14 +41,14 @@
 .container--institucional{
     width: 80%;
     margin: auto;
-    font-family: "Neutraface 2 Text", sans-serif;
+    font-family: "Gotham Bold", sans-serif;
 }
 
 .container--institucional-condiciones-y-servicios{
     width: 80%;
     margin: auto;
     margin-bottom: 35px;
-    font-family: "Neutraface 2 Text", sans-serif;
+    font-family: "Gotham Regular", sans-serif;
 }
 
 .strong--footer-newsletter{
@@ -118,7 +118,7 @@
 
 .wrapper--footer-general-somos {
     color: white;
-    font-family: 'Gotham Regular';
+    font-family: "Gotham Regular";
     font-size: 12px;
     text-align: initial;
 }
@@ -149,16 +149,6 @@
 }
 
 /* Vitrinas */
-.link--texto-not-milk, .link--texto-not-mayo, .link--texto-not-icecream, .link--texto-not-burger {
-        font-weight: bold;
-        color: white;
-        font-size: 13px;
-        padding: 10px 7px 10px 7px;
-        font-family: NeutraFace2Text;
-        border-radius: 4px;
-        background: black;
-        text-decoration: none;
-}
 
 .paragraph--texto-not-mayo, .paragraph--texto-not-milk, .paragraph--texto-not-icecream {
     min-width: 216px;
@@ -175,18 +165,18 @@
     color: black;
     margin-bottom: 0;
     text-align: left;
-    font-family: Neutraface2Text;
+    font-family: "Gotham Regular";
 }
 
 .strong--texto-nosotros {
     color: #5e5e5e;
     font-weight: bold;
-    font-family: Neutraface2Text;
+    font-family: "Gotham Regular";
 }
 
 .strong--texto-nosotros-mobile {
     font-size: 28px;
-    font-family: Neutraface2Text;
+    font-family: "Gotham Regular";
     font-weight: 700;
     line-height: 32px;
     color: #000;
@@ -209,7 +199,7 @@
 /* Home */
 .paragraph--texto-not-combos-titulo {
     margin-bottom: 0;
-    font-family: NeutraFace2Text;
+    font-family: "Gotham Regular";
     text-align: center;
     font-size: 22px;
     color: black;

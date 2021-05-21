@@ -1,3 +1,4 @@
+
 .container--breadcrumb{
     text-align: left;
 }
@@ -7,9 +8,24 @@
 }
 
 .term--breadcrumb {
-    font-family: NeutraFace2Text;
+    font-family: "Gotham Regular";
 }
 
 .container--breadcrumb {
-    font-family: NeutraFace2Text;
+    font-family: "Gotham Regular";
+}
+
+.container--breadcrumb {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.link {
+    font-family: 'Gotham Regular';
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
 }

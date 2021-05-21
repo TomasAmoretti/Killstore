@@ -1,4 +1,3 @@
-
 .productNameContainer, .sellingPriceContainer{
     color: black;
     font-weight: bold;
@@ -26,7 +25,8 @@
 }
 
 .brandName {
-    font-family: 'Gotham Regular';
+    font-family: "Gotham Bold";
+    min-height: 70px;
 }
 
 .priceContainer{

@@ -108,8 +108,672 @@
         "href": "#"
       },
       "blockClass": "categorias-nav-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Categorias"
+    ]
+  },
+  /*Items Categorias*/
+  "menu-item#Categorias-Audio":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Audio",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Audio"
+    ]
+  },
+  /* Items audio */
+  "menu-item#Categorias-Audio-Audifonos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Audifonos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
     }
   },
+  "menu-item#Categorias-Audio-Audifonos-headset":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Headset",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Audifonos-inears":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "In Ears",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Audifonos-intercomunicadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Intercomunicadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Audifonos-onears":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "On Ears",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Audifonos-overears":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Over Ears",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Grabadoras":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Grabadoras",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Audio-Grabadoras-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Grabadoras-DeCampo":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "De Campo",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Grabadoras-DeEstudio":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "De Estudio",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Interfaces":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Interfaces y Consolas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Audio-Interfaces-Interfaces":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Interfaces",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Interfaces-Consolas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Consolas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Microfonos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Microfonos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Audio-Microfonos-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Microfonos-Condensadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Condensadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Microfonos-Dinamicos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Dinamicos / De Mano",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Microfonos-Lavaliers":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Lavaliers",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Microfonos-Shotguns":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Shotguns",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Monitores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Monitores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Audio-Monitores-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Monitores-Activos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Activos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Audio-Monitores-Pasivos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Pasivos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  /* End items audio */
+  /* Items Computacion*/
+  "menu-item#Categorias-Computacion-Almacenamiento":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Almacenamiento",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Computacion-Almacenamiento-Discos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Discos Externos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Almacenamiento-Lectores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Lectores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Almacenamiento-MicroSD":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias Micro SD",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Almacenamiento-MemoriaSD":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias SD",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Audio":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Audio",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Computacion-Audio-Audifonos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Audifonos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Audio-Microfonos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Microfonos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Monitores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Monitores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Computacion-Monitores-Cables":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cables",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Monitores-Monitores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Monitores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Varios-Notebooks":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Notebooks",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Varios-Pcs":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "PCs Armadas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Varios-Sillas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Sillas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Varios-Software":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Software",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Varios-Tablets":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Tabletas y Consolas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Mouse":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Mouse y Teclado",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Computacion-Mouse-Calibradores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Calibradores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Mouse-Capturadoras":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Capturadoras y Botoneras",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Mouse-Webcam":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "WebCams",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Mouse-Impresoras":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Impresoras",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Mouse-Teclado":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Teclados",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Mouse-Mouse":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Mouse",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Mouse-Pads":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Pads",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  /* End Items Computacion*/
+  "menu-item#Categorias-Binoculares":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Binoculares",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu-item#Categorias-Computacion":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Computacion",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Computacion"
+    ]
+  },
+  "menu-item#Categorias-Cursos-Online":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cursos Online",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu-item#Categorias-Drones":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Drones",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu-item#Categorias-Estudio":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Estudio",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu-item#Categorias-Fotografia":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Fotografia",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu-item#Categorias-Gaming":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Gaming",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu-item#Categorias-Iluminacion":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Iluminacion",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu-item#Categorias-KillieKits":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "KillieKits",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu-item#Categorias-Transporte":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Transporte",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu-item#Categorias-Video":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Video",
+        "href": "#"
+      },
+      "blockClass": "submenu-header"
+    }
+  },
+  /* End Items Categorias */
   "menu-item#categorias-nav#KillieKits": {
     "props": {
       "type": "custom",

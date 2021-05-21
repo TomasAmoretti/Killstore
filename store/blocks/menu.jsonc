@@ -30,5 +30,213 @@
       "props": {
         "blockClass": "categorias-nav-header"
       }
+    },
+    "vtex.menu@2.x:submenu#Categorias":{
+      "children":[
+        "menu-item#Categorias-Audio",
+        "menu-item#Categorias-Binoculares",
+        "menu-item#Categorias-Computacion",
+        "menu-item#Categorias-Cursos-Online",
+        "menu-item#Categorias-Drones",
+        "menu-item#Categorias-Estudio",
+        "menu-item#Categorias-Fotografia",
+        "menu-item#Categorias-Gaming",
+        "menu-item#Categorias-Iluminacion",
+        "menu-item#Categorias-KillieKits",
+        "menu-item#Categorias-Transporte",
+        "menu-item#Categorias-Video"
+      ],
+      "props":{
+          "blockClass":"submenu-header",
+          "orientation": "horizontal"
+      }
+    },
+    "vtex.menu@2.x:submenu#Categorias-Audio":{
+      "children":[
+        "flex-layout.row#Menu-categorias-Audio"
+      ],
+      "props":{
+          "blockClass":"submenu-2-header",
+          "orientation": "horizontal"
+      }
+    },
+    "flex-layout.row#Menu-categorias-Audio":{
+      "children":[
+        "flex-layout.col#Menu-categorias-Audio-Audifonos",
+        "flex-layout.col#Menu-categorias-Audio-Grabadoras",
+        "flex-layout.col#Menu-categorias-Audio-Interfaces",
+        "flex-layout.col#Menu-categorias-Audio-Microfonos",
+        "flex-layout.col#Menu-categorias-Audio-Monitores"
+      ],
+      "props":{
+        "blockClass":"row-menu"
+      }
+    },
+    "flex-layout.col#Menu-categorias-Audio-Audifonos":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Audio-Audifonos",
+        "menu-item#Categorias-Audio-Audifonos-headset",
+        "menu-item#Categorias-Audio-Audifonos-inears",
+        "menu-item#Categorias-Audio-Audifonos-intercomunicadores",
+        "menu-item#Categorias-Audio-Audifonos-onears",
+        "menu-item#Categorias-Audio-Audifonos-overears"
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Audio-Grabadoras":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Audio-Grabadoras",
+        "menu-item#Categorias-Audio-Grabadoras-Accesorios",
+        "menu-item#Categorias-Audio-Grabadoras-DeCampo",
+        "menu-item#Categorias-Audio-Grabadoras-DeEstudio"
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Audio-Interfaces":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Audio-Interfaces",
+        "menu-item#Categorias-Audio-Interfaces-Interfaces",
+        "menu-item#Categorias-Audio-Interfaces-Consolas"
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Audio-Microfonos":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Audio-Microfonos",
+        "menu-item#Categorias-Audio-Microfonos-Accesorios",
+        "menu-item#Categorias-Audio-Microfonos-Condensadores",
+        "menu-item#Categorias-Audio-Microfonos-Dinamicos",
+        "menu-item#Categorias-Audio-Microfonos-Lavaliers",
+        "menu-item#Categorias-Audio-Microfonos-Shotguns"
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Audio-Monitores":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Audio-Monitores",
+        "menu-item#Categorias-Audio-Monitores-Accesorios",
+        "menu-item#Categorias-Audio-Monitores-Activos",
+        "menu-item#Categorias-Audio-Monitores-Pasivos"
+      ]
+    },
+    "vtex.menu@2.x:submenu#Categorias-Computacion":{
+      "children":[
+        "flex-layout.row#Menu-categorias-Computacion"
+      ],
+      "props":{
+          "blockClass":"submenu-2-header",
+          "orientation": "horizontal"
+      }
+    },
+    "flex-layout.row#Menu-categorias-Computacion":{
+      "children":[
+        "flex-layout.col#Menu-categorias-Computacion-Almacenamiento",
+        "flex-layout.col#Menu-categorias-Computacion-Audio",
+        "flex-layout.col#Menu-categorias-Computacion-Monitores",
+        "flex-layout.col#Menu-categorias-Computacion-Varios",
+        "flex-layout.col#Menu-categorias-Computacion-Componentes",
+        "flex-layout.col#Menu-categorias-Computacion-Mouse",
+        "flex-layout.col#Menu-categorias-Computacion-Varios2"
+      ],
+      "props":{
+        "blockClass":"row-menu"
+      }
+    },
+    "flex-layout.col#Menu-categorias-Computacion-Almacenamiento":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Computacion-Almacenamiento",
+        "menu-item#Categorias-Computacion-Almacenamiento-Discos",
+        "menu-item#Categorias-Computacion-Almacenamiento-Lectores",
+        "menu-item#Categorias-Computacion-Almacenamiento-MicroSD",
+        "menu-item#Categorias-Computacion-Almacenamiento-MemoriaSD"
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Computacion-Audio":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Computacion-Audio",
+        "menu-item#Categorias-Computacion-Audio-Audifonos",
+        "menu-item#Categorias-Computacion-Audio-Microfonos"
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Computacion-Monitores":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Computacion-Monitores",
+        "menu-item#Categorias-Computacion-Monitores-Cables",
+        "menu-item#Categorias-Computacion-Monitores-Monitores"
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Computacion-Varios":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Computacion-Varios-Notebooks",
+        "menu-item#Categorias-Computacion-Varios-Pcs",
+        "menu-item#Categorias-Computacion-Varios-Sillas",
+        "menu-item#Categorias-Computacion-Varios-Software",
+        "menu-item#Categorias-Computacion-Varios-Tablets"
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Computacion-Componentes":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Computacion-Mouse":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Computacion-Mouse",
+        "menu-item#Categorias-Computacion-Mouse-Teclado",
+        "menu-item#Categorias-Computacion-Mouse-Mouse",
+        "menu-item#Categorias-Computacion-Mouse-Pads"
+      ]
+    },
+    "flex-layout.col#Menu-categorias-Computacion-Varios2":{
+      "props":{
+        "blockClass": "col-menu",
+        "preventVerticalStretch": true
+      },
+      "children":[
+        "menu-item#Categorias-Computacion-Mouse-Calibradores",
+        "menu-item#Categorias-Computacion-Mouse-Capturadoras",
+        "menu-item#Categorias-Computacion-Mouse-Webcam",
+        "menu-item#Categorias-Computacion-Mouse-Impresoras"
+      ]
     }
 }
