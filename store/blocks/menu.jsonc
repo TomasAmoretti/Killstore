@@ -10,7 +10,7 @@
     },
     "vtex.menu@2.x:menu#footer#Institucionales": {
       "children": [
-        "menu-item#Ayuda#PoliticaEntrega",
+        "menu-item#Ayuda#PoliticaEnvio",
         "menu-item#Ayuda#Terminos-condiciones",
         "menu-item#Ayuda#Preguntas-frecuentes",
         "menu-item#Ayuda#PoliticaDevolucion",

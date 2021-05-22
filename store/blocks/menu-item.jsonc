@@ -9,21 +9,11 @@
       "blockClass": "footer-general"
     }
   },
-  "menu-item#Institucionales#QuienesSomos": {
+  "menu-item#Ayuda#PoliticaEnvio": {
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "https://notco.com",
-        "text": "Conócenos"
-      },
-      "blockClass": "footer-general"
-    }
-  },
-  "menu-item#Ayuda#PoliticaEntrega": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "#",
+        "href": "/institucional/politicas-envio",
         "text": "Política de Envío"
       },
       "iconProps": {
@@ -39,7 +29,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/institucional/terminos-y-condiciones",
         "text": "Términos y condiciones"
       },
       "iconProps": {
@@ -55,7 +45,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/institucional/preguntas-frecuentes",
         "text": "Preguntas Frecuentes"
       },
       "iconProps": {
@@ -71,7 +61,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/institucional/politicas-devolucion",
         "text": "Políticas de devolución"
       },
       "iconProps": {
@@ -87,7 +77,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/institucional/trabaja-con-nosotros",
         "text": "Trabaja con nosotros"
       },
       "iconProps": {

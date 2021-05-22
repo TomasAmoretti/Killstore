@@ -208,3 +208,9 @@
 .flexCol--col-menu {
     min-width: 185px;
 }
+
+.flexColChild--col-institucional {
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 20px;
+}

@@ -1,9 +1,9 @@
 {
+    "store.custom#terminos-y-condiciones": {
+        "path": "/institucional/terminos-y-condiciones"
+    },
     "store.custom#politicas-devolucion": {
         "path": "/institucional/politicas-devolucion"
-    },
-    "store.custom#politicas-de-privacidad": {
-        "path": "/institucional/politicas-de-privacidad"
     },
     "store.custom#politicas-envio": {
         "path": "/institucional/politicas-envio"
