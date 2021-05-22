@@ -1,14 +1,4 @@
 {
-  "menu-item#Institucionales#MisPedidos": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "/login",
-        "text": "Mis pedidos"
-      },
-      "blockClass": "footer-general"
-    }
-  },
   "menu-item#Ayuda#PoliticaEnvio": {
     "props": {
       "type": "custom",

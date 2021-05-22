@@ -1,13 +1,4 @@
 {
-    "vtex.menu@2.x:menu#footer#Quienes-somos": {
-      "children": [
-        "menu-item#Institucionales#QuienesSomos",
-        "menu-item#Institucionales#MisPedidos"
-      ],
-      "props": {
-        "orientation": "vertical"
-      }
-    },
     "vtex.menu@2.x:menu#footer#Institucionales": {
       "children": [
         "menu-item#Ayuda#PoliticaEnvio",
