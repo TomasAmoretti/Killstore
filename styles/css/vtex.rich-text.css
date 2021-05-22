@@ -212,4 +212,18 @@
 
 .paragraph--institucional {
     text-align: initial;
+    font-family: 'Gotham Regular';
+    font-size: 13px;
+}
+
+.strong--institucional-titulo {
+    font-size: 22px;
+    font-family: 'Gotham Bold';
+    color: #000;
+}
+
+.strong--institucional {
+    font-size: 20px;
+    font-family: 'Gotham Bold';
+    color: #000;
 }

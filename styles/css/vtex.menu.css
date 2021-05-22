@@ -119,6 +119,7 @@
     width: 100%;
     border-top: solid 1px #c3c3c3;
     margin-top: 13px;
+    padding-top: 20px;
 }
 
 .styledLinkContent--submenu-header {
@@ -150,4 +151,8 @@
     font-size: 12px;
     font-family: 'Gotham Regular';
     color: #000;
+}
+
+.styledLinkContainer--submenu-header-titulo {
+    padding-top: 0;
 }

@@ -204,3 +204,7 @@
     max-width: 1280px;
     margin: auto;
 }
+
+.flexCol--col-menu {
+    min-width: 185px;
+}

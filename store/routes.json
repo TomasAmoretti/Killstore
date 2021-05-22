@@ -1,11 +1,17 @@
 {
-    "store.custom#politicas-de-entrega": {
-        "path": "/institucional/politicas-de-entrega"
+    "store.custom#politicas-devolucion": {
+        "path": "/institucional/politicas-devolucion"
     },
     "store.custom#politicas-de-privacidad": {
         "path": "/institucional/politicas-de-privacidad"
     },
-    "store.custom#garantias-cambios-devoluciones": {
-        "path": "/institucional/garantias-cambios-devoluciones"
+    "store.custom#politicas-envio": {
+        "path": "/institucional/politicas-envio"
+    },
+    "store.custom#preguntas-frecuentes": {
+        "path": "/institucional/preguntas-frecuentes"
+    },
+    "store.custom#trabaja-con-nosotros":{
+        "path": "/institucional/trabaja-con-nosotros"
     }
 }

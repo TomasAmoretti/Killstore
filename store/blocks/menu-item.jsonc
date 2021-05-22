@@ -120,7 +120,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Audio",
-        "href": "#"
+        "href": "/audio"
       },
       "blockClass": "submenu-header"
     },
@@ -135,7 +135,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Audifonos",
-        "href": "#"
+        "href": "/audio/audifonos"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -146,7 +146,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Headset",
-        "href": "#"
+        "href": "/audio/audifonos/headset"
       },
       "blockClass": "submenu-header-item"
     }
@@ -157,7 +157,7 @@
       "highlight": true,
       "itemProps": {
         "text": "In Ears",
-        "href": "#"
+        "href": "/audio/audifonos/in-ears"
       },
       "blockClass": "submenu-header-item"
     }
@@ -168,7 +168,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Intercomunicadores",
-        "href": "#"
+        "href": "/audio/audifonos/intercomunicadores"
       },
       "blockClass": "submenu-header-item"
     }
@@ -179,7 +179,7 @@
       "highlight": true,
       "itemProps": {
         "text": "On Ears",
-        "href": "#"
+        "href": "/audio/audifonos/on-ears"
       },
       "blockClass": "submenu-header-item"
     }
@@ -190,7 +190,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Over Ears",
-        "href": "#"
+        "href": "/audio/audifonos/over-ears"
       },
       "blockClass": "submenu-header-item"
     }
@@ -201,7 +201,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Grabadoras",
-        "href": "#"
+        "href": "/audio/grabadoras"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -212,7 +212,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Accesorios",
-        "href": "#"
+        "href": "/audio/grabadoras/accesorios"
       },
       "blockClass": "submenu-header-item"
     }
@@ -223,7 +223,7 @@
       "highlight": true,
       "itemProps": {
         "text": "De Campo",
-        "href": "#"
+        "href": "/audio/grabadoras/de-campo"
       },
       "blockClass": "submenu-header-item"
     }
@@ -234,7 +234,7 @@
       "highlight": true,
       "itemProps": {
         "text": "De Estudio",
-        "href": "#"
+        "href": "/audio/grabadoras/de-estudio"
       },
       "blockClass": "submenu-header-item"
     }
@@ -245,7 +245,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Interfaces y Consolas",
-        "href": "#"
+        "href": "/audio/interfaces-y-consolas"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -256,7 +256,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Interfaces",
-        "href": "#"
+        "href": "/audio/interfaces-y-consolas/interfaces"
       },
       "blockClass": "submenu-header-item"
     }
@@ -267,7 +267,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Consolas",
-        "href": "#"
+        "href": "/audio/interfaces-y-consolas/consolas"
       },
       "blockClass": "submenu-header-item"
     }
@@ -278,7 +278,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Microfonos",
-        "href": "#"
+        "href": "/audio/microfonos"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -289,7 +289,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Accesorios",
-        "href": "#"
+        "href": "/audio/microfonos/accesorios"
       },
       "blockClass": "submenu-header-item"
     }
@@ -300,7 +300,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Condensadores",
-        "href": "#"
+        "href": "/audio/microfonos/condensadores"
       },
       "blockClass": "submenu-header-item"
     }
@@ -311,7 +311,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Dinamicos / De Mano",
-        "href": "#"
+        "href": "/audio/microfonos/dinamicos---de-mano"
       },
       "blockClass": "submenu-header-item"
     }
@@ -322,7 +322,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Lavaliers",
-        "href": "#"
+        "href": "/audio/microfonos/lavaliers"
       },
       "blockClass": "submenu-header-item"
     }
@@ -333,7 +333,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Shotguns",
-        "href": "#"
+        "href": "/audio/microfonos/shotguns"
       },
       "blockClass": "submenu-header-item"
     }
@@ -344,7 +344,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Monitores",
-        "href": "#"
+        "href": "/audio/monitores"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -355,7 +355,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Accesorios",
-        "href": "#"
+        "href": "/audio/monitores/accesorios"
       },
       "blockClass": "submenu-header-item"
     }
@@ -366,7 +366,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Activos",
-        "href": "#"
+        "href": "/audio/monitores/activos"
       },
       "blockClass": "submenu-header-item"
     }
@@ -377,7 +377,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Pasivos",
-        "href": "#"
+        "href": "/audio/monitores/pasivos"
       },
       "blockClass": "submenu-header-item"
     }
@@ -390,7 +390,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Almacenamiento",
-        "href": "#"
+        "href": "/computacion/almacenamiento"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -401,7 +401,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Discos Externos",
-        "href": "#"
+        "href": "/computacion/almacenamiento/discos-externos"
       },
       "blockClass": "submenu-header-item"
     }
@@ -412,7 +412,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Lectores",
-        "href": "#"
+        "href": "/computacion/almacenamiento/lectores"
       },
       "blockClass": "submenu-header-item"
     }
@@ -445,7 +445,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Audio",
-        "href": "#"
+        "href": "/audio"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -456,7 +456,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Audifonos",
-        "href": "#"
+        "href": "/audio/audifonos"
       },
       "blockClass": "submenu-header-item"
     }
@@ -467,7 +467,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Microfonos",
-        "href": "#"
+        "href": "/audio/microfonos"
       },
       "blockClass": "submenu-header-item"
     }
@@ -478,7 +478,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Monitores",
-        "href": "#"
+        "href": "/computacion/monitores"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -489,7 +489,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Cables",
-        "href": "#"
+        "href": "/computacion/monitores"
       },
       "blockClass": "submenu-header-item"
     }
@@ -500,7 +500,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Monitores",
-        "href": "#"
+        "href": "/computacion/monitores"
       },
       "blockClass": "submenu-header-item"
     }
@@ -511,7 +511,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Notebooks",
-        "href": "#"
+        "href": "/computacion/notebooks"
       },
       "blockClass": "submenu-header-item"
     }
@@ -522,7 +522,7 @@
       "highlight": true,
       "itemProps": {
         "text": "PCs Armadas",
-        "href": "#"
+        "href": "/computacion/pcs-armadas"
       },
       "blockClass": "submenu-header-item"
     }
@@ -533,7 +533,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Sillas",
-        "href": "#"
+        "href": "/computacion/sillas"
       },
       "blockClass": "submenu-header-item"
     }
@@ -544,7 +544,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Software",
-        "href": "#"
+        "href": "/computacion/software"
       },
       "blockClass": "submenu-header-item"
     }
@@ -555,7 +555,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Tabletas y Consolas",
-        "href": "#"
+        "href": "/computacion/tabletas-y-consolas"
       },
       "blockClass": "submenu-header-item"
     }
@@ -566,7 +566,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Mouse y Teclado",
-        "href": "#"
+        "href": "/computacion/mouse-y-teclado"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -577,7 +577,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Calibradores",
-        "href": "#"
+        "href": "/computacion/calibradores"
       },
       "blockClass": "submenu-header-item"
     }
@@ -588,7 +588,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Capturadoras y Botoneras",
-        "href": "#"
+        "href": "/computacion/capturadoras-y-botoneras"
       },
       "blockClass": "submenu-header-item"
     }
@@ -599,7 +599,7 @@
       "highlight": true,
       "itemProps": {
         "text": "WebCams",
-        "href": "#"
+        "href": "/computacion/webcams"
       },
       "blockClass": "submenu-header-item"
     }
@@ -621,7 +621,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Teclados",
-        "href": "#"
+        "href": "/computacion/mouse-y-teclado/teclados"
       },
       "blockClass": "submenu-header-item"
     }
@@ -632,7 +632,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Mouse",
-        "href": "#"
+        "href": "/computacion/mouse-y-teclado/mouse"
       },
       "blockClass": "submenu-header-item"
     }
@@ -643,12 +643,1863 @@
       "highlight": true,
       "itemProps": {
         "text": "Pads",
-        "href": "#"
+        "href": "/computacion/mouse-y-teclado/pads"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Componentes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Componentes",
+        "href": "/computacion/componentes"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Computacion-Componentes-Discos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Discos Internos",
+        "href": "/computacion/componentes/discos-internos"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Componentes-Fuentes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Fuentes",
+        "href": "/computacion/componentes/fuentes"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Componentes-Gabinetes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Gabinetes",
+        "href": "/computacion/componentes/gabinetes"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Componentes-Memorias":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias Ram",
+        "href": "/computacion/componentes/memoria-ram"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Componentes-Mother":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Placas Madre",
+        "href": "/computacion/componentes/placas-madre"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Componentes-Procesadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Procesadores",
+        "href": "/computacion/componentes/procesadores"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Componentes-Refrigeracion":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Refrigeracion y Ventiladores",
+        "href": "/computacion/componentes/refrigeracion-y-ventiladores"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Computacion-Componentes-Tarjetas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Tarjetas de Video",
+        "href": "/computacion/componentes/tarjetas-de-video"
       },
       "blockClass": "submenu-header-item"
     }
   },
   /* End Items Computacion*/
+  /* Items Drones */
+  "menu-item#Categorias-Drones-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "/drones/accesorios"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Drones-Drones":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Drones",
+        "href": "/drones/drones"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Drones-Energia":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Energia",
+        "href": "/drones/energia"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Drones-Filtros":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Filtros",
+        "href": "/drones/filtros"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Drones-Transporte":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Transporte",
+        "href": "/drones/transporte"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  /* End Items Drones*/
+  /* Items Estudio */
+  "menu-item#Categorias-Estudio-Reflectores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Reflectores & Banderas",
+        "href": "/estudio/reflectores---banderas"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "/estudio/accesorios"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Estudio-Accesorios-Cables":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cables",
+        "href": "/estudio/accesorios/cables"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Accesorios-Cintas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cintas Graffer",
+        "href": "/estudio/accesorios/cintas-gaffer"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Accesorios-Gelatinas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Gelatinas",
+        "href": "/estudio/accesorios/gelatinas"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Accesorios-Miscelaneos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Miscelaneos",
+        "href": "/estudio/accesorios/miscelaneos"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Fondos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Fondos",
+        "href": "/estudio/fondos"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Estudio-Fondos-Madera":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Fondos de Madera",
+        "href": "/estudio/fondos/fondos-de-madera"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Fondos-Papel":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Fondos de Papel",
+        "href": "/estudio/fondos/fondos-de-papel"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Fondos-Tela":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Fondos de Tela",
+        "href": "/estudio/fondos/fondos-de-tela"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Soportes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Soportes",
+        "href": "/estudio/soportes"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Estudio-Soportes-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "/estudio/soportes/accesorios"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Soportes-C-Stands":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "C-Stands",
+        "href": "/estudio/soportes/c-stands"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Soportes-Pies":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Pies de Flash",
+        "href": "/estudio/soportes/pies-de-flash"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Soportes-Fondos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Soportes de Fondos",
+        "href": "/estudio/soportes/soportes-de-fondos"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Estudio-Soportes-Tripodes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Tripodes",
+        "href": "/estudio/soportes/tripodes"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  /* End items Estudio */
+  /* Items Fotografia */
+  "menu-item#Categorias-Fotografia-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Accesorios-Cables":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cables",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Accesorios-Correas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Correas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Accesorios-Disparadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Disparadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Accesorios-Proteccion":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Proteccion",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Almacenamiento":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Almacenamiento",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Almacenamiento-Estuches":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Estuches",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Almacenamiento-Lectores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Lectores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Almacenamiento-MemoriasCF":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias CF",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Almacenamiento-Memorias-Express":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias CF Express",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Almacenamiento-Memorias-Fast":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias CFast",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Almacenamiento-Memorias-MicroSD":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias Micro SD",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Almacenamiento-Memorias-SD":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias SD",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Almacenamiento-Memorias-XQD":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias XQD",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Camaras":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Camaras",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Camaras-Compactas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Camaras Compactas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Camaras-Mirrorless":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Camaras Mirrorless",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Camaras-Reflex":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Camaras Reflex",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Energia":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Energia",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Energia-Baterias":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Baterias",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Energia-Battery":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Battery Grips",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Energia-Cargadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cargadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Lentes",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Cannon-EF":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Cannon EF",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Cannon-M":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Cannon M",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Cannon-RF":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Cannon RF",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Fujifilm-GF":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Fujifilm GF",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Fujifilm-X":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Fujifilm X",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Montura-M":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura M 4/3",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Nikon-F":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Nikon F",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Nikon-Z":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Nikon Z",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Lentes-Sony":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Sony E",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Tripodes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Tripodes",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Tripodes-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Tripodes-Cabezales":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cabezales",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Tripodes-Kits":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Kits Tripodes + Cabezales",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Fotografia-Tripodes-Fotografia":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Tripodes de Fotografia",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  /* End Items Fotografia*/
+  /* Items Gaming */
+  "menu-item#Categorias-Gaming-Nintendo":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Nintendo",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Gaming-Playstation":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Playstation",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Gaming-Xbox":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Xbox",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  /* End Items Gaming*/
+  /* Items Iluminacion*/
+  "menu-item#Categorias-Iluminacion-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Accesorios-Adaptadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Adaptadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Accesorios-Baterias":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Baterias & Cargadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Accesorios-Fotometros":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Fotometros",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Accesorios-Transporte":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Transporte",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Accesorios-Tubos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Tubos & Ampolletas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Kits":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Kits de Strobist",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Reflectores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Reflectores & Banderas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Triggers":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Triggers & Receptores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Flash":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Flash de Estudio",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Flash-Cabezales":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cabezales de Estudio",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Flash-Kits":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Kits de Estudio",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Flash-Speedlight":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Flash Speedlight",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Flash-Speedlight-Cannon":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Para Cannon",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Flash-Speedlight-Fuji":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Para Fuji",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Flash-Speedlight-Nikon":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Para Nikon",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Flash-Speedlight-Panasonic":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Para Panasonic & Olympus",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Flash-Speedlight-Sony":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Para Sony",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Continua":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Iluminacion Continua",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Continua-Ampolleta":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Ampolleta & Tungsteno",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Continua-Cannones":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cannones Led",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Continua-Paneles":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Paneles Led",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Continua-Ring":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Ring Led",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Continua-Tubos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Tubos Led",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Modificadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores-Barndoor":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Barndoor & Fresnel",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores-Gelatinas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Gelatinas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores-Lantern":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Lantern & Space",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores-Octabox":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Octabox & Beauty Dish",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores-Speedlight":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Para Speedlight",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores-Proyeccion":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Proyeccion",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores-Reflectores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Reflectores & Snoots",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores-Softbox":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Softbox & Strips",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Modificadores-Sombrillas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Sombrillas y Brolly",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Soportes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Soportes",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Soportes-Stand":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "C-Stands",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Iluminacion-Soportes-Flash":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Pies de Flash",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  /* End Items Iluminacion*/
+  /* Items Transporte */
+  "menu-item#Categorias-Transporte-Bolsos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Bolsos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Transporte-Estuches":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Estuches",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Transporte-Fundas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Fundas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Transporte-Maletas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Maletas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Transporte-Mochilas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Mochilas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  /* End Items Transporte */
+  /* Items Video */
+  "menu-item#Categorias-Video-Almacenamiento":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Almacenamiento",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Almacenamiento-Discos":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Discos Externos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Almacenamiento-Lectores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Lectores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Almacenamiento-Memorias":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Memorias",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Cables":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cables",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Cables-Display":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Display Port",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Cables-HDMI":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "HDMI",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Cables-SDI":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "SDI",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Camaras":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Camaras",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Camaras-Cinematograficas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cinematograficas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Camaras-Accion":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "De Accion",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Camaras-Mirrorless":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Mirrorless",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Camaras-Videocamaras":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Videocamaras",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Camaras-Profesionales":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Videocamaras Profesionales",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Energia":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Energia",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Energia-Baterias":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Baterias",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Energia-Cables":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cables",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Energia-Cargadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cargadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Energia-Placas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Placas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Lentes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Lentes",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Lentes-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Lentes-Cannon-EF":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Cannon EF",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Lentes-Cannon-RF":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Cannon RF",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Lentes-M":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura M 4/3",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Lentes-Nikon":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Nikon F",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Lentes-PL":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura PL",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Lentes-Sony":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Montura Sony E",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Mezcladores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Mezcladores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Mezcladores-Capturadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Capturadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Mezcladores-Controladores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Controladores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Mezcladores-Convertidores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Convertidores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Mezcladores-Switchers":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Switchers",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Monitores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Monitores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Monitores-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Monitores-Grabadores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Grabadores",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Monitores-Camara":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Monitores de Camara",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Monitores-Campo":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Monitores de Campo",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Monitores-Transmisores":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Transmisores de Video",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Movimiento":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Movimiento",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Movimiento-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Movimiento-Control":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Control de Movimiento",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Movimiento-Gimbals":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Gimbals",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Movimiento-Sliders":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Sliders",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Rig":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Rig",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Rig-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Rig-Cages":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cages",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Rig-Follow":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Follow Focus",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Rig-Mattebox":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Mattebox",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Rig-Monturas":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Monturas",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Tripodes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Tripodes",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-titulo"
+    }
+  },
+  "menu-item#Categorias-Video-Tripodes-Accesorios":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Accesorios",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Tripodes-Cabezales":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cabezales Fluidos",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Tripodes-Kits":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Kits Tripode + Cabezal",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Video-Tripodes-Video":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Tripodes de Video",
+        "href": "#"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  /* End Items Video */
   "menu-item#Categorias-Binoculares":{
     "props": {
       "type": "custom",
@@ -694,7 +2545,10 @@
         "href": "#"
       },
       "blockClass": "submenu-header"
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Drones"
+    ]
   },
   "menu-item#Categorias-Estudio":{
     "props": {
@@ -705,7 +2559,10 @@
         "href": "#"
       },
       "blockClass": "submenu-header"
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Estudio"
+    ]
   },
   "menu-item#Categorias-Fotografia":{
     "props": {
@@ -716,7 +2573,10 @@
         "href": "#"
       },
       "blockClass": "submenu-header"
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Fotografia"
+    ]
   },
   "menu-item#Categorias-Gaming":{
     "props": {
@@ -727,7 +2587,10 @@
         "href": "#"
       },
       "blockClass": "submenu-header"
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Gaming"
+    ]
   },
   "menu-item#Categorias-Iluminacion":{
     "props": {
@@ -738,7 +2601,10 @@
         "href": "#"
       },
       "blockClass": "submenu-header"
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Iluminacion"
+    ]
   },
   "menu-item#Categorias-KillieKits":{
     "props": {
@@ -746,7 +2612,7 @@
       "highlight": true,
       "itemProps": {
         "text": "KillieKits",
-        "href": "#"
+        "href": "/killiekits"
       },
       "blockClass": "submenu-header"
     }
@@ -760,7 +2626,10 @@
         "href": "#"
       },
       "blockClass": "submenu-header"
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Transporte"
+    ]
   },
   "menu-item#Categorias-Video":{
     "props": {
@@ -771,7 +2640,10 @@
         "href": "#"
       },
       "blockClass": "submenu-header"
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Video"
+    ]
   },
   /* End Items Categorias */
   "menu-item#categorias-nav#KillieKits": {
@@ -780,7 +2652,7 @@
       "highlight": true,
       "itemProps": {
         "text": "KillieKits",
-        "href": "#"
+        "href": "/killiekits"
       },
       "blockClass": "categorias-nav-header"
     }
@@ -825,7 +2697,7 @@
       "highlight": true,
       "itemProps": {
         "text": "KillieKits",
-        "href": "#"
+        "href": "/killiekits"
       },
       "blockClass": "categorias-nav-header"
     }
