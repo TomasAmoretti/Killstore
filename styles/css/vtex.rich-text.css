@@ -227,3 +227,7 @@
     font-family: 'Gotham Bold';
     color: #000;
 }
+
+.listItem--institucional {
+    text-align: initial;
+}
