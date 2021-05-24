@@ -60,6 +60,7 @@
     "children": [
       "product-brand",
       "product-name#product",
+      "product-identifier.product",
       "product-price#product",
       "sku-selector",
       "product-separator",

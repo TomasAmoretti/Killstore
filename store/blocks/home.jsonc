@@ -19,8 +19,8 @@
       "shelf#Recomendados-3",
       "flex-layout.row#categorias-1-4",
       "flex-layout.row#categorias-2-4",
-      "shelf#Recomendados-4",
-      "flex-layout.row#nosotros"
+      "shelf#Recomendados-4"
+      /*"flex-layout.row#nosotros"*/
     ]
   },
   "flex-layout.row#categorias-1": {
@@ -376,8 +376,8 @@
       "flex-layout.row#categorias-1-4-mobile",
       "flex-layout.row#categorias-bottom-1-4-mobile",
       "flex-layout.row#categorias-bottom-2-4-mobile",
-      "shelf#Recomendados-4",
-      "flex-layout.row#nosotros-mobile"
+      "shelf#Recomendados-4"
+      /*"flex-layout.row#nosotros-mobile"*/
     ]
   },
   "flex-layout.row#categorias-1-mobile": {

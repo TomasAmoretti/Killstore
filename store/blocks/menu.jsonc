@@ -24,18 +24,19 @@
     },
     "vtex.menu@2.x:submenu#Categorias":{
       "children":[
-        "menu-item#Categorias-Audio",
-        "menu-item#Categorias-Binoculares",
-        "menu-item#Categorias-Computacion",
-        "menu-item#Categorias-Cursos-Online",
-        "menu-item#Categorias-Drones",
-        "menu-item#Categorias-Estudio",
         "menu-item#Categorias-Fotografia",
-        "menu-item#Categorias-Gaming",
-        "menu-item#Categorias-Iluminacion",
-        "menu-item#Categorias-KillieKits",
+        "menu-item#Categorias-Video",
+        "menu-item#Categorias-Audio",
+        "menu-item#Categorias-Computacion",
+        "menu-item#Categorias-Drones",
         "menu-item#Categorias-Transporte",
-        "menu-item#Categorias-Video"
+        "menu-item#Categorias-Iluminacion",
+        "menu-item#Categorias-Estudio",
+        "menu-item#Categorias-Sin-Categoria",
+        "menu-item#Categorias-Cursos-Online",
+        "menu-item#Categorias-Binoculares",
+        "menu-item#Categorias-KillieKits",
+        "menu-item#Categorias-Gaming"        
       ],
       "props":{
           "blockClass":"submenu-header",
