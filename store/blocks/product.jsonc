@@ -129,7 +129,8 @@
   },
   "flex-layout.row#descripcion-producto":{
     "children":[
-      "product-description"
+      "product-description",
+      "product-specifications"
     ],
     "props":{
       "preventVerticalStretch":true,

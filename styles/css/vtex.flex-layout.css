@@ -207,6 +207,7 @@
 
 .flexCol--col-menu {
     min-width: 185px;
+    margin-top: 15px;
 }
 
 .flexColChild--col-institucional {

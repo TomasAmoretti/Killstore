@@ -54,11 +54,11 @@
     },
     "flex-layout.row#Menu-categorias-Audio":{
       "children":[
-        "flex-layout.col#Menu-categorias-Audio-Audifonos",
-        "flex-layout.col#Menu-categorias-Audio-Grabadoras",
-        "flex-layout.col#Menu-categorias-Audio-Interfaces",
         "flex-layout.col#Menu-categorias-Audio-Microfonos",
-        "flex-layout.col#Menu-categorias-Audio-Monitores"
+        "flex-layout.col#Menu-categorias-Audio-Grabadoras",
+        "flex-layout.col#Menu-categorias-Audio-Monitores",
+        "flex-layout.col#Menu-categorias-Audio-Interfaces",
+        "flex-layout.col#Menu-categorias-Audio-Audifonos"
       ],
       "props":{
         "blockClass":"row-menu"
@@ -138,12 +138,12 @@
     },
     "flex-layout.row#Menu-categorias-Computacion":{
       "children":[
-        "flex-layout.col#Menu-categorias-Computacion-Almacenamiento",
-        "flex-layout.col#Menu-categorias-Computacion-Audio",
-        "flex-layout.col#Menu-categorias-Computacion-Monitores",
         "flex-layout.col#Menu-categorias-Computacion-Varios",
         "flex-layout.col#Menu-categorias-Computacion-Componentes",
         "flex-layout.col#Menu-categorias-Computacion-Mouse",
+        "flex-layout.col#Menu-categorias-Computacion-Monitores",
+        "flex-layout.col#Menu-categorias-Computacion-Audio",
+        "flex-layout.col#Menu-categorias-Computacion-Almacenamiento",
         "flex-layout.col#Menu-categorias-Computacion-Varios2"
       ],
       "props":{
@@ -191,10 +191,8 @@
         "preventVerticalStretch": true
       },
       "children":[
-        "menu-item#Categorias-Computacion-Varios-Notebooks",
         "menu-item#Categorias-Computacion-Varios-Pcs",
-        "menu-item#Categorias-Computacion-Varios-Sillas",
-        "menu-item#Categorias-Computacion-Varios-Software",
+        "menu-item#Categorias-Computacion-Varios-Notebooks",
         "menu-item#Categorias-Computacion-Varios-Tablets"
       ]
     },
@@ -234,9 +232,11 @@
       },
       "children":[
         "menu-item#Categorias-Computacion-Mouse-Calibradores",
-        "menu-item#Categorias-Computacion-Mouse-Capturadoras",
         "menu-item#Categorias-Computacion-Mouse-Webcam",
-        "menu-item#Categorias-Computacion-Mouse-Impresoras"
+        "menu-item#Categorias-Computacion-Varios-Software",
+        "menu-item#Categorias-Computacion-Mouse-Impresoras",
+        "menu-item#Categorias-Computacion-Varios-Sillas",
+        "menu-item#Categorias-Computacion-Mouse-Capturadoras"
       ]
     },
     "vtex.menu@2.x:submenu#Categorias-Drones":{
@@ -250,11 +250,12 @@
     },
     "flex-layout.row#Menu-categorias-Drones":{
       "children":[
-        "menu-item#Categorias-Drones-Accesorios",
         "menu-item#Categorias-Drones-Drones",
+        "menu-item#Categorias-Drones-Transporte",
         "menu-item#Categorias-Drones-Energia",
-        "menu-item#Categorias-Drones-Filtros",
-        "menu-item#Categorias-Drones-Transporte"
+        "menu-item#Categorias-Drones-Accesorios",        
+        "menu-item#Categorias-Drones-Filtros"
+        
       ],
       "props":{
         "blockClass":"row-menu"
@@ -271,10 +272,10 @@
     },
     "flex-layout.row#Menu-categorias-Estudio":{
       "children":[
-        "flex-layout.col#Menu-categorias-Estudio-Accesorios",
+        "flex-layout.col#Menu-categorias-Estudio-Soportes",
         "flex-layout.col#Menu-categorias-Estudio-Fondos",
         "menu-item#Categorias-Estudio-Reflectores",
-        "flex-layout.col#Menu-categorias-Estudio-Soportes"
+        "flex-layout.col#Menu-categorias-Estudio-Accesorios"          
       ],
       "props":{
         "blockClass":"row-menu"
@@ -330,12 +331,12 @@
     },
     "flex-layout.row#Menu-categorias-Fotografia":{
       "children":[
-        "flex-layout.col#Menu-categorias-Fotografia-Accesorios",
-        "flex-layout.col#Menu-categorias-Fotografia-Almacenamiento",
         "flex-layout.col#Menu-categorias-Fotografia-Camaras",
         "flex-layout.col#Menu-categorias-Fotografia-Energia",
+        "flex-layout.col#Menu-categorias-Fotografia-Accesorios",
         "flex-layout.col#Menu-categorias-Fotografia-Lentes",
-        "flex-layout.col#Menu-categorias-Fotografia-Tripodes"
+        "flex-layout.col#Menu-categorias-Fotografia-Tripodes",
+        "flex-layout.col#Menu-categorias-Fotografia-Almacenamiento"
       ],
       "props":{
         "blockClass":"row-menu"
@@ -438,8 +439,8 @@
     },
     "flex-layout.row#Menu-categorias-Gaming":{
       "children":[
-        "menu-item#Categorias-Gaming-Nintendo",
         "menu-item#Categorias-Gaming-Playstation",
+        "menu-item#Categorias-Gaming-Nintendo",
         "menu-item#Categorias-Gaming-Xbox"
       ],
       "props":{
@@ -457,13 +458,13 @@
     },
     "flex-layout.row#Menu-categorias-Iluminacion":{
       "children":[
-        "flex-layout.col#Menu-categorias-Iluminacion-Accesorios",
-        "flex-layout.col#Menu-categorias-Iluminacion-Flash-Estudio",
         "flex-layout.col#Menu-categorias-Iluminacion-Flash-Speedlight",
+        "flex-layout.col#Menu-categorias-Iluminacion-Flash-Estudio",
         "flex-layout.col#Menu-categorias-Iluminacion-Continua",
         "flex-layout.col#Menu-categorias-Iluminacion-Modificadores",
+        "flex-layout.col#Menu-categorias-Iluminacion-Varios",
         "flex-layout.col#Menu-categorias-Iluminacion-Soportes",
-        "flex-layout.col#Menu-categorias-Iluminacion-Varios"
+        "flex-layout.col#Menu-categorias-Iluminacion-Accesorios"
       ],
       "props":{
         "blockClass":"row-menu"
@@ -557,9 +558,9 @@
         "preventVerticalStretch": true
       },
       "children":[
-        "menu-item#Categorias-Iluminacion-Reflectores",
-        "menu-item#Categorias-Iluminacion-Kits",
-        "menu-item#Categorias-Iluminacion-Triggers"
+        "menu-item#Categorias-Iluminacion-Triggers",
+        "menu-item#Categorias-Iluminacion-Kits" ,
+        "menu-item#Categorias-Iluminacion-Reflectores"
       ]
     },
     "vtex.menu@2.x:submenu#Categorias-Transporte":{
@@ -573,11 +574,11 @@
     },
     "flex-layout.row#Menu-categorias-Transporte":{
       "children":[
-        "menu-item#Categorias-Transporte-Bolsos",
-        "menu-item#Categorias-Transporte-Estuches",
-        "menu-item#Categorias-Transporte-Fundas",
+        "menu-item#Categorias-Transporte-Mochilas",
         "menu-item#Categorias-Transporte-Maletas",
-        "menu-item#Categorias-Transporte-Mochilas"
+        "menu-item#Categorias-Transporte-Bolsos",
+        "menu-item#Categorias-Transporte-Fundas",
+        "menu-item#Categorias-Transporte-Estuches"        
       ],
       "props":{
         "blockClass":"row-menu"
@@ -594,14 +595,14 @@
     },
     "flex-layout.row#Menu-categorias-Video":{
       "children":[
-        "flex-layout.col#Menu-categorias-Video-Almacenamiento",
         "flex-layout.col#Menu-categorias-Video-Camaras",
-        "flex-layout.col#Menu-categorias-Video-Energia",
         "flex-layout.col#Menu-categorias-Video-Lentes",
-        "flex-layout.col#Menu-categorias-Video-Mezcladores",
         "flex-layout.col#Menu-categorias-Video-Monitoreo",
+        "flex-layout.col#Menu-categorias-Video-Mezcladores",
         "flex-layout.col#Menu-categorias-Video-Rig",
-        "flex-layout.col#Menu-categorias-Video-Tripodes"
+        "flex-layout.col#Menu-categorias-Video-Tripodes",
+        "flex-layout.col#Menu-categorias-Video-Energia",
+        "flex-layout.col#Menu-categorias-Video-Almacenamiento"
       ],
       "props":{
         "blockClass":"row-menu"
@@ -685,8 +686,7 @@
         "menu-item#Categorias-Video-Mezcladores-Capturadores",
         "menu-item#Categorias-Video-Mezcladores-Controladores",
         "menu-item#Categorias-Video-Mezcladores-Convertidores",
-        "menu-item#Categorias-Video-Mezcladores-Switchers",
-        "flex-layout.col#Menu-categorias-Video-Movimiento"
+        "menu-item#Categorias-Video-Mezcladores-Switchers"
       ]
     },
     "flex-layout.col#Menu-categorias-Video-Monitoreo":{
@@ -740,7 +740,8 @@
         "menu-item#Categorias-Video-Tripodes-Accesorios",
         "menu-item#Categorias-Video-Tripodes-Cabezales",
         "menu-item#Categorias-Video-Tripodes-Kits",
-        "menu-item#Categorias-Video-Tripodes-Video"
+        "menu-item#Categorias-Video-Tripodes-Video",
+        "flex-layout.col#Menu-categorias-Video-Movimiento"
       ]
     }
 }

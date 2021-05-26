@@ -169,3 +169,10 @@
 .imageElement--logo-vtex-mobile {
     margin-left: 35%;
 }
+
+.specificationsTitle--specifications-product {
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Gotham Regular";
+}
