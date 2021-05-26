@@ -145,8 +145,7 @@
   },
   "product-specifications":{
     "props": {
-      "shoudCollapseOnTabChange": true,
-      "showSpecificationsTab": true,
+      "showSpecificationsTab": false,
       "blockClass": "specifications-product"
     }
   },
