@@ -2516,17 +2516,6 @@
       "blockClass": "submenu-header"
     }
   },
-  "menu-item#Categorias-Sin-Categoria":{
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "Sin Categoria",
-        "href": "/sin-categoria"
-      },
-      "blockClass": "submenu-header"
-    }
-  },
   "menu-item#Categorias-Drones":{
     "props": {
       "type": "custom",
@@ -2659,17 +2648,6 @@
       "blockClass": "categorias-nav-header"
     }
   },
-  "menu-item#categorias-nav#Novedades": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "Novedades",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header"
-    }
-  },
   /* Menu item mobile */
   "menu-item#categorias-nav#Categorias-mobile": {
     "props": {
@@ -2699,17 +2677,6 @@
       "highlight": true,
       "itemProps": {
         "text": "Ofertas",
-        "href": "#"
-      },
-      "blockClass": "categorias-nav-header"
-    }
-  },
-  "menu-item#categorias-nav#Novedades-mobile": {
-    "props": {
-      "type": "custom",
-      "highlight": true,
-      "itemProps": {
-        "text": "Novedades",
         "href": "#"
       },
       "blockClass": "categorias-nav-header"

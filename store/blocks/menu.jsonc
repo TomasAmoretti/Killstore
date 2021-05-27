@@ -15,8 +15,7 @@
       "children": [
         "menu-item#categorias-nav#Categorias",
         "menu-item#categorias-nav#KillieKits",
-        "menu-item#categorias-nav#Ofertas",
-        "menu-item#categorias-nav#Novedades"
+        "menu-item#categorias-nav#Ofertas"
       ],
       "props": {
         "blockClass": "categorias-nav-header"
@@ -32,10 +31,8 @@
         "menu-item#Categorias-Transporte",
         "menu-item#Categorias-Iluminacion",
         "menu-item#Categorias-Estudio",
-        "menu-item#Categorias-Sin-Categoria",
         "menu-item#Categorias-Cursos-Online",
         "menu-item#Categorias-Binoculares",
-        "menu-item#Categorias-KillieKits",
         "menu-item#Categorias-Gaming"        
       ],
       "props":{

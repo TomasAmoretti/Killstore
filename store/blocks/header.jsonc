@@ -166,8 +166,7 @@
     "children": [
       "menu-item#categorias-nav#Categorias-mobile",
       "menu-item#categorias-nav#KillieKits-mobile",
-      "menu-item#categorias-nav#Ofertas-mobile",
-      "menu-item#categorias-nav#Novedades-mobile"
+      "menu-item#categorias-nav#Ofertas-mobile"
     ],
     "props": {
       "orientation": "vertical"
