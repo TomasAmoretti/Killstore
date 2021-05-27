@@ -7,15 +7,15 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer#general",
-      "flex-layout.row#footer#pie-de-pagina"
+      "flex-layout.row#footer#general"/*,
+      "flex-layout.row#footer#pie-de-pagina"*/
       
     ]
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer#general",
-      "flex-layout.row#footer#pie-de-pagina-mobile"
+      "flex-layout.row#footer#general"/*,
+      "flex-layout.row#footer#pie-de-pagina-mobile"*/
     ]
   },
   "image#logo-footer":{
