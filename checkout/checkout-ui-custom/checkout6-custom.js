@@ -22,4 +22,22 @@ $(document).ready(function(){
   link.href = '/arquivos/favicon.ico';
   document.getElementsByTagName('head')[0].appendChild(link);
 
+  sinRegistroEstatal();
+
 });
+
+window.onhashchange = function () {
+  sinRegistroEstatal();
+};
+
+function sinRegistroEstatal(){
+  if (location.hash == '#/profile') {
+    if($("fieldset.box-client-info-pj h5.corporate-title").css("display", "block")){
+      if(document.querySelector("input#client-company-ie").getAttribute("data-bind") == "value: stateInscription, validate: 'numericPunctuation', valueUpdate:'afterkeydown', required: requirementStateInscription"){
+        $("input#state-inscription").trigger("click");
+      }
+    }
+  }
+}
+
+

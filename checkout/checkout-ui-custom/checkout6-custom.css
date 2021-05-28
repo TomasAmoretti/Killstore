@@ -8343,3 +8343,7 @@ label.ship-receiverName{
     font-weight: bold;
     display: none;
 }
+
+span.false.shp-summary-package-time {
+  display: none;
+}
