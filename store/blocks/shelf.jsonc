@@ -61,7 +61,7 @@
       "product-summary.shelf#main"
     ],
     "props": {
-      "collection": 137,
+      "category": 1,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "none",
       "simulationBehavour":"default",
@@ -81,7 +81,7 @@
       "product-summary.shelf#main"
     ],
     "props": {
-      "collection": 137,
+      "collection": 138,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "none",
       "simulationBehavour":"default",
@@ -101,7 +101,7 @@
       "product-summary.shelf#main"
     ],
     "props": {
-      "collection": 137,
+      "collection": 138,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "none",
       "simulationBehavour":"default",
