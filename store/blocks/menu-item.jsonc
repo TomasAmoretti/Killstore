@@ -2657,8 +2657,18 @@
         "text": "Categorías",
         "href": "#"
       },
-      "blockClass": "categorias-nav-header"
-    }
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "categorias-nav-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-mobile"
+    ]
   },
   "menu-item#categorias-nav#KillieKits-mobile": {
     "props": {
@@ -2668,7 +2678,7 @@
         "text": "KillieKits",
         "href": "/killiekits"
       },
-      "blockClass": "categorias-nav-header"
+      "blockClass": "categorias-nav-header-mobile"
     }
   },
   "menu-item#categorias-nav#Ofertas-mobile": {
@@ -2679,8 +2689,230 @@
         "text": "Ofertas",
         "href": "#"
       },
-      "blockClass": "categorias-nav-header"
+      "blockClass": "categorias-nav-header-mobile"
     }
+  },
+  "menu-item#Categorias-Audio-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Audio",
+        "href": "/audio"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "submenu-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Audio"
+    ]
+  },
+  "menu-item#Categorias-Binoculares-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Binoculares",
+        "href": "/binoculares"
+      },
+      "blockClass": "submenu-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Computacion-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Computacion",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "submenu-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Computacion"
+    ]
+  },
+  "menu-item#Categorias-Cursos-Online-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Cursos Online",
+        "href": "/cursos-online"
+      },
+      "blockClass": "submenu-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Drones-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Drones",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "submenu-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Drones"
+    ]
+  },
+  "menu-item#Categorias-Estudio-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Estudio",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "submenu-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Estudio"
+    ]
+  },
+  "menu-item#Categorias-Fotografia-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Fotografia",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "submenu-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Fotografia"
+    ]
+  },
+  "menu-item#Categorias-Gaming-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Gaming",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "submenu-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Gaming"
+    ]
+  },
+  "menu-item#Categorias-Iluminacion-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Iluminacion",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "submenu-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Iluminacion"
+    ]
+  },
+  "menu-item#Categorias-KillieKits-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "KillieKits",
+        "href": "/killiekits"
+      },
+      "blockClass": "submenu-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Transporte-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Transporte",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "submenu-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Transporte"
+    ]
+  },
+  "menu-item#Categorias-Video-mobile":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Video",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition":"right",
+      "blockClass": "submenu-header-mobile"
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#Categorias-Video"
+    ]
   },
   "menu-item#Contacto-form": {
     "props": {

@@ -18,3 +18,13 @@
 .closeIcon--drawer-mobile {
     color: #FF5A07;
 }
+
+::global(.vtex-store-drawer-0-x-childrenContainer--drawer-mobile>.vtex-menu-2-x-menuContainerNav) {
+    width: -webkit-fill-available;
+    margin-left: 0;
+    display: flex;
+}
+
+::global(.vtex-store-drawer-0-x-childrenContainer--drawer-mobile>.vtex-menu-2-x-menuContainerNav>.vtex-menu-2-x-menuContainer) {
+    width: 100%;
+}

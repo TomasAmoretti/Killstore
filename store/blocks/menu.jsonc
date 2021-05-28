@@ -740,5 +740,25 @@
         "menu-item#Categorias-Video-Tripodes-Video",
         "flex-layout.col#Menu-categorias-Video-Movimiento"
       ]
+    },
+    /* MOBILE */
+    "vtex.menu@2.x:submenu#Categorias-mobile":{
+      "children":[
+        "menu-item#Categorias-Fotografia-mobile",
+        "menu-item#Categorias-Video-mobile",
+        "menu-item#Categorias-Audio-mobile",
+        "menu-item#Categorias-Computacion-mobile",
+        "menu-item#Categorias-Drones-mobile",
+        "menu-item#Categorias-Transporte-mobile",
+        "menu-item#Categorias-Iluminacion-mobile",
+        "menu-item#Categorias-Estudio-mobile",
+        "menu-item#Categorias-Cursos-Online-mobile",
+        "menu-item#Categorias-Binoculares-mobile",
+        "menu-item#Categorias-Gaming-mobile"        
+      ],
+      "props":{
+          "blockClass":"submenu-header-mobile",
+          "orientation": "vertical"
+      }
     }
 }
