@@ -8347,3 +8347,13 @@ label.ship-receiverName{
 span.false.shp-summary-package-time {
   display: none;
 }
+
+fieldset.box-payment-group2.box-payment-option.promissoryPaymentGroup p.payment-description {
+  font-size: 0;
+}
+
+fieldset.box-payment-group2.box-payment-option.promissoryPaymentGroup p.payment-description::after {
+  content: "Te enviaremos un mail con los datos para realizar la transferencia. Por favor revisa tu casilla luego de completar la operación. Gracias";
+  font-size: 14px;
+}
+
