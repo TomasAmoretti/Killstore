@@ -1,7 +1,7 @@
 {
   "vendor": "killstorecl",
   "name": "tienda",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -52,8 +52,6 @@
     "vtex.product-highlights": "1.x",
     "killstorecl.descripcion-larga": "0.x"
   },
-  "peerDependencies": {
-    
-  },
+  "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
