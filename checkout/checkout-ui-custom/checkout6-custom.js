@@ -4,9 +4,7 @@ $(document).ready(function(){
       $(".checkout-container .cart-template.active .cart-select-gift-placeholder").insertAfter($( ".table.table.cart-items" ));
     }
   });
-  function quitarDecimales(precio) {
-      return precio.split(",").shift();
-  }
+
   if(window.location.href.includes('cart')) {
     if(document.querySelectorAll(".item-link-remove") != null){
       let remove = document.querySelectorAll(".item-link-remove");
@@ -21,6 +19,169 @@ $(document).ready(function(){
   link.rel = 'shortcut icon';
   link.href = '/arquivos/favicon.ico';
   document.getElementsByTagName('head')[0].appendChild(link);
+
+  //Remover decimales en items cart
+  setInterval(() => {
+    if (location.hash == '#/cart') {
+      let itemsCarrito = document.querySelectorAll("tr.product-item");
+      itemsCarrito.forEach((itemDecimal) => {
+        if (itemDecimal.children[3].children[2].children[2].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[3].children[2].children[2]);
+        }
+        if (itemDecimal.children[5].children[1].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[5].children[1]);
+        }
+      });
+      if ((document.querySelector("tbody.totalizers-list td.monetary") != null) && document.querySelector("tbody.totalizers-list td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("tbody.totalizers-list td.monetary"));
+      }
+      if ((document.querySelector("tr.srp-summary-result td.monetary") != null) && document.querySelector("tr.srp-summary-result td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("tr.srp-summary-result td.monetary"));
+      }
+      if ((document.querySelector("body > div.container.container-main.container-cart > div.checkout-container.row-fluid.cart-active > div.cart-template.full-cart.span12.active > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-cart > div.checkout-container.row-fluid.cart-active > div.cart-template.full-cart.span12.active > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-cart > div.checkout-container.row-fluid.cart-active > div.cart-template.full-cart.span12.active > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary"));
+      }
+      if ((document.querySelector(".summary-template-holder tfoot tr td.monetary") != null) && document.querySelector(".summary-template-holder tfoot tr td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector(".summary-template-holder tfoot tr td.monetary"));
+      }
+    }
+
+    if (location.hash == '#/email') {
+      let itemsCarrito = document.querySelectorAll("ul.cart-items>li.hproduct.item");
+      itemsCarrito.forEach((itemDecimal) => {
+        if (itemDecimal.children[3].children[3].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[3].children[3]);
+        }
+      });
+      //Sub total col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary"));
+      }
+      //Descuentos col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary"));
+      }
+      //Costo envio col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary"));
+      }
+      //Total columna derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary"));
+      }
+    }
+
+    if (location.hash == '#/profile') {
+      let itemsCarrito = document.querySelectorAll("ul.cart-items>li.hproduct.item");
+      itemsCarrito.forEach((itemDecimal) => {
+        if (itemDecimal.children[3].children[3].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[3].children[3]);
+        }
+      });
+      //Sub total col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary"));
+      }
+      //Descuentos col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary"));
+      }
+      //Costo envio col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary"));
+      }
+      //Total columna derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary"));
+      }
+    }
+
+    if (location.hash == '#/shipping') {
+      //Precios items col derecha
+      let itemsCarrito = document.querySelectorAll("ul.cart-items>li.hproduct.item");
+      itemsCarrito.forEach((itemDecimal) => {
+        if (itemDecimal.children[3].children[3].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[3].children[3]);
+        }
+      });document.querySelector("#CHEAPEST > div.shp-option-text-price.vtex-omnishipping-1-x-optionPrice")
+      //Precio despacho
+      if ((document.querySelector("#CHEAPEST > div.shp-option-text-price.vtex-omnishipping-1-x-optionPrice") != null) && document.querySelector("#CHEAPEST > div.shp-option-text-price.vtex-omnishipping-1-x-optionPrice").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("#CHEAPEST > div.shp-option-text-price.vtex-omnishipping-1-x-optionPrice"));
+      }
+      //Sub total col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary"));
+      }
+      //Descuentos col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary"));
+      }
+      //Costo envio col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary"));
+      }
+      //Total columna derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary"));
+      }
+      //Precios costo envio opciones
+      if (document.querySelector(".vtex-omnishipping-1-x-scheduledDeliveryList") != null) {
+        let itemsEnvio = document.querySelectorAll(".vtex-omnishipping-1-x-leanShippingOption");
+        itemsEnvio.forEach((itemEnvio) => {
+          if (itemEnvio.children[3].innerText.includes(",")) {
+            quitarDecimales(itemEnvio.children[3]);
+          }
+        });
+      }
+      //Precios selec tipo de envio
+      if (document.querySelector(".vtex-omnishipping-1-x-scheduledDelivery .span12") != null) {
+        let itemsOpcion = document.querySelectorAll(".vtex-omnishipping-1-x-scheduledDelivery .span12");
+        itemsOpcion.forEach((itemOp) => {
+          if (itemOp.children[0].innerText.includes(",")) {
+            quitarDecimales(itemOp.children[0]);
+          }
+        });
+      }
+    }
+
+    if (location.hash == '#/payment') {
+      //Precios items col derecha
+      let itemsCarrito = document.querySelectorAll("ul.cart-items>li.hproduct.item");
+      itemsCarrito.forEach((itemDecimal) => {
+        if (itemDecimal.children[3].children[3].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[3].children[3]);
+        }
+      });
+      //Sub total col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary"));
+      }
+      //Descuentos col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Discounts > td.monetary"));
+      }
+      //Costo envio col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary"));
+      }
+      //Total columna derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary"));
+      }
+      //Total que se muestra con los datos de envio
+      if ((document.querySelector(".shp-summary-group-price.vtex-omnishipping-1-x-SummaryItemPrice") != null) && document.querySelector(".shp-summary-group-price.vtex-omnishipping-1-x-SummaryItemPrice").innerText.includes(",")) {
+        quitarDecimales(document.querySelector(".shp-summary-group-price.vtex-omnishipping-1-x-SummaryItemPrice"));
+      }
+      //Precio Webpay
+      if ((document.querySelector("fieldset.webpayPaymentGroup .installments p.sight span") != null) && document.querySelector("fieldset.webpayPaymentGroup .installments p.sight span").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("fieldset.webpayPaymentGroup .installments p.sight span"));
+      }
+      //Precio Transferencia
+      if ((document.querySelector("fieldset.promissoryPaymentGroup .installments p.sight span") != null) && document.querySelector("fieldset.promissoryPaymentGroup .installments p.sight span").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("fieldset.promissoryPaymentGroup .installments p.sight span"));
+      }
+    }
+  }, 2000);
 
   sinRegistroEstatal();
 
@@ -40,4 +201,6 @@ function sinRegistroEstatal(){
   }
 }
 
-
+function quitarDecimales(precio) {
+  precio.innerText = precio.innerText.split(",").shift();
+}

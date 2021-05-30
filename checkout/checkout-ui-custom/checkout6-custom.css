@@ -8357,3 +8357,10 @@ fieldset.box-payment-group2.box-payment-option.promissoryPaymentGroup p.payment-
   font-size: 14px;
 }
 
+p.input.ship-receiverName.required.text {
+    margin-top: 25px;
+}
+
+p.input.ship-number.required.text span.help.error {
+  position: absolute;
+}
