@@ -49,8 +49,7 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.store-form": "0.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.product-highlights": "1.x",
-    "killstorecl.descripcion-larga": "0.x"
+    "vtex.product-highlights": "1.x"
   },
   "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
