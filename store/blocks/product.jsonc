@@ -11,7 +11,7 @@
       "flex-layout.row#main",
       "product-separator",
       "flex-layout.row#descripcion-producto",
-      "descripcion-larga",
+      /*"descripcion-larga",*/
       "shelf#relatedProducts"
     ],
     "props":{

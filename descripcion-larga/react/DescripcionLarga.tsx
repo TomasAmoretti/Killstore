@@ -42,15 +42,15 @@ const DescripcionLarga: StorefrontFunctionComponent<DescripcionLargaProps> = ({}
       </div>
     )
   }
-
-  if (data.product.items.complementName == undefined) {
-    return <div className={`${handles.descripcionLarga} db tc`}></div>;
-  } else {
+  
+  if (data.product.items.complementName != undefined) {
     return (
       <div className={`${handles.descripcionLarga} db tc`}>
         {`${data.product.items.complementName}`}
       </div>
     );
+  } else {
+    return <div className={`${handles.descripcionLarga} db tc`}></div>;
   }
 
 }
