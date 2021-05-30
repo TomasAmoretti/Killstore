@@ -48,3 +48,6 @@
     font-weight: bold;
 }
 
+.imageWrapper {
+    min-height: 240px;
+}

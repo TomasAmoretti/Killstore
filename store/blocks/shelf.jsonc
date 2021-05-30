@@ -1,6 +1,7 @@
 {
   "product-summary.shelf#main": {
     "children": [
+      "vtex.product-highlights@1.x:product-highlights#Medalla-Cyber",
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
@@ -14,6 +15,34 @@
     "props": {
       "showLabels": false,
       "showInstallments": false
+    }
+  },
+  "vtex.product-highlights@1.x:product-highlights#Medalla-Cyber": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["CYBER 2021"]
+      }
+    },
+    "children": [
+      "image#flag-cyber"/*,
+      "rich-text#texto-flag-cyber"*/
+    ]
+  },
+  "image#flag-cyber":{
+    "props": {
+      "src": "/arquivos/Medalla-Cyber.png",
+      "maxWidth": 34,
+      "blockClass": "flag"
+    }
+  },
+  "rich-text#texto-flag-cyber": {
+    "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Cyber \nMonday",
+        "blockClass": "text-flag"
     }
   },
   "shelf#Destacados": {
