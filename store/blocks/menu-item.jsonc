@@ -485,6 +485,17 @@
       "blockClass": "submenu-header-item"
     }
   },
+  "menu-item#Categorias-Computacion-Monitores-Lentes":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Lentes",
+        "href": "/377?map=productClusterIds"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
   "menu-item#Categorias-Computacion-Varios-Notebooks":{
     "props": {
       "type": "custom",
@@ -1391,6 +1402,17 @@
       "itemProps": {
         "text": "Nintendo",
         "href": "/computacion/tabletas-y-consolas"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
+  "menu-item#Categorias-Gaming-Streaming":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "TV Streaming",
+        "href": "/376?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }

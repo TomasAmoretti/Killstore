@@ -179,7 +179,7 @@
 
 .imageElement--flag {
     position: relative;
-    top: 5px;
+    top: 50%;
     right: -220px;
     z-index: 5;
     margin-bottom: -49px;

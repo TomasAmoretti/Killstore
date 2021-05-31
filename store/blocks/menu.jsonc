@@ -179,7 +179,8 @@
       "children":[
         "menu-item#Categorias-Computacion-Monitores",
         "menu-item#Categorias-Computacion-Monitores-Cables",
-        "menu-item#Categorias-Computacion-Monitores-Monitores"
+        "menu-item#Categorias-Computacion-Monitores-Monitores",
+        "menu-item#Categorias-Computacion-Monitores-Lentes"
       ]
     },
     "flex-layout.col#Menu-categorias-Computacion-Varios":{
@@ -437,7 +438,8 @@
     "flex-layout.row#Menu-categorias-Gaming":{
       "children":[
         /*"menu-item#Categorias-Gaming-Playstation",*/
-        "menu-item#Categorias-Gaming-Nintendo"/*,
+        "menu-item#Categorias-Gaming-Nintendo",
+        "menu-item#Categorias-Gaming-Streaming"/*,
         "menu-item#Categorias-Gaming-Xbox"*/
       ],
       "props":{
