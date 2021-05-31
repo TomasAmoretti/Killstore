@@ -72,6 +72,9 @@ $(document).ready(function(){
     }
 
     if (location.hash == '#/profile') {
+
+      sinRegistroEstatal();
+
       let itemsCarrito = document.querySelectorAll("ul.cart-items>li.hproduct.item");
       itemsCarrito.forEach((itemDecimal) => {
         if (itemDecimal.children[3].children[3].innerText.includes(",")) {
@@ -183,8 +186,6 @@ $(document).ready(function(){
     }
   }, 2000);
 
-  sinRegistroEstatal();
-
 });
 
 window.onhashchange = function () {
@@ -192,13 +193,11 @@ window.onhashchange = function () {
 };
 
 function sinRegistroEstatal(){
-  if (location.hash == '#/profile') {
     if($("fieldset.box-client-info-pj h5.corporate-title").css("display", "block")){
       if(document.querySelector("input#client-company-ie").getAttribute("data-bind") == "value: stateInscription, validate: 'numericPunctuation', valueUpdate:'afterkeydown', required: requirementStateInscription"){
         $("input#state-inscription").trigger("click");
       }
     }
-  }
 }
 
 function quitarDecimales(precio) {
