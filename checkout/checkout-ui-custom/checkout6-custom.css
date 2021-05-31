@@ -8364,3 +8364,7 @@ p.input.ship-receiverName.required.text {
 p.input.ship-number.required.text span.help.error {
   position: absolute;
 }
+
+h5.corporate-title {
+    display: none!important;
+}
