@@ -8368,3 +8368,11 @@ p.input.ship-number.required.text span.help.error {
 h5.corporate-title {
     display: none!important;
 }
+
+#client-profile-data > div > div.accordion-body.collapse.in > div > div > form > div > div > fieldset.box-client-info-pf > div:nth-child(8) {
+    display: inline-block;
+}
+
+p.client-phone.input.pull-left.text.required.mask {
+  width: 100%!important;
+}
