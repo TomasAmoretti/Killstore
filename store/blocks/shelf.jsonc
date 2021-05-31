@@ -2,6 +2,7 @@
   "product-summary.shelf#main": {
     "children": [
       "vtex.product-highlights@1.x:product-highlights#Medalla-Cyber",
+      "vtex.product-highlights@1.x:product-highlights#Medalla-Preventa",
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
@@ -43,6 +44,25 @@
         "textPosition": "LEFT",
         "text": "Cyber \nMonday",
         "blockClass": "text-flag"
+    }
+  },
+  "vtex.product-highlights@1.x:product-highlights#Medalla-Preventa": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Preventa"]
+      }
+    },
+    "children": [
+      "image#flag-Preventa"
+    ]
+  },
+  "image#flag-Preventa":{
+    "props": {
+      "src": "/arquivos/Medalla-Preventa.png",
+      "maxWidth": 70,
+      "blockClass": "flag-preventa"
     }
   },
   "shelf#Destacados": {

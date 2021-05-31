@@ -184,3 +184,9 @@
     z-index: 5;
     margin-bottom: -49px;
 }
+
+.imageElement--flag-preventa {
+    top: 20px;
+    position: relative;
+    z-index: 5;
+}
