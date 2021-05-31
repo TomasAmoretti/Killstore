@@ -46,7 +46,10 @@
     "children": [
       "total-products.v2",
       "order-by.v2"
-    ]
+    ],
+    "props":{
+      "blockClass": "top-header-search"
+    }
   },
   "flex-layout.row#results": {
     "children": [

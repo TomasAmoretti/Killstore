@@ -215,3 +215,7 @@
     margin: auto;
     margin-bottom: 20px;
 }
+
+.flexRow--top-header-search {
+    margin-top: 130px;
+}
