@@ -8371,6 +8371,7 @@ h5.corporate-title {
 
 #client-profile-data > div > div.accordion-body.collapse.in > div > div > form > div > div > fieldset.box-client-info-pf > div:nth-child(8) {
     display: inline-block;
+    max-width: 170px;
 }
 
 p.client-phone.input.pull-left.text.required.mask {
