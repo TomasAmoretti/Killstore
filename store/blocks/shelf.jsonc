@@ -1,7 +1,7 @@
 {
   "product-summary.shelf#main": {
     "children": [
-      "vtex.product-highlights@1.x:product-highlights#Medalla-Cyber",
+      /*"vtex.product-highlights@1.x:product-highlights#Medalla-Cyber",*/
       "vtex.product-highlights@1.x:product-highlights#Medalla-Preventa",
       "product-summary-image",
       "product-summary-name",
