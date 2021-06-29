@@ -439,8 +439,8 @@
       "children":[
         /*"menu-item#Categorias-Gaming-Playstation",*/
         "menu-item#Categorias-Gaming-Nintendo",
-        "menu-item#Categorias-Gaming-Streaming"/*,
-        "menu-item#Categorias-Gaming-Xbox"*/
+        "menu-item#Categorias-Gaming-Streaming",
+        "menu-item#Categorias-Gaming-Xbox2"
       ],
       "props":{
         "blockClass":"row-menu"

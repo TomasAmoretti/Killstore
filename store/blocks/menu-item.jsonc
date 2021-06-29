@@ -214,7 +214,7 @@
       "highlight": true,
       "itemProps": {
         "text": "De Estudio",
-        "href": "/audio/grabadoras/de-estudio"
+        "href": "/248?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -324,7 +324,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Monitores",
-        "href": "/audio/monitores"
+        "href": "/268?map=productClusterIds"
       },
       "blockClass": "submenu-header-titulo"
     }
@@ -392,7 +392,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Lectores",
-        "href": "/computacion/almacenamiento/lectores"
+        "href": "/255?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -403,7 +403,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Memorias Micro SD",
-        "href": "#"
+        "href": "/256?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -414,7 +414,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Memorias SD",
-        "href": "#"
+        "href": "/257?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -469,7 +469,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Cables",
-        "href": "/computacion/monitores"
+        "href": "/249?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -601,7 +601,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Impresoras",
-        "href": "#"
+        "href": "/258?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -656,7 +656,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Discos Internos",
-        "href": "/computacion/componentes/discos-internos"
+        "href": "/250?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -790,7 +790,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Transporte",
-        "href": "/drones/transporte"
+        "href": "/251?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -802,8 +802,8 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Reflectores & Banderas",
-        "href": "/estudio/reflectores---banderas"
+        "text": "Reflectores y Banderas",
+        "href": "/227?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -825,7 +825,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Cables",
-        "href": "/estudio/accesorios/cables"
+        "href": "/263?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -847,7 +847,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Gelatinas",
-        "href": "/estudio/accesorios/gelatinas"
+        "href": "/226?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -935,7 +935,7 @@
       "highlight": true,
       "itemProps": {
         "text": "C-Stands",
-        "href": "/estudio/soportes/c-stands"
+        "href": "/216?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -946,7 +946,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Pies de Flash",
-        "href": "/estudio/soportes/pies-de-flash"
+        "href": "/177?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -968,7 +968,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Tripodes",
-        "href": "/estudio/soportes/tripodes"
+        "href": "/225?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -1401,7 +1401,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Nintendo",
-        "href": "/computacion/tabletas-y-consolas"
+        "href": "/gaming/nintendo"
       },
       "blockClass": "submenu-header-item"
     }
@@ -1412,7 +1412,7 @@
       "highlight": true,
       "itemProps": {
         "text": "TV Streaming",
-        "href": "/376?map=productClusterIds"
+        "href": "/281?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -1428,13 +1428,13 @@
       "blockClass": "submenu-header-item"
     }
   },
-  "menu-item#Categorias-Gaming-Xbox":{
+  "menu-item#Categorias-Gaming-Xbox2":{
     "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
         "text": "Xbox",
-        "href": "/computacion/tabletas-y-consolas"
+        "href": "/gaming/xbox"
       },
       "blockClass": "submenu-header-item"
     }
@@ -1468,7 +1468,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Baterias & Cargadores",
+        "text": "Baterias y Cargadores",
         "href": "/iluminacion/accesorios/baterias---cargadores"
       },
       "blockClass": "submenu-header-item"
@@ -1491,7 +1491,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Transporte",
-        "href": "/iluminacion/accesorios/transporte"
+        "href": "/261?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -1501,8 +1501,8 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Tubos & Ampolletas",
-        "href": "/iluminacion/accesorios/tubos---ampolletas"
+        "text": "Tubos y Ampolletas",
+        "href": "/262?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -1523,7 +1523,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Reflectores & Banderas",
+        "text": "Reflectores y Banderas",
         "href": "/iluminacion/reflectores---banderas"
       },
       "blockClass": "submenu-header-item"
@@ -1534,7 +1534,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Triggers & Receptores",
+        "text": "Triggers y Receptores",
         "href": "/iluminacion/triggers---receptores"
       },
       "blockClass": "submenu-header-item"
@@ -1590,7 +1590,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Para Cannon",
-        "href": "/iluminacion/flash-speedlight/para-canon"
+        "href": "/252?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -1622,7 +1622,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Para Panasonic & Olympus",
+        "text": "Para Panasonic y Olympus",
         "href": "/iluminacion/flash-speedlight/para-panasonic---olympus"
       },
       "blockClass": "submenu-header-item"
@@ -1655,7 +1655,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Ampolleta & Tungsteno",
+        "text": "Ampolleta y Tungsteno",
         "href": "/iluminacion/iluminacion-continua/ampolleta---tungsteno"
       },
       "blockClass": "submenu-header-item"
@@ -1721,7 +1721,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Barndoor & Fresnel",
+        "text": "Barndoor y Fresnel",
         "href": "/iluminacion/modificadores/barndoor---fresnel"
       },
       "blockClass": "submenu-header-item"
@@ -1743,8 +1743,8 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Lantern & Space",
-        "href": "/iluminacion/modificadores/lantern---space"
+        "text": "Lantern y Space",
+        "href": "/260?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -1754,7 +1754,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Octabox & Beauty Dish",
+        "text": "Octabox y Beauty Dish",
         "href": "/iluminacion/modificadores/octabox---beauty-dish"
       },
       "blockClass": "submenu-header-item"
@@ -1787,7 +1787,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Reflectores & Snoots",
+        "text": "Reflectores y Snoots",
         "href": "/iluminacion/modificadores/reflectores---snoots"
       },
       "blockClass": "submenu-header-item"
@@ -1798,7 +1798,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
-        "text": "Softbox & Strips",
+        "text": "Softbox y Strips",
         "href": "/iluminacion/modificadores/softbox---strips"
       },
       "blockClass": "submenu-header-item"
@@ -1878,7 +1878,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Fundas",
-        "href": "/transporte/fundas"
+        "href": "/259?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -2034,7 +2034,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Mirrorless",
-        "href": "/video/camaras/mirrorless"
+        "href": "/238?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -2221,7 +2221,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Capturadores",
-        "href": "/video/mezcladores/capturadoras"
+        "href": "/264?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -2309,7 +2309,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Monitores de Campo",
-        "href": "/video/monitoreo/monitores-de-campo"
+        "href": "/243?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
@@ -2320,7 +2320,7 @@
       "highlight": true,
       "itemProps": {
         "text": "Transmisores de Video",
-        "href": "/video/monitoreo/transmisores-de-video"
+        "href": "/245?map=productClusterIds"
       },
       "blockClass": "submenu-header-item"
     }
