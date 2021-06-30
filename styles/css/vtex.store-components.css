@@ -133,6 +133,21 @@
     font-family: "Gotham Regular";
 }
 
+.savings--discountInsideContainer{
+    background: #FF5A07;
+}
+.listPriceLabel {
+    display: none;
+}
+.listPriceValue {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+.sellingPriceLabel {
+    display: none;
+}
+
+
 /* Footer */
 
 .container--form-newsletter {

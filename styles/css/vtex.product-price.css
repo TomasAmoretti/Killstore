@@ -1,0 +1,18 @@
+.savings--discountInsideContainer{
+    background-color: #FF5A07;
+    color: white;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-size: .75rem;
+    position: relative;
+    bottom: 80px;
+    right: 189px;
+}
+@media screen and (max-width: 768px) {
+    .savings--discountInsideContainer{
+        bottom: 80px;
+        right: 80px;
+    }
+}
