@@ -146,6 +146,9 @@
 .sellingPriceLabel {
     display: none;
 }
+.highQualityProductImageImgElement {
+    max-height: 600px;
+}
 
 
 /* Footer */

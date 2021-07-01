@@ -50,7 +50,8 @@
     "vtex.store-form": "0.x",
     "vtex.checkout-summary": "0.x",
     "vtex.product-highlights": "1.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "vtex.modal-layout": "0.x"
   },
   "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

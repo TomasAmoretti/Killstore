@@ -47,15 +47,37 @@
       "product-images#product-page"
     ],
     "props":{
-      "blockClass": "col-left-producto"
+      "blockClass": "col-left-producto",
+      "width":"60%"
     }
   },
   "product-images#product-page": {
     "props": {
       "displayThumbnailsArrows": true,
-      "zoomMode": "in-place-hover",
-      "blockClass": "image-producto"
+      // "zoomMode": "in-place-hover",
+      "zoomMode":"open-modal",
+      "ModalZoom": "modal-layout#product-zoom",
+      "blockClass": "image-producto",
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      }
     }
+  },
+  "product-images.high-quality-image": {
+    "props": {
+      "zoomMode": "in-place-hover",
+      "zoomFactor": 2,
+      "imageSizes":[700],
+      "blockClass": "product-image-zoom "
+    }
+  },
+  "modal-layout#product-zoom": {
+    "children": [
+      // you can put any other block inside the modal,
+      // this is just a normal modal
+      "product-images.high-quality-image"
+    ]
   },
   "flex-layout.col#right": {
     "children": [
