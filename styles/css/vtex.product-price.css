@@ -10,6 +10,19 @@
     bottom: 80px;
     right: 140px;
 }
+.installments--product-installments {
+    float: left;
+    font-size: 14px;
+    color: #727273;
+    position: relative;
+    bottom: 15px;
+}
+.installmentsNumber--product-installments--12 {
+    font-weight: 600;
+}
+.currencyContainer--product-installments {
+    font-weight: 600;
+}
 @media screen and (max-width: 768px) {
     .savings--discountInsideContainer{
         bottom: 80px;

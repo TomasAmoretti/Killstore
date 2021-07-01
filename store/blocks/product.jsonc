@@ -86,6 +86,7 @@
       "product-identifier.product",   
       "product-price#product",
       "product-price-savings#product",
+      "product-installments#product",
       "sku-selector",
       "product-separator",
       "product-quantity",
@@ -104,6 +105,12 @@
       "showProductReference": false,
       "showBrandName": false,
       "blockClass": "product-name"
+    }
+  },
+  "product-installments#product": {
+    "props": {
+      "message":"{installmentsNumber} cuotas sin interés de {installmentValue}",
+      "blockClass": "product-installments"
     }
   },
   "product-price#product": {
