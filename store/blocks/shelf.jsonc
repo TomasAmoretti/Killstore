@@ -3,6 +3,7 @@
     "children": [
       /*"vtex.product-highlights@1.x:product-highlights#Medalla-Cyber",*/
       "vtex.product-highlights@1.x:product-highlights#Medalla-Preventa",
+      "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",

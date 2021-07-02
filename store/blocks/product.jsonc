@@ -81,7 +81,7 @@
   },
   "flex-layout.col#right": {
     "children": [
-      "product-brand",
+      "flex-layout.row#marcaWish",
       "product-name#product",
       "product-identifier.product",   
       "product-price#product",
@@ -97,6 +97,15 @@
       "verticalAlign": "top",
       "preventVerticalStretch": false,
       "blockClass": "product-right-col"
+    }
+  },
+  "flex-layout.row#marcaWish":{
+    "children":[
+      "product-brand",
+      "add-to-list-btn"
+    ],
+    "props":{
+      "blockClass":"row-marca"    
     }
   },
   "product-name#product": {
