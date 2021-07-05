@@ -103,6 +103,11 @@
     font-size: 22px;
     font-family: "Gotham Bold";
 }
+.productBrandContainer--marca-productos {
+    text-align: left;
+    font-size: 22px;
+    font-family: "Gotham Bold";
+}
 
 .price_listPriceContainer--product-price {
     text-align: initial;

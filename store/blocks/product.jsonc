@@ -161,9 +161,11 @@
   },
   "product-brand": {
     "props": {
+      "withLink":"logo",
       "displayMode": "logo",
+      "logoWithLink":true,
       "height": "30px",
-      "blockClass": "marca-product"
+      "blockClass": "marca-productos"
     }
   },
   "share": {
