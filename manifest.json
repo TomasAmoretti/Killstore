@@ -53,8 +53,6 @@
     "vtex.product-price": "1.x",
     "vtex.modal-layout": "0.x"
   },
-  "peerDependencies": {
-    "vtex.wish-list": "1.x"
-  },
+  "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -81,7 +81,7 @@
   },
   "flex-layout.col#right": {
     "children": [
-      "flex-layout.row#marcaWish",
+      "product-brand",
       "product-name#product",
       "product-identifier.product",   
       "product-price#product",
@@ -99,15 +99,7 @@
       "blockClass": "product-right-col"
     }
   },
-  "flex-layout.row#marcaWish":{
-    "children":[
-      "product-brand",
-      "add-to-list-btn"
-    ],
-    "props":{
-      "blockClass":"row-marca"    
-    }
-  },
+ 
   "product-name#product": {
     "props": {
       "showSKU": true,
