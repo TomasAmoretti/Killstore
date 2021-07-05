@@ -4,7 +4,9 @@
       "image#slider-home-1",
       "image#slider-home-2",
       "image#slider-home-3",
-      "image#slider-home-4"
+      "image#slider-home-4",
+      "image#slider-home-5",
+      "image#slider-home-6"
     ],
     "props": {
       "autoplay": {
@@ -53,6 +55,24 @@
       "src": "https://dummyimage.com/1400x500/000/fff",
       "link":{
         "url":"/Notco/NotMilk"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-5": {
+    "props": {
+      "src": "https://dummyimage.com/1400x500/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-6": {
+    "props": {
+      "src": "https://dummyimage.com/1400x500/000/fff",
+      "link":{
+        "url":"#"
       },
       "blockClass": "slider-home"
     }
