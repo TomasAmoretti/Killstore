@@ -25,7 +25,7 @@
   },
   "image#slider-home-1": {
     "props": {
-      "src": "https://dummyimage.com/1400x500/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/a5900738-423e-40b0-a014-54feb1475c22___a26d2800a6369824da4916c497ec83d6.png",
       "link":{
         "url":"#"
       },
@@ -34,27 +34,27 @@
   },
   "image#slider-home-2": {
     "props": {
-      "src": "https://dummyimage.com/1400x500/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/2cd543c9-185f-4290-a1a6-1f8beae184b9___05a8d2bda861536ba4deecea6e246afa.png",
       "link":{
-        "url":"/Notco/NotBurger"
+        "url":"https://www.killstore.cl/tripode-monopode-veniwind-cf-vw-44-fibra-de-carbono/p"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-3": {
     "props": {
-      "src": "https://dummyimage.com/1400x500/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/bc0f881e-b355-4aa2-911f-92bee46b8cf9___bc9fa5f6c81dde09778f02db4cabc400.png",
       "link":{
-        "url":"/Notco/NotMayo"
+        "url":"https://www.killstore.cl/ipalux"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-4": {
     "props": {
-      "src": "https://dummyimage.com/1400x500/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/16e95d2c-7b2e-4bc7-9920-9c22540bdd77___3285727bb4a1f223ed6760e5c27185fe.png",
       "link":{
-        "url":"/Notco/NotMilk"
+        "url":"https://www.killstore.cl/switcher-blackmagic-design-atem-mini-hdmi-/p"
       },
       "blockClass": "slider-home"
     }
@@ -102,7 +102,7 @@
   },
   "image#slider-home-1-mobile": {
     "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/b24ec2ae-ac50-4deb-8944-afa2ba5ec453___4e491a3dd9a49443bec63cca57816700.png",
       "link":{
         "url":"#"
       },
@@ -111,27 +111,27 @@
   },
   "image#slider-home-2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/45b44599-afe1-447e-b350-0fa674efab32___cd39a3ecb78ecc4575c1c65004ae1628.png",
       "link":{
-        "url":"/Notco/NotBurger"
+        "url":"https://www.killstore.cl/tripode-monopode-veniwind-cf-vw-44-fibra-de-carbono/p"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-3-mobile": {
     "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/efe71c1e-c544-41a7-b81e-f5ed84bccb58___18d83ccf0b77e428d3e94fbe1484bebc.png",
       "link":{
-        "url":"/Notco/NotMayo"
+        "url":"https://www.killstore.cl/ipalux"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-4-mobile": {
     "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/7edab17b-acc8-4618-b489-c1e2dd4b2c22___1372dfbf5623aa26f980d0b876c4d0ac.png",
       "link":{
-        "url":"/Notco/NotMilk"
+        "url":"https://www.killstore.cl/switcher-blackmagic-design-atem-mini-hdmi-/p"
       },
       "blockClass": "slider-home"
     }

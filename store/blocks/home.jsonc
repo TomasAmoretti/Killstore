@@ -34,18 +34,18 @@
   },
   "image#categoria-top-1": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/17a92f2f-83b6-4704-93a1-6f59b08f9b2c___f0a595f5eaa81da3ef8f48a056139c0f.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/fotografia/camaras/canon?initialMap=c,c&amp;initialQuery=fotografia/camaras&amp;map=b"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria-top-2": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/fb6535b3-c75c-48b0-92d5-96a2831b714f___f18ffeceb9fb898f0bfa404e309daab6.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/dji"
       },
       "blockClass": "imagen-categoria"
     }
@@ -63,36 +63,36 @@
   },
   "image#categoria1": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/f015b07a-1f00-471f-8855-619a750fa36a___32bba8a0f5552bb3af3017b87e9295c5.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/tripode-monopode-veniwind-cf-vw-44-fibra-de-carbono/p"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria2": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/a0e767e1-fcd7-4fef-aa61-c322b882a84f___5cb2ae10464308a78970d05ae410eea9.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/314?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria3": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/06493555-ee5f-4308-9237-1b05676bb15f___5ba861abb47e4e3bfcfd3970e17b0d14.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/kit-de-iluminacion-continua-doble-ipalux-con-ampolletas--softboxs/p"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria4": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/1d7b6785-1c7b-42b6-a2e6-f138ac7aea5a___6b136305dca8c76200014dfda81ea5a7.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/315?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
@@ -108,18 +108,18 @@
   },
   "image#categoria-top-1-2": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/b639b833-64f8-4d55-97c9-6ba97fc6655f___2794652d1079a51fdc226100b24fb346.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/computacion/pcs-armadas"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria-top-2-2": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/4ac3039d-38f1-4076-bf46-8c32806a2748___0af617d7befb1af3a9c04164b8255ca2.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/consola-nintendo-switch---controles-neon/p"
       },
       "blockClass": "imagen-categoria"
     }
@@ -137,36 +137,36 @@
   },
   "image#categoria1-2": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/f82dd231-9591-4ef6-9e28-a5b6a2d12995___bcaa93b70cfca7cf7613120a09b9d413.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/capturadora-de-video-usb-elgato-cam-link-4k/p"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria2-2": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/55f4604e-f93f-4e8b-9d31-d9a0bdcc9bbf___5d5899d38fa8eed3751d2d1014917e21.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/gabinete-atx-darkflash-aquarius-mesh/p"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria3-2": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/6c09f004-839d-4fb9-8bd2-7245e0fcd1c4___a9db05bba3655813dd6833ce621aece9.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/316?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria4-2": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/29a2b996-7ddc-4bed-8ad2-255993971ed1___5cf765044622c7a3ee22c84e454bf496.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/roku"
       },
       "blockClass": "imagen-categoria"
     }
@@ -182,18 +182,18 @@
   },
   "image#categoria-top-1-3": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/5a8edae1-b294-456d-9e8a-8359a37f29ba___812df57cb0661aa33324653e4b6da9f9.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/317?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria-top-2-3": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/6ea995ad-8911-4977-811c-0df6a013df2f___2653740b04e47aa8a11c76f6047d588c.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/323?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
@@ -211,36 +211,36 @@
   },
   "image#categoria1-3": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/2ca9971b-5d70-4a27-b342-d5ae568d04ca___e3eac329871e75171163d5602241dc37.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/318?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria2-3": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/02b81e95-4043-4b1f-a6e7-e1fd256c3a79___4d31fcd9c46f5237fe828678f69e4f7a.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/319?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria3-3": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/2a16901c-be06-464e-995c-8e2bfbbd06a3___01f707de24ace182919b8fa8df57b6bf.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/tilta"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria4-3": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/68c4975d-c79f-426a-9765-0b0c48dce132___09b16b57d7950aa4c0d52c3bba19e243.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/smallrig"
       },
       "blockClass": "imagen-categoria"
     }
@@ -256,18 +256,18 @@
   },
   "image#categoria-top-1-4": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/439a6c01-2ab1-41ad-82a5-00a75b20423a___7f206d9b4e57419a85f5094ae9e5e410.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/kit-microfono-podcast-usb-maono-au-pm422---con-brazo-anti-shock-y-anti-pop/p"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria-top-2-4": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/e8ad2b6d-4ad1-403a-9a8b-9fac866d2d3a___4c23f88c3aad11da0dfb482771bf9ca1.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/320?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
@@ -285,36 +285,36 @@
   },
   "image#categoria1-4": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/f153a306-9bd4-46f9-90f5-d48516d1016d___9389562d9b53591ba714799b21dde226.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/audio/audifonos/headset/corsair?initialMap=c,c,c&initialQuery=audio/audifonos/headset&map=b"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria2-4": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/b5a37343-276d-48cf-a800-99d8341a2ab9___65c94b935bb7aaaa76d308cd05dc11f8.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/321?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria3-4": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/8f657d13-f2ec-4881-874f-c50487df76a0___a23d760baa7f1121848f2474614d0510.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/322?map=productClusterIds"
       },
       "blockClass": "imagen-categoria"
     }
   },
   "image#categoria4-4": {
     "props": {
-      "src": "https://dummyimage.com/300x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/e29ea80b-05bb-4b98-9791-7e63a4327097___8c5575df49697f903b0fd933e3a4afa0.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/microfono-hyperx-quadcast-con-montura-anti-vibraciones/p"
       },
       "blockClass": "imagen-categoria"
     }
@@ -391,18 +391,18 @@
   },
   "image#categoria-top-1-mobile": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/2394d471-75fc-4277-9f2a-9244d68220da___f0a595f5eaa81da3ef8f48a056139c0f.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/fotografia/camaras/canon?initialMap=c,c&amp;initialQuery=fotografia/camaras&amp;map=b"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria-top-2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/0ecc1238-d13a-4310-98a9-e33ecf497bb1___f18ffeceb9fb898f0bfa404e309daab6.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/dji"
       },
       "blockClass": "imagen-categoria-mobile"
     }
@@ -427,36 +427,36 @@
   },
   "image#categoria1-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/4b057bc0-fd37-4e1e-bdf1-37fcbfcb69f3___7c67747913bd373ee53f195bd9c21498.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/tripode-monopode-veniwind-cf-vw-44-fibra-de-carbono/p"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/e38b8141-ba2c-4718-afe3-2f04442d4fc3___2d98b52d2504b19bdd458eb3a087eaf9.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/314?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria3-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/bc554601-fae1-441e-9c7c-e2db7290c5fb___5f85da52855af872c131907b6579240f.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/kit-de-iluminacion-continua-doble-ipalux-con-ampolletas--softboxs/p"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria4-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/73aa243d-0506-402c-b410-8435e58106d9___8b20c061fbdbdcc7416ef9abd2418502.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/315?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
@@ -472,18 +472,18 @@
   },
   "image#categoria-top-1-2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/af92f751-e308-4556-a56e-dd401b516b50___2794652d1079a51fdc226100b24fb346.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/computacion/pcs-armadas"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria-top-2-2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/84e6c318-562e-44d0-a854-6e75a396734a___0af617d7befb1af3a9c04164b8255ca2.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/consola-nintendo-switch---controles-neon/p"
       },
       "blockClass": "imagen-categoria-mobile"
     }
@@ -508,36 +508,36 @@
   },
   "image#categoria1-2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/a7389484-ef5e-4fc0-a956-1b881afb1519___65c78688b70c8f6f11257f2776b283d8.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/capturadora-de-video-usb-elgato-cam-link-4k/p"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria2-2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/5608a740-e097-4536-9ea7-9e2c1be3de8f___2d39952e2789275ff947edcc2de85e75.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/gabinete-atx-darkflash-aquarius-mesh/p"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria3-2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/5f235562-fd82-4458-84fa-a762ed8491cd___b15ee9477f8bb6666653f9853fff01ee.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/316?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria4-2-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/1d486d02-e09c-4292-8070-e09bb3b9a87a___a6f77818e3beb6c025fb6c27dadffa1c.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/roku"
       },
       "blockClass": "imagen-categoria-mobile"
     }
@@ -553,18 +553,18 @@
   },
   "image#categoria-top-1-3-mobile": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/9dd9c76e-e66b-419f-ac07-a95625bf11a0___812df57cb0661aa33324653e4b6da9f9.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/317?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria-top-2-3-mobile": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/f1579467-be1d-4294-85bc-6a529cb55a65___2653740b04e47aa8a11c76f6047d588c.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/323?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
@@ -589,36 +589,36 @@
   },
   "image#categoria1-3-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/a6515816-48a3-48c1-9378-57b5b22f59b7___b3e29c3e12cd6814dd4dab4b83baddc8.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/318?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria2-3-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/eaa62e8e-62b0-4c4d-ab45-12c6e690db51___3b7b7d5d897cd7a97f62e55f450d8883.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/319?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria3-3-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/bfbb2d4d-510a-4d2d-b7b6-40403d2a855f___94d93bbfd07c3e8c4187f4708141e36a.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/tilta"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria4-3-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/22f9fc37-7e4d-455a-bfb5-9affa70bdd92___42bb26c59357814c114bc9fcd5cce886.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/smallrig"
       },
       "blockClass": "imagen-categoria-mobile"
     }
@@ -634,18 +634,18 @@
   },
   "image#categoria-top-1-4-mobile": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/7ee1f69d-f731-44e6-ad4e-48ced295dcac___7f206d9b4e57419a85f5094ae9e5e410.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/kit-microfono-podcast-usb-maono-au-pm422---con-brazo-anti-shock-y-anti-pop/p"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria-top-2-4-mobile": {
     "props": {
-      "src": "https://dummyimage.com/620x380/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/571b25e5-f82d-4d32-bec6-27cd48195c7b___4c23f88c3aad11da0dfb482771bf9ca1.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/320?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
@@ -670,36 +670,36 @@
   },
   "image#categoria1-4-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/87ca3152-750f-4256-aeeb-ad1581979507___489a0fb5192909206e00578679a05162.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/audio/audifonos/headset/corsair?initialMap=c,c,c&initialQuery=audio/audifonos/headset&map=b"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria2-4-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/b777d4de-3990-4d65-97db-ac67677a6f66___88be16a5831420a0659068341d158b4c.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/321?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria3-4-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/bf403d7b-397e-4ca4-9c02-ee30c991abe0___8d0af478cbec462de7df3f995ca146da.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/322?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-mobile"
     }
   },
   "image#categoria4-4-mobile": {
     "props": {
-      "src": "https://dummyimage.com/250x250/000/fff",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/91b77838-1b96-4d20-9624-dbc02128d854___c57729f8e3e8c91dd5dbc7cb311cdaf2.png",
       "link":{
-        "url":"#"
+        "url":"https://www.killstore.cl/microfono-hyperx-quadcast-con-montura-anti-vibraciones/p"
       },
       "blockClass": "imagen-categoria-mobile"
     }
