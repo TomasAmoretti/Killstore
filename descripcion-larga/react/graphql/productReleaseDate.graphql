@@ -1,7 +1,0 @@
-query productReleaseDate($slug: String){
-  product(slug: $slug) {
-    items {
-      complementName
-    }
-  }
-}

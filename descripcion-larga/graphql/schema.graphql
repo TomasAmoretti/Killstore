@@ -1,7 +1,0 @@
-query productSpecs($slug: String) {
-  product(slug: $slug) {
-    items{
-			complementName
-    }
-  }
-}
