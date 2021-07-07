@@ -87,13 +87,21 @@
     margin: auto;
 }
 
-.sellingPrice, .productNameContainer--product-name{
+ .productNameContainer--product-name{
     text-align: left;
     margin-bottom: 5px;
     font-family: "Gotham Regular";
     text-transform: uppercase;
 }
-
+.sellingPrice{
+    text-align: left;
+    margin-bottom: 0px;
+    font-family: "Gotham Regular";
+    text-transform: uppercase;
+}
+.priceContainer {
+    border-bottom: 1px solid #ccc;
+}
 .shareButtons {
     display: inline-flex;
 }
@@ -107,6 +115,7 @@
     text-align: left;
     font-size: 22px;
     font-family: "Gotham Bold";
+    margin-bottom: 20px;
 }
 
 .price_listPriceContainer--product-price {
@@ -118,13 +127,16 @@
 }
 
 .shareContainer {
-    padding-top: 70px;
+    padding-top: 10px;
 }
 
 .productDescriptionText--descripcion {
     font-family: "Gotham Regular";
     text-align: justify;
-    font-size: 18px;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-block-start: 0px !important;
+    padding-inline-start: 0 !important;
 }
 
 .productDescriptionTitle--descripcion {
@@ -132,8 +144,8 @@
     font-weight: bold;
     font-size: 22px;
     font-family: "Gotham Regular";
+    display: none;
 }   
-
 .shareLabel {
     font-family: "Gotham Regular";
 }
@@ -154,7 +166,29 @@
 .highQualityProductImageImgElement {
     max-height: 600px;
 }
+.productBrand--product-name {
+    margin-left: 60px;
+    font-weight: 600;
+}
+.productDescriptionContainer--descripcion {
+    width: 80%;
+}
 
+@media(max-width:767px){
+    .productBrand--product-name {
+        margin-left: 0px;
+        font-weight: 600;
+    }
+    .specificationsTable--specifications-product {
+        width: 100% !important;
+    }
+    .productBrandContainer--marca-productos {
+      margin-bottom: 0;
+    }
+    .productDescriptionContainer--descripcion {
+        width: 100%;
+    }
+}
 
 /* Footer */
 
@@ -192,14 +226,23 @@
 .imageElement--logo-vtex-mobile {
     margin-left: 35%;
 }
+.specificationsTable--specifications-product {
+    width: 80%;
+}
 
 .specificationsTitle--specifications-product {
     color: black;
     font-weight: bold;
     font-size: 22px;
     font-family: "Gotham Regular";
+    display: none;
 }
-
+.specificationsTableContainer--specifications-product {
+    padding-left: 0px;
+}
+.specificationItemProperty {
+    font-size: 15px;
+}
 .imageElement--flag {
     position: relative;
     top: 50%;

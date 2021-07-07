@@ -76,6 +76,17 @@
     width: 75%;
     margin: auto;
 }
+.flexCol--col-center-producto {
+    border-right: 1px solid #ccc;
+}
+.flexCol--product-right-col{
+    padding: 15px;
+}
+@media(max-width:767px){
+.flexRowContent--row-nombre-producto{
+    margin-top: 0px;
+}
+}
 /* Footer */
 .flexRow--footer-logo, .flexRowContent--footer-logo-mobile {
     background: #0D080E;
