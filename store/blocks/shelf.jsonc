@@ -75,8 +75,8 @@
       "paginationDotsVisibility": "none",
       "simulationBehavour":"default",
       "productList": {
-        "maxItems": 1,
-        "itemsPerPage": 1,
+        "maxItems": 20,
+        "itemsPerPage": 4,
         "minItemsPerPage": 1,
         "scroll": "ONE_BY_ONE",
         "arrows": false,
@@ -90,17 +90,17 @@
       "product-summary.shelf#main"
     ],
     "props": {
-      "collection": 137,
+      "collection": 170,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "none",
       "simulationBehavour":"default",
       "productList": {
-        "maxItems": 1,
-        "itemsPerPage": 1,
+        "maxItems": 20,
+        "itemsPerPage": 4,
         "minItemsPerPage": 1,
         "scroll": "ONE_BY_ONE",
-        "arrows": false,
-        "titleText": "Productos Recomendados"
+        "arrows": true,
+        "titleText": ""
       },
       "blockClass": "shelf-destacados"
     }
@@ -110,17 +110,17 @@
       "product-summary.shelf#main"
     ],
     "props": {
-      "category": 1,
+      "collection": 176,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "none",
       "simulationBehavour":"default",
       "productList": {
-        "maxItems": 1,
-        "itemsPerPage": 1,
+        "maxItems": 20,
+        "itemsPerPage": 4,
         "minItemsPerPage": 1,
         "scroll": "ONE_BY_ONE",
-        "arrows": false,
-        "titleText": "Productos Recomendados"
+        "arrows": true,
+        "titleText": ""
       },
       "blockClass": "shelf-destacados"
     }
@@ -130,17 +130,17 @@
       "product-summary.shelf#main"
     ],
     "props": {
-      "collection": 138,
+      "collection": 175,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "none",
       "simulationBehavour":"default",
       "productList": {
-        "maxItems": 1,
-        "itemsPerPage": 1,
+        "maxItems": 20,
+        "itemsPerPage": 4,
         "minItemsPerPage": 1,
         "scroll": "ONE_BY_ONE",
-        "arrows": false,
-        "titleText": "Productos Recomendados"
+        "arrows": true,
+        "titleText": ""
       },
       "blockClass": "shelf-destacados"
     }
@@ -150,17 +150,17 @@
       "product-summary.shelf#main"
     ],
     "props": {
-      "collection": 138,
+      "collection": 174,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "none",
       "simulationBehavour":"default",
       "productList": {
-        "maxItems": 1,
-        "itemsPerPage": 1,
+        "maxItems": 20,
+        "itemsPerPage": 4,
         "minItemsPerPage": 1,
         "scroll": "ONE_BY_ONE",
-        "arrows": false,
-        "titleText": "Productos Recomendados"
+        "arrows": true,
+        "titleText": "  "
       },
       "blockClass": "shelf-destacados"
     }
