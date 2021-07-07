@@ -105,7 +105,7 @@
   "flex-layout.col#right": {
     "children": [   
       "product-price#product",
-      "product-price-savings#product",
+      "flex-layout.col#savings",
       "product-installments#product",
       // "shipping-simulator#product",
       "sku-selector",
@@ -120,7 +120,14 @@
       "blockClass": "product-right-col"
     }
   },
- 
+  "flex-layout.col#savings": {
+    "children": [
+      "product-price-savings#product"
+    ],
+    "props":{
+      "blockClass": "col-discount-savings"
+    }
+  },
   "product-name#product": {
     "props": {
       "showSKU": true,

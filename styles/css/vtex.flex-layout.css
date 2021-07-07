@@ -82,6 +82,9 @@
 .flexCol--product-right-col{
     padding: 15px;
 }
+.flexCol--col-discount-savings {
+    height: 0px;
+}
 @media(max-width:767px){
 .flexRowContent--row-nombre-producto{
     margin-top: 0px;
