@@ -25,7 +25,7 @@
   },
   "image#slider-home-1": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/a5900738-423e-40b0-a014-54feb1475c22___a26d2800a6369824da4916c497ec83d6.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/bee2a951-61a3-4485-a186-1387604312ef___cd9a2a19a5b0968dbac8dac39ad633f4.png",
       "link":{
         "url":"#"
       },
@@ -61,7 +61,7 @@
   },
   "image#slider-home-5": {
     "props": {
-      "src": "https://dummyimage.com/1400x500/000/fff",
+      "src": "https://killstorecl.vteximg.com.br/arquivos/feelword-1.png",
       "link":{
         "url":"#"
       },
@@ -70,7 +70,7 @@
   },
   "image#slider-home-6": {
     "props": {
-      "src": "https://dummyimage.com/1400x500/000/fff",
+      "src": "https://killstorecl.vteximg.com.br/arquivos/fuentes-poder-1.png",
       "link":{
         "url":"#"
       },
@@ -83,7 +83,9 @@
       "image#slider-home-1-mobile",
       "image#slider-home-2-mobile",
       "image#slider-home-3-mobile",
-      "image#slider-home-4-mobile"
+      "image#slider-home-4-mobile",
+      "image#slider-home-5-mobile",
+      "image#slider-home-6-mobile"
     ],
     "props": {
       "autoplay": {
@@ -132,6 +134,24 @@
       "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/7edab17b-acc8-4618-b489-c1e2dd4b2c22___1372dfbf5623aa26f980d0b876c4d0ac.png",
       "link":{
         "url":"https://www.killstore.cl/switcher-blackmagic-design-atem-mini-hdmi-/p"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-5-mobile": {
+    "props": {
+      "src": "https://killstorecl.vteximg.com.br/arquivos/feelword-mobile.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-6-mobile": {
+    "props": {
+      "src": "https://killstorecl.vteximg.com.br/arquivos/fuente-poder-mobile.png",
+      "link":{
+        "url":"#"
       },
       "blockClass": "slider-home"
     }

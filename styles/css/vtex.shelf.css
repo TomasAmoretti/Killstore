@@ -49,3 +49,6 @@
 .dot--isActive{
     background: #FF5A07;
 }
+.title--shelf-destacados{
+    display:none;
+}
