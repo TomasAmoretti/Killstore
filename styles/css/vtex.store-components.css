@@ -126,7 +126,9 @@
 .specificationsTabsContainer--specifications-product{
     padding-top: 0;
 }
-
+.specificationsTable--specifications-product {
+    text-align: left;
+}
 .shareContainer {
     padding-top: 10px;
 }
@@ -174,6 +176,32 @@
 .productDescriptionContainer--descripcion {
     width: 80%;
 }
+.shippingContainer {
+    margin-top: 30px;
+}
+.shippingContainer::before {
+    content: "Disponible para enviar";
+    color: #ff5a07;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    bottom: 15px;
+}
+
+.shippingTableCellDeliveryName {
+    display: none;
+}
+.shippingTableCellDeliveryEstimate::before {
+    content: "Icono";
+    background-image: url(https://killstorecl.vteximg.com.br/arquivos/box-ship.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 0px;
+    height: 50px;
+    width: 50px;
+    color: transparent;
+    padding: 3px;
+}   
 
 @media(max-width:767px){
     .productBrand--product-name {

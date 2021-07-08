@@ -107,7 +107,7 @@
       "product-price#product",
       "flex-layout.col#savings",
       "product-installments#product",
-      // "shipping-simulator#product",
+      "shipping-simulator",
       "sku-selector",
       "product-separator",
       "product-quantity",
