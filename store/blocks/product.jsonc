@@ -107,11 +107,11 @@
       "product-price#product",
       "flex-layout.col#savings",
       "product-installments#product",
-      "shipping-simulator",
       "sku-selector",
       "product-separator",
       "product-quantity",
       "add-to-cart-button#product",
+      "shipping-simulator",
       "share"
     ],
     "props": {
