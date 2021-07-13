@@ -190,7 +190,7 @@ $(document).ready(function(){
   var e = document.createElement('script')
   ;(e.type = 'text/javascript'),
     (e.async = true),
-    (e.src = 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=ABCDEF')
+    (e.src = 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=SEgQdX')
   var t = document.getElementsByTagName('script')[0]
   t.parentNode.insertBefore(e, t)
   $(window).on('hashchange', function() {
