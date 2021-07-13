@@ -10,3 +10,6 @@
     bottom: 2px;
     right: 20px;
 }
+.summaryButtonContainer {
+    display: none;
+}

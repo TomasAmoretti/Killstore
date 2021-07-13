@@ -14,7 +14,7 @@
       "product-separator",
       /*"descripcion-larga",*/
       "shelf#relatedProducts",
-      "product-reviews"
+      "product-reviews#product"
     ],
     "props":{
       "blockClass": "responsive-desktop"
@@ -240,6 +240,11 @@
       "blockClass": "specifications-product"
     }
   },
+  "product-reviews#product":{
+    "props":{
+      "blockClass":"reviews-producto"
+    }
+  },
   "responsive-layout.mobile#producto":{
     "children":[
       "flex-layout.row#product-breadcrumb",
@@ -249,7 +254,7 @@
       "flex-layout.row#main-mobile",
       "product-separator",
       "shelf#relatedProducts",
-      "product-reviews"
+      "product-reviews#product"
     ],
     "props":{
       "blockClass": "responsive-mobile"

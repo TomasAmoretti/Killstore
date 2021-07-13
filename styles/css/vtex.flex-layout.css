@@ -85,6 +85,16 @@
 .flexCol--col-discount-savings {
     height: 0px;
 }
+.flexRow--row-reviews-producto {
+    text-align: left;
+    float: left;
+    margin-left: 0;
+}
+.flexRowContent--row-reviews-producto {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
 @media(max-width:767px){
 .flexRowContent--row-nombre-producto{
     margin-top: 0px;
