@@ -200,6 +200,14 @@
     border-color: transparent;
     text-decoration: underline;
 }
+.shippingNoMessage {
+    font-size: 0;
+    margin-top: 2px;
+}
+.shippingNoMessage::after {
+    content: "No es posible calcular despacho de un producto sin stock. Intente con otro producto o aguarde que tengamos unidades disponibles nuevamente.";
+    font-size: 14px;
+}
 
 @media(max-width:767px){
     .productBrand--product-name {

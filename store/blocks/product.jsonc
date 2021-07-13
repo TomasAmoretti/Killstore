@@ -9,10 +9,12 @@
     "children":[
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#nombre-producto",
+      "flex-layout.row#reviews-producto",
       "flex-layout.row#main",
       "product-separator",
       /*"descripcion-larga",*/
-      "shelf#relatedProducts"
+      "shelf#relatedProducts",
+      "product-reviews"
     ],
     "props":{
       "blockClass": "responsive-desktop"
@@ -50,6 +52,15 @@
     "props": {
       "marginTop": 6,
       "blockClass": "row-nombre-producto"
+    }
+  },
+  "flex-layout.row#reviews-producto" : {
+    "children": [
+      "product-rating-summary"
+    ],
+    "props": {
+      "marginTop": 6,
+      "blockClass": "row-reviews-producto"
     }
   },
   "flex-layout.col#left": {
@@ -234,10 +245,11 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#marca-producto",
       "flex-layout.row#nombre-producto",
+      "flex-layout.row#reviews-producto",
       "flex-layout.row#main-mobile",
       "product-separator",
-    
-      "shelf#relatedProducts"
+      "shelf#relatedProducts",
+      "product-reviews"
     ],
     "props":{
       "blockClass": "responsive-mobile"

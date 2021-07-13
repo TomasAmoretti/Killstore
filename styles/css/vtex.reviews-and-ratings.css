@@ -1,0 +1,12 @@
+.container {
+    border-top: 1px solid #ccc;
+}
+.container::before {
+    content: "";
+    display: block;
+    width: 8%;
+    border-top: solid 4px #FF5A07;
+    position: relative;
+    bottom: 2px;
+    right: 20px;
+}
