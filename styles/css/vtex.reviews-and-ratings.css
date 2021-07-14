@@ -1,5 +1,5 @@
 .container {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid red;
 }
 .container::before {
     content: "";
@@ -12,4 +12,23 @@
 }
 .summaryButtonContainer {
     display: none;
+}
+
+.reviewCommentsContainer :global( ul li:first-child){
+    display: none;
+}
+.stars {
+    display: inline-block;
+    width: 40%;
+}
+.reviewCommentsContainer :global(.t-body) {
+    text-align: center;
+}
+@media(max-width:767px){
+    .stars {
+        width: auto;
+    }
+    .reviewCommentsContainer :global(.t-body) {
+        text-align: left;
+    }
 }
