@@ -1,0 +1,40 @@
+.listContainer {
+    border-bottom: 1px solid #ccc;
+    justify-content: flex-start;
+}
+
+.listItem :global(.vtex-button__label){
+    color: black;
+    font-size: 15px;
+    position: relative;
+    top: 6px;
+}
+
+.listItem {
+    margin: 0px;
+    padding: 0;
+}
+
+.listItemActive :global(.vtex-button){
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #FF5A07;
+    border-radius: 0px;
+}
+
+.listItem :global(.vtex-button):hover {
+    background-color:transparent;
+    border-bottom: 4px solid #FF5A07;
+}
+@media(max-width:767px){
+    .listItem :global(.vtex-button__label){
+        color: black;
+        font-size: 12px;
+        position: relative;
+        top: 6px;
+    }
+    .listContainer {
+        border-bottom: 1px solid #ccc;
+        justify-content: center;
+    }
+}

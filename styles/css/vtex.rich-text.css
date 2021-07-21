@@ -231,3 +231,12 @@
 .listItem--institucional {
     text-align: initial;
 }
+.paragraph--descargas-message {
+    line-height: 0px;
+    color: black;
+    font-family: "Gotham Regular";
+    font-size: 31px;
+}
+.container--descargas-message {
+    border-bottom: 1px solid #ccc;
+}

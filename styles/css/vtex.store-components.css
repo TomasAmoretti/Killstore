@@ -127,7 +127,13 @@
     padding-top: 0;
 }
 .specificationsTable--specifications-product {
-    text-align: left;
+    text-align: center;
+}
+.specificationsTablePropertyHeading--specifications-product {
+    text-align: center;
+}
+.specificationsTableSpecificationHeading--specifications-product{
+    text-align: center;
 }
 .shareContainer {
     padding-top: 10px;
@@ -209,6 +215,7 @@
     font-size: 14px;
 }
 
+
 @media(max-width:767px){
     .productBrand--product-name {
         margin-left: 0px;
@@ -261,19 +268,19 @@
 .imageElement--logo-vtex-mobile {
     margin-left: 35%;
 }
-.specificationsTable--specifications-product {
-    width: 80%;
-}
+
 
 .specificationsTitle--specifications-product {
     color: black;
     font-weight: bold;
     font-size: 22px;
     font-family: "Gotham Regular";
-    display: none;
+    display: block;
+    margin-top:15px;
 }
 .specificationsTableContainer--specifications-product {
     padding-left: 0px;
+    margin-top:5px;
 }
 .specificationItemProperty {
     font-size: 15px;

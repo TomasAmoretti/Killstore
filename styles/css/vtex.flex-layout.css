@@ -95,9 +95,83 @@
     margin-bottom: 20px;
     margin-left: 40px;
 }
+.flexRowContent--especificaciones {
+    border-top: 1px solid #ccc;
+}
+.flexCol--descargas-producto {
+    margin-left: 20px;
+}
+.specificationsTableContainer--specifications-product {
+    margin-right: 20px;
+}
+
+.flexRow--productSpecification {
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flexCol--productSpecificationName{
+    text-align: left;
+    margin-left: 30px;
+}
+.flexCol--productSpecificationValue {
+    text-align: left;
+}
+.flexRowContent--productSpecification {
+    width: 60%;
+}
+.flexCol--especificaciones {
+    margin-top: 50px;
+}
+.flexRow--row-specifications-product-group {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.flexRow--specification-incluye {
+    margin-top: 12px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+.flexCol--productSpecificationNameIncluye {
+    text-align: left;
+    font-size: 25px;
+    color: #FF5A07;
+    margin: 10px 0px 10px 30px;
+}
+.flexColChild--productSpecificationValueIncluye {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 28px;
+    color: black;
+}
+.flexRow--flex-reviews-producto {
+    float: left;
+    text-align: left;
+    margin-top: 85px;
+    width: 100%;
+}
+
 @media(max-width:767px){
 .flexRowContent--row-nombre-producto{
     margin-top: 0px;
+}
+.flexRowContent--productSpecification {
+    width: 100%;
+}
+.flexCol--productSpecificationName {
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.flexCol--productSpecificationValue {
+    text-align: center;
+    margin-bottom: 10px;
 }
 }
 /* Footer */

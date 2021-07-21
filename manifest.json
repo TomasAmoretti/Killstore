@@ -46,12 +46,15 @@
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
+    "vtex.product-specifications": "1.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.store-form": "0.x",
     "vtex.checkout-summary": "0.x",
     "vtex.product-highlights": "1.x",
     "vtex.product-price": "1.x",
-    "vtex.modal-layout": "0.x"
+    "vtex.modal-layout": "0.x",
+    "vtex.kit-look": "0.x",
+    "killstorecl.descripcion-larga":"0.x"
   },
   "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
