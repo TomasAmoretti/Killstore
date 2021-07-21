@@ -201,7 +201,8 @@
   "flex-layout.col#center": {
     "children": [
       "product-brand",
-      "product-identifier.product"
+      "product-identifier.product",
+      "product-description"
     ],
     "props": {
       "verticalAlign": "top",

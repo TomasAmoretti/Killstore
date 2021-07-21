@@ -170,9 +170,9 @@
       "product-summary.shelf#main"
     ],
     "props": {
-        "recommendation": "view",
+        "recommendation": "accessories",
         "productList": {
-            "titleText": "Productos relacionados",
+            "titleText": "Accesorios",
             "maxItems": 20,
             "itemsPerPage": 5,
             "minItemsPerPage": 1,

@@ -6,25 +6,39 @@
 
 .title {
     font-family: 'Gotham Regular';
-    color: #fff;
-    background: black;
+    color: currentColor;
+    background: transparent;
     padding-bottom: 0;
     padding-top: 0;
     text-align: initial;
     display: grid;
+    font-size: 1.75em;
     justify-content: initial;
     padding: 10px 10px 0px 20px;
     border-radius: 8px;
+    
 }
 
 .title::after {
     content: "";
     display: block;
-    width: 99%;
+    width: 100%;
+    padding-top: 5px;
+    border-bottom: solid 1px #ccc;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.title::before {
+    content: "";
+    display: block;
+    width: 13%;
     padding-top: 5px;
     border-bottom: solid 4px #FF5A07;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    position: relative;
+    top: 40px;
 }
 
 .container--shelf-destacados {
