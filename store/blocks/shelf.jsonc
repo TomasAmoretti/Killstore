@@ -181,5 +181,22 @@
         },
         "blockClass": "shelf-relacionados"
     }
+  },
+  "shelf#suggestionsProducts": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+        "recommendation": "suggestions",
+        "productList": {
+            "titleText": "Sugerencias",
+            "maxItems": 20,
+            "itemsPerPage": 5,
+            "minItemsPerPage": 1,
+            "scroll": "BY_PAGE",
+            "arrows": true
+        },
+        "blockClass": "shelf-relacionados"
+    }
   }
 }

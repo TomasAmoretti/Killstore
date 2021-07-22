@@ -17,6 +17,7 @@
       "shelf#relatedProducts",
       // "flex-layout.row#especificaciones-producto",
       "tab-layout#product",
+      "shelf#suggestionsProducts",
       "flex-layout.row#product-reviews"
     ],
     "props": {
@@ -112,7 +113,8 @@
     "children": [
       // aca iría el componente de Tomy para levantar additional description
      //"product-description"
-     "descripcion-larga"
+     // especifiaciones de producto , filtrado por el grupo descripcion
+     "flex-layout.row#longdescription-producto"
     ],
     "props": {
       "tabId": "product1"
@@ -121,6 +123,7 @@
   "tab-content.item#product2": {
     "children": [
       // especifiaciones de producto 
+
       "flex-layout.row#descripcion-producto"
     ],
     "props": {
@@ -220,6 +223,7 @@
       "product-separator",
       "product-quantity",
       "add-to-cart-button#product",
+      "availability-subscriber",
       "shipping-simulator",
       "share"
     ],
@@ -342,6 +346,7 @@
       "shelf#relatedProducts",
       // "flex-layout.row#especificaciones-producto",
       "tab-layout#product",
+      "shelf#suggestionsProducts",
       "flex-layout.row#product-reviews"
     ],
     "props": {
@@ -367,5 +372,11 @@
       "flex-layout.col#right",
       "flex-layout.col#center"
     ]
+  },
+  "availability-subscriber": {
+    "props":{
+      "blockClass": "disponibilidad",
+      "component": "AvailabilitySubscriber"
+    }
   }
 }
