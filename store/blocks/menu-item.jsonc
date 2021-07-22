@@ -529,6 +529,17 @@
       "blockClass": "submenu-header-item"
     }
   },
+  "menu-item#Categorias-Computacion-Varios-Routers-modems":{
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Routers y modems",
+        "href": "/computacion/modems-y-routers?initialMap=c&initialQuery=computacion"
+      },
+      "blockClass": "submenu-header-item"
+    }
+  },
   "menu-item#Categorias-Computacion-Varios-Software":{
     "props": {
       "type": "custom",
