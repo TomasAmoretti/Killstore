@@ -17,6 +17,7 @@
 .container--product-tabs {
     max-width: 1280px;
     margin: auto;
+    margin-top: 40px;
 }
 
 .listItemActive :global(.vtex-button){

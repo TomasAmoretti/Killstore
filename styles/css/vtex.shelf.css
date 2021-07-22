@@ -46,6 +46,13 @@
     margin: auto;
 }
 
+.relatedProducts--shelf-relacionados {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
 .container--mas-vistos {
     margin-top: 60px;
 }

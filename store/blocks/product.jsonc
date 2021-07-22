@@ -14,10 +14,10 @@
       "product-separator",
       /*"descripcion-larga",*/
       "list-context.kitLook",
-      "shelf#relatedProducts",
+      "shelf.relatedProducts#related",
       // "flex-layout.row#especificaciones-producto",
       "tab-layout#product",
-      "shelf#suggestionsProducts",
+      "shelf.relatedProducts#similarProducts",
       "flex-layout.row#product-reviews"
     ],
     "props": {
@@ -343,10 +343,10 @@
       "flex-layout.row#reviews-producto",
       "flex-layout.row#main-mobile",
       "product-separator",
-      "shelf#relatedProducts",
+      "shelf.relatedProducts#related",
       // "flex-layout.row#especificaciones-producto",
       "tab-layout#product",
-      "shelf#suggestionsProducts",
+      "shelf.relatedProducts#similarProducts",
       "flex-layout.row#product-reviews"
     ],
     "props": {

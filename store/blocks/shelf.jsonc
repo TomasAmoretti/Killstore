@@ -165,7 +165,7 @@
       "blockClass": "shelf-destacados"
     }
   },
-  "shelf#relatedProducts": {
+  "shelf.relatedProducts#related": {
     "blocks": [
       "product-summary.shelf#main"
     ],
@@ -182,14 +182,14 @@
         "blockClass": "shelf-relacionados"
     }
   },
-  "shelf#suggestionsProducts": {
+  "shelf.relatedProducts#similarProducts": {
     "blocks": [
       "product-summary.shelf#main"
     ],
     "props": {
-        "recommendation": "suggestions",
+        "recommendation": "similars",
         "productList": {
-            "titleText": "Sugerencias",
+            "titleText": "Similares",
             "maxItems": 20,
             "itemsPerPage": 5,
             "minItemsPerPage": 1,

@@ -234,7 +234,8 @@
         "menu-item#Categorias-Computacion-Varios-Software",
         "menu-item#Categorias-Computacion-Mouse-Impresoras",
         "menu-item#Categorias-Computacion-Varios-Sillas",
-        "menu-item#Categorias-Computacion-Mouse-Capturadoras"
+        "menu-item#Categorias-Computacion-Mouse-Capturadoras",
+        "menu-item#Categorias-Computacion-Varios-Modems"
       ]
     },
     "vtex.menu@2.x:submenu#Categorias-Drones":{
