@@ -206,7 +206,7 @@
       "product-price#product",
       "flex-layout.col#savings",
       "vtex.product-price:product-installments#product",
-      "killstorecl.product-price-custom:product-spot-price",
+      "flex-layout.row#product-discounts",
       "sku-selector",
       "product-separator",
       "product-quantity",
@@ -235,8 +235,17 @@
       "blockClass": "product-name"
     }
   },
+  "flex-layout.row#product-discounts": {
+    "children": ["killstorecl.product-price-custom@1.x:product-spot-price"],
+    "props": {
+      "blockClass": "row-product-discounts"
+    }
+  },
   "killstorecl.product-price-custom@1.x:product-spot-price": {
-    "props": { "blockClass": "sarasa" }
+    "props": {
+      "blockClass": "precios-descuentos",
+      "message": "{spotPriceValue} "
+    }
   },
   "vtex.product-price:product-installments#product": {
     "props": {

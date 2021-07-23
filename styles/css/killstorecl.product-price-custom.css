@@ -1,0 +1,11 @@
+.currencyContainer--precios-descuentos {
+  color: black;
+  font-weight: bold;
+  font-family: "Gotham Regular";
+  text-transform: uppercase;
+}
+.spotPrice--precios-descuentos {
+  float: left;
+  text-align: left;
+  font-size: 14px;
+}

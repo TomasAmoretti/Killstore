@@ -44,15 +44,16 @@ function SpotPrice({
     return null
   }
 
-  const spotPriceValue = commercialOffer.spotPrice
-  const sellingPriceValue = commercialOffer.SellingPrice
+  // const spotPriceValue = commercialOffer.spotPrice
+  const sellingPriceValue = commercialOffer.Price
   const mercadolibrePrice = (sellingPriceValue * 1)
   const webPayPrice = (sellingPriceValue * 0.98)
   const transferPrice = (sellingPriceValue * 0.96)
 
-  if (spotPriceValue === sellingPriceValue) {
-    return null
-  }
+
+  // if (spotPriceValue === sellingPriceValue) {
+  //   return null
+  // }
 
   return (
     <span className={handles.spotPrice}>
@@ -63,10 +64,14 @@ function SpotPrice({
         values={{
           spotPriceValue: (
             <><span key="transferPrice" className={handles.transferPrice}>
-              Transferencia: <FormattedCurrency value={transferPrice} />
-            </span><span key="webPayPrice" className={handles.webPayPrice}>
+              Efectivo o Transferencia: <FormattedCurrency value={transferPrice} />
+            </span>
+              <br />
+              <span key="webPayPrice" className={handles.webPayPrice}>
                 WebPay: <FormattedCurrency value={webPayPrice} />
-              </span><span key="mercadolibrePrice" className={handles.mercadolibrePrice}>
+              </span>
+              <br />
+              <span key="mercadolibrePrice" className={handles.mercadolibrePrice}>
                 Mercado Libre: <FormattedCurrency value={mercadolibrePrice} />
               </span></>
           ),
