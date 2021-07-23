@@ -17,7 +17,7 @@
     "component": "SpotPrice",
     "composition": "children",
     "content": {
-      "$ref": "app:killstorecl.product-price#/definitions/SpotPrice"
+      "$ref": "app:vtex.product-price#/definitions/SpotPrice"
     }
   },
   "product-spot-price-savings": {
