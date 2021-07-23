@@ -115,6 +115,9 @@
     text-align: left;
     margin-left: 30px;
 }
+.flexColChild--specification-incluye {
+    max-height: 40px;
+}
 .flexCol--productSpecificationValue {
     text-align: left;
 }

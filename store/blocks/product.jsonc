@@ -28,9 +28,7 @@
     "props": {
       "marginTop": 4
     },
-    "children": [
-      "breadcrumb"
-    ]
+    "children": ["breadcrumb"]
   },
   "breadcrumb": {
     "props": {
@@ -50,19 +48,14 @@
     ]
   },
   "flex-layout.row#nombre-producto": {
-    "children": [
-      "product-name#product"
-    ],
+    "children": ["product-name#product"],
     "props": {
       "marginTop": 6,
       "blockClass": "row-nombre-producto"
     }
   },
   "tab-layout#product": {
-    "children": [
-      "tab-list#product",
-      "tab-content#product"
-    ],
+    "children": ["tab-list#product", "tab-content#product"],
     "props": {
       "blockClass": "product-tabs",
       "defaultActiveTabId": "product1"
@@ -72,8 +65,8 @@
     "children": [
       "tab-list.item#product1",
       "tab-list.item#product2",
-      "tab-list.item#product3",
-      "tab-list.item#product4"
+      "tab-list.item#product3"
+      // "tab-list.item#product4"
     ]
   },
   "tab-list.item#product1": {
@@ -112,9 +105,9 @@
   "tab-content.item#product1": {
     "children": [
       // aca iría el componente de Tomy para levantar additional description
-     //"product-description"
-     // especifiaciones de producto , filtrado por el grupo descripcion
-     "flex-layout.row#longdescription-producto"
+      //"product-description"
+      // especifiaciones de producto , filtrado por el grupo descripcion
+      "flex-layout.row#longdescription-producto"
     ],
     "props": {
       "tabId": "product1"
@@ -122,7 +115,7 @@
   },
   "tab-content.item#product2": {
     "children": [
-      // especifiaciones de producto 
+      // especifiaciones de producto
 
       "flex-layout.row#descripcion-producto"
     ],
@@ -154,18 +147,14 @@
     }
   },
   "flex-layout.row#reviews-producto": {
-    "children": [
-      "product-rating-summary"
-    ],
+    "children": ["product-rating-summary"],
     "props": {
       "marginTop": 6,
       "blockClass": "row-reviews-producto"
     }
   },
   "flex-layout.col#left": {
-    "children": [
-      "product-images#product-page"
-    ],
+    "children": ["product-images#product-page"],
     "props": {
       "blockClass": "col-left-producto",
       "width": "40%"
@@ -188,9 +177,7 @@
     "props": {
       "zoomMode": "in-place-hover",
       "zoomFactor": 2,
-      "imageSizes": [
-        700
-      ],
+      "imageSizes": [700],
       "blockClass": "product-image-zoom "
     }
   },
@@ -218,7 +205,8 @@
     "children": [
       "product-price#product",
       "flex-layout.col#savings",
-      "product-installments#product",
+      "vtex.product-price:product-installments#product",
+      "killstorecl.product-price-custom:product-spot-price",
       "sku-selector",
       "product-separator",
       "product-quantity",
@@ -234,9 +222,7 @@
     }
   },
   "flex-layout.col#savings": {
-    "children": [
-      "product-price-savings#product"
-    ],
+    "children": ["vtex.product-price:product-price-savings#product"],
     "props": {
       "blockClass": "col-discount-savings"
     }
@@ -249,7 +235,10 @@
       "blockClass": "product-name"
     }
   },
-  "product-installments#product": {
+  "killstorecl.product-price-custom@1.x:product-spot-price": {
+    "props": { "blockClass": "sarasa" }
+  },
+  "vtex.product-price:product-installments#product": {
     "props": {
       "message": "{installmentsNumber} cuotas sin interés de {installmentValue}",
       "blockClass": "product-installments"
@@ -262,7 +251,7 @@
       "blockClass": "product-price"
     }
   },
-  "product-price-savings#product": {
+  "vtex.product-price:product-price-savings#product": {
     "props": {
       "percentageStyle": "locale",
       "minimumPercentage": 0,
@@ -284,9 +273,7 @@
     }
   },
   "list-context.kitLook": {
-    "blocks": [
-      "product-summary.shelf#main"
-    ],
+    "blocks": ["product-summary.shelf#main"],
     "props": {
       "fullWidth": true
     }
@@ -354,9 +341,7 @@
     }
   },
   "flex-layout.row#marca-producto": {
-    "children": [
-      "product-brand"
-    ],
+    "children": ["product-brand"],
     "props": {
       "marginTop": 6,
       "blockClass": "row-marca-producto"
@@ -374,7 +359,7 @@
     ]
   },
   "availability-subscriber": {
-    "props":{
+    "props": {
       "blockClass": "disponibilidad",
       "component": "AvailabilitySubscriber"
     }

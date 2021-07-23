@@ -54,7 +54,8 @@
     "vtex.product-price": "1.x",
     "vtex.modal-layout": "0.x",
     "vtex.kit-look": "0.x",
-    "killstorecl.descripcion-larga": "0.x"
+    "killstorecl.descripcion-larga": "0.x",
+    "killstorecl.product-price-custom": "1.x"
   },
   "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
