@@ -72,7 +72,7 @@ function SpotPrice({
               </span>
               <br />
               <span key="mercadolibrePrice" className={handles.mercadolibrePrice}>
-                Mercado Libre: <FormattedCurrency value={mercadolibrePrice} />
+                Mercado Pago: <FormattedCurrency value={mercadolibrePrice} />
               </span></>
           ),
         }}
