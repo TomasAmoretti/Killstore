@@ -3,9 +3,16 @@
   font-weight: bold;
   font-family: "Gotham Regular";
   text-transform: uppercase;
+  position: relative;
+  bottom: 14px;
+  font-size: 15px;
 }
 .spotPrice--precios-descuentos {
   float: left;
   text-align: left;
   font-size: 14px;
+}
+
+.cssimagen--precios-descuentos {
+  width: 150px;
 }

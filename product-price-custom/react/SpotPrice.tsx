@@ -7,7 +7,7 @@ import { IOMessageWithMarkers } from 'vtex.native-types'
 
 import { getDefaultSeller } from './modules/seller'
 
-const CSS_HANDLES = ['spotPrice', 'spotPriceValue', 'transferPrice', 'webPayPrice', 'mercadolibrePrice'] as const
+const CSS_HANDLES = ['spotPrice', 'spotPriceValue', 'transferPrice', 'webPayPrice', 'mercadolibrePrice', 'cssimagen'] as const
 
 const messages = defineMessages({
   title: {
@@ -49,6 +49,7 @@ function SpotPrice({
   const mercadolibrePrice = (sellingPriceValue * 1)
   const webPayPrice = (sellingPriceValue * 0.98)
   const transferPrice = (sellingPriceValue * 0.96)
+  const cssimagen = "imgmedios"
 
 
   // if (spotPriceValue === sellingPriceValue) {
@@ -64,15 +65,15 @@ function SpotPrice({
         values={{
           spotPriceValue: (
             <><span key="transferPrice" className={handles.transferPrice}>
-              Efectivo o Transferencia: <FormattedCurrency value={transferPrice} />
+              <img className={handles.cssimagen} src="/arquivos/efectivo_gris.png" >{cssimagen}</img> <FormattedCurrency value={transferPrice} />
             </span>
               <br />
               <span key="webPayPrice" className={handles.webPayPrice}>
-                WebPay: <FormattedCurrency value={webPayPrice} />
+                <img className={handles.cssimagen} src="/arquivos/webpay_gris.png" >{cssimagen}</img> <FormattedCurrency value={webPayPrice} />
               </span>
               <br />
               <span key="mercadolibrePrice" className={handles.mercadolibrePrice}>
-                Mercado Libre: <FormattedCurrency value={mercadolibrePrice} />
+                <img className={handles.cssimagen} src="/arquivos/mp_gris.png" >{cssimagen}</img> <FormattedCurrency value={mercadolibrePrice} />
               </span></>
           ),
         }}
