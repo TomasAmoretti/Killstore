@@ -1,55 +1,57 @@
-.productNameContainer, .sellingPriceContainer{
-    color: black;
-    font-weight: bold;
+.productNameContainer,
+.sellingPriceContainer {
+  color: black;
+  font-weight: bold;
 }
 
 .nameContainer {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    min-height: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-height: 60px;
 }
 
 .productBrandName {
-    font-size: 13px;
-    color: #959595;
+  font-size: 13px;
+  color: #959595;
 }
 
 .nameContainer {
-    justify-content: end;
+  justify-content: end;
 }
 
-.productBrand{
-    font-size: 15px;
-    display: inline-flex;
-    text-align: center;
+.productBrand {
+  font-size: 15px;
+  display: inline-flex;
+  text-align: center;
 }
 
 .brandName {
-    font-family: "Gotham Bold";
-    min-height: 70px;
+  font-family: "Gotham Bold";
+  min-height: 70px;
+  margin-top: 15px;
 }
 
-.priceContainer{
-    padding-top: 0;
-    padding-bottom: 0;
-    min-height: 65px;
-    height: 70px;
+.priceContainer {
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 65px;
+  height: 70px;
 }
 
-.element:hover{
-    border-top: solid 2px #FF5A07;
-    filter: opacity(0.5);
+.element:hover {
+  border-top: solid 2px #ff5a07;
+  filter: opacity(0.5);
 }
 
 .containerNormal {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .price_sellingPrice {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .imageWrapper {
-    min-height: 240px;
-    height: 285px;
+  min-height: 240px;
+  height: 285px;
 }
