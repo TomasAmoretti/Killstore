@@ -34,7 +34,7 @@
     "props": {
       "src": "/arquivos/banner-superior-armado-desktop.png",
       "link": {
-        "url": "/computacion/pcs-armadas"
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeGd_ja3T03prAjKTqTob8CWjvyitjmCGAI2HnkQ6xKPqlnZA/viewform"
       },
       "blockClass": "imagen-categoria"
     }
@@ -389,7 +389,7 @@
     "props": {
       "src": "/arquivos/banner-superior-armado.png",
       "link": {
-        "url": "/computacion/pcs-armadas"
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeGd_ja3T03prAjKTqTob8CWjvyitjmCGAI2HnkQ6xKPqlnZA/viewform"
       },
       "blockClass": "imagen-categoria-mobile"
     }
