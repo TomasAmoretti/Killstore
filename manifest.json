@@ -57,6 +57,8 @@
     "killstorecl.descripcion-larga": "0.x",
     "killstorecl.product-price-custom": "1.x"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "vtex.wordpress-integration": "2.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
