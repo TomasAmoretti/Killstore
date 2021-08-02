@@ -5696,7 +5696,7 @@ h1#cart-title, h1#orderform-title {
     font-size: 0;
 }
 h1#cart-title:before {
-    content: "Bolsa de Compras";
+    content: "Carrito";
     font-size: 30px;
     font-family: 'Neutraface 2 Text Bold';
 }
@@ -8376,4 +8376,11 @@ h5.corporate-title {
 
 p.client-phone.input.pull-left.text.required.mask {
   width: 100%!important;
+}
+a#payment-group-MercadoPagoPaymentGroup span:after {
+    content: " (12 cuotas sin interés)";
+    font-size: 11px;
+}
+#payment-group-MercadoPagoPaymentGroup span.payment-group-item-text {
+    font-size: 12px !important;
 }

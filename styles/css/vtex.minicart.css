@@ -1,12 +1,19 @@
-
-.cartIcon{
-    color: black;
+.cartIcon {
+  color: black;
 }
 
-.openIconContainer :hover{
-    background: #5e5e5e;
+.openIconContainer :hover {
+  background: #5e5e5e;
 }
 
-.minicartQuantityBadgeDefault, .minicartQuantityBadgeDefault:hover {
-    background: #FF5A07;
+.minicartQuantityBadgeDefault,
+.minicartQuantityBadgeDefault:hover {
+  background: #ff5a07;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::after {
+  content: "Ir a pagar";
+  font-size: 16px;
+}
+.minicartCheckoutButton :global(.vtex-button__label) {
+  font-size: 0px;
 }

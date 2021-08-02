@@ -1,0 +1,7 @@
+.summarySmallDisclaimer {
+  font-size: 0;
+}
+.summarySmallDisclaimer::after {
+  content: "Costo de envío calculado al finalizar la compra";
+  font-size: 14px;
+}
