@@ -1,34 +1,57 @@
 .container {
-    border-top: 1px solid red;
+  border-top: 1px solid red;
 }
 .container::before {
-    content: "";
-    display: block;
-    width: 8%;
-    border-top: solid 4px #FF5A07;
-    position: relative;
-    bottom: 2px;
-    right: 20px;
+  content: "";
+  display: block;
+  width: 8%;
+  border-top: solid 4px #ff5a07;
+  position: relative;
+  bottom: 2px;
+  right: 20px;
 }
 .summaryButtonContainer {
-    display: none;
+  display: none;
 }
 
-.reviewCommentsContainer :global( ul li:first-child){
-    display: none;
+.reviewCommentsContainer :global(ul li:first-child) {
+  display: none;
 }
 .stars {
-    display: inline-block;
-    width: 40%;
+  display: inline-block;
+  width: 40%;
+}
+
+.reviewsHeading.review__title {
+  font-size: 0;
+}
+.reviewsHeading.review__title::after {
+  content: "Reseñas";
+  font-size: 24px;
+}
+.loginLink {
+  font-size: 0px;
+}
+.loginLink::after {
+  content: "Por favor, inicie sesión para escribir una reseña";
+  font-size: 15px;
+}
+.summaryContainer {
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+}
+.flexRowContent--row-reviews-producto {
+  max-width: 1280px;
 }
 .reviewCommentsContainer :global(.t-body) {
-    text-align: center;
+  text-align: center;
 }
-@media(max-width:767px){
-    .stars {
-        width: auto;
-    }
-    .reviewCommentsContainer :global(.t-body) {
-        text-align: left;
-    }
+@media (max-width: 767px) {
+  .stars {
+    width: auto;
+  }
+  .reviewCommentsContainer :global(.t-body) {
+    text-align: left;
+  }
 }
