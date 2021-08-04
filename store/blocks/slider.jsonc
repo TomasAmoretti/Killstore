@@ -25,54 +25,54 @@
   },
   "image#slider-home-1": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/19ffe6f5-cb59-4007-b108-c9be77860e6d___aa41e5969c6ffe1f41f15c35dcf7f834.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/769d8749-7498-4e60-8e1b-f9fbf0dcff3a___2b60e1d6d47b11b8f51f55dbed407b73.png",
       "link": {
-        "url": "https://www.killstore.cl/381?map=productClusterIds"
+        "url": "https://www.killstore.cl/373?map=productClusterIds"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-2": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/d9038887-49f7-4ea4-a8f1-f2d194b6bf71___2946f9ef1f9eec31c4bfdfd1f1fd75b5.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/19ffe6f5-cb59-4007-b108-c9be77860e6d___aa41e5969c6ffe1f41f15c35dcf7f834.png",
       "link": {
-        "url": "https://www.killstore.cl/sennheiser"
+        "url": "https://www.killstore.cl/381?map=productClusterIdsr"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-3": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/7d7c7433-ec24-4be2-98b6-1217f9ed2543___24566dce321e5d6950f35ec25d3fafaf.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/43ffaacf-2ef3-4e7f-828b-4e4a148f298d___3e228399a7846573ddb82a984e797447.png",
       "link": {
-        "url": "https://www.killstore.cl/367?map=productClusterIds"
+        "url": "https://www.killstore.cl/389?map=productClusterIds"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-4": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/0ec7e733-5ddb-4943-91f9-e9dcab18ff07___5446c27eb11b91ad3dd3f11e7280be6d.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/368e2deb-a6a4-4096-b1c8-3c6f1263d65c___2c8a011189786bc3852c28c770c4d2a8.png",
       "link": {
-        "url": "https://www.killstore.cl/pavotube?_q=pavotube&map=ft&page=1"
+        "url": "https://www.killstore.cl/395?map=productClusterIds"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-5": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/bd1a2334-4dee-40fb-9497-c6ece75240ad___384b43be85dc3382fa726c501f632c27.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/cbf96439-d6bf-4137-80f4-65f185dda8ed___d179e4e2810dd9b299522e7d76374afd.png",
       "link": {
-        "url": "https://www.killstore.cl/estudio-portatil-maono-maonocaster-para-podcast-y-streaming/p"
+        "url": "https://www.killstore.cl/microfono-shotgun-compacto-sennheiser-mke-200-para-camaras-y-smartphones/p"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-6": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/e8667623-fe68-4d62-bb84-62c021a4b2c8___93f367780619105f8924ef75122ed39e.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/b0ec4c67-a539-4d74-97b7-2de13ddc7e72___7f296be9a32c1b2d219dcd900e08a262.png",
       "link": {
-        "url": "https://www.killstore.cl/kit-camara-mirrorless-olympus-om-d-e-m10-mark-iii-con-lentes-14-42mm-ez--40-150r-lens-negra/p"
+        "url": "https://www.killstore.cl/video/camaras/cinematograficas"
       },
       "blockClass": "slider-home"
     }
@@ -104,54 +104,54 @@
   },
   "image#slider-home-1-mobile": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/621fcc80-7dd3-4329-8d2f-abf5b29eb156___3afbc4bf1cccef292871aae374af670e.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/149bed7d-456c-4bb3-aa33-ec0d361f8b31___c4efb23f5e22915fe5c26a459550b72e.png",
       "link": {
-        "url": "https://www.killstore.cl/381?map=productClusterIds"
+        "url": "https://www.killstore.cl/373?map=productClusterIds"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-2-mobile": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/6056374d-97d5-4e56-9b64-3439d7c33348___a38e84e2a7c6d61f5a0d6ceae745055c.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/621fcc80-7dd3-4329-8d2f-abf5b29eb156___3afbc4bf1cccef292871aae374af670e.png",
       "link": {
-        "url": "https://www.killstore.cl/sennheiser"
+        "url": "https://www.killstore.cl/381?map=productClusterIdsr"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-3-mobile": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/1b18c9f1-34f5-4a32-8fa6-8f9108ee8952___54e38aba7548bff8797b359ea1d4eff7.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/c5561987-d994-4fd2-9196-02fa08165918___9c06a86793e5adee3d14b79820174915.png",
       "link": {
-        "url": "https://www.killstore.cl/367?map=productClusterIds"
+        "url": "https://www.killstore.cl/389?map=productClusterIds"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-4-mobile": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/5bca15e5-697f-4928-81d7-7cf5673bd240___59f72237cc5244e2ea50264380c8a0b2.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/262e2135-8038-448b-b1bf-9e4a482b399a___8d5f718d9350e20447c13268a7564af4.png",
       "link": {
-        "url": "https://www.killstore.cl/pavotube?_q=pavotube&map=ft&page=1"
+        "url": "https://www.killstore.cl/395?map=productClusterIds"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-5-mobile": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/fb8f3c09-1d07-45e6-b65b-bf184c7091ab___7942fb7476c4e7a302a89169b85d6da6.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/da916513-e5b7-4bbe-bd53-a20a28fb8f7f___2d2a606951ecb110b071379378d8f3bd.png",
       "link": {
-        "url": "https://www.killstore.cl/estudio-portatil-maono-maonocaster-para-podcast-y-streaming/p"
+        "url": "https://www.killstore.cl/microfono-shotgun-compacto-sennheiser-mke-200-para-camaras-y-smartphones/p"
       },
       "blockClass": "slider-home"
     }
   },
   "image#slider-home-6-mobile": {
     "props": {
-      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/ebb61b7c-f2ed-4b3a-878a-515fd25589c1___95771722016d794f02dfa33d3f5fb8ec.png",
+      "src": "https://killstorecl.vtexassets.com/assets/vtex.file-manager-graphql/images/c5313ec6-b904-4437-b5b6-b5dd2de00011___ab088726d285bc200d52541b243c71c4.png",
       "link": {
-        "url": "https://www.killstore.cl/kit-camara-mirrorless-olympus-om-d-e-m10-mark-iii-con-lentes-14-42mm-ez--40-150r-lens-negra/p"
+        "url": "https://www.killstore.cl/video/camaras/cinematograficas"
       },
       "blockClass": "slider-home"
     }

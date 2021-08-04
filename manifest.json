@@ -54,12 +54,12 @@
     "vtex.product-price": "1.x",
     "vtex.modal-layout": "0.x",
     "vtex.kit-look": "0.x",
-    "vtex.reviews-and-ratings": "2.x",
     "killstorecl.descripcion-larga": "0.x",
     "killstorecl.product-price-custom": "1.x"
   },
   "peerDependencies": {
-    "vtex.wordpress-integration": "2.x"
+    "vtex.wordpress-integration": "2.x",
+    "vtex.reviews-and-ratings": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
