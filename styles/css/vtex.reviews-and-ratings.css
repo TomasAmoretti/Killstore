@@ -47,4 +47,7 @@
   .stars {
     width: auto;
   }
+  .summaryContainer {
+    margin-left: 0;
+  }
 }

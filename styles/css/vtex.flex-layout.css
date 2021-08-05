@@ -191,6 +191,9 @@
     text-align: center;
     margin-bottom: 10px;
   }
+  .flexRowContent--row-reviews-producto {
+    margin-left: 0;
+  }
 }
 /* Footer */
 .flexRow--footer-logo,
