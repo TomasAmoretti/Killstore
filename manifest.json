@@ -59,7 +59,8 @@
   },
   "peerDependencies": {
     "vtex.wordpress-integration": "2.x",
-    "vtex.reviews-and-ratings": "2.x"
+    "vtex.reviews-and-ratings": "2.x",
+    "vtex.availability-notify": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

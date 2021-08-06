@@ -212,6 +212,7 @@
       "product-quantity",
       "add-to-cart-button#product",
       "availability-subscriber",
+      "availability-notify",
       "shipping-simulator",
       "share"
     ],
