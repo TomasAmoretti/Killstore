@@ -237,7 +237,9 @@
     }
   },
   "flex-layout.row#product-discounts": {
-    "children": ["killstorecl.product-price-custom@1.x:product-spot-price"],
+    "children": [
+      "killstorecl.product-price-custom@1.x:product-spot-price"
+    ],
     "props": {
       "blockClass": "row-product-discounts"
     }

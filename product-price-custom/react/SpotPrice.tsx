@@ -49,7 +49,6 @@ function SpotPrice({
   const mercadolibrePrice = (sellingPriceValue * 1)
   const webPayPrice = (sellingPriceValue * 0.98)
   const transferPrice = (sellingPriceValue * 0.96)
-  const cssimagen = "imgmedios"
 
 
   // if (spotPriceValue === sellingPriceValue) {
@@ -64,16 +63,17 @@ function SpotPrice({
         handleBase="spotPrice"
         values={{
           spotPriceValue: (
-            <><span key="transferPrice" className={handles.transferPrice}>
-              <img className={handles.cssimagen} src="/arquivos/efectivo_gris.png" >{cssimagen}</img> <FormattedCurrency value={transferPrice} />
-            </span>
+            <>
+              <span key="transferPrice" className={handles.transferPrice}>
+                <img className={handles.cssimagen} src="/arquivos/efectivo_gris.png" /><FormattedCurrency value={transferPrice} />
+              </span>
               <br />
               <span key="webPayPrice" className={handles.webPayPrice}>
-                <img className={handles.cssimagen} src="/arquivos/webpay_gris.png" >{cssimagen}</img> <FormattedCurrency value={webPayPrice} />
+                <img className={handles.cssimagen} src="/arquivos/webpay_gris.png" /> <FormattedCurrency value={webPayPrice} />
               </span>
               <br />
               <span key="mercadolibrePrice" className={handles.mercadolibrePrice}>
-                <img className={handles.cssimagen} src="/arquivos/mp_gris.png" >{cssimagen}</img> <FormattedCurrency value={mercadolibrePrice} />
+                <img className={handles.cssimagen} src="/arquivos/mp_gris.png" /> <FormattedCurrency value={mercadolibrePrice} />
               </span></>
           ),
         }}
