@@ -44,6 +44,9 @@
     ]
   },
   "search-bar":{
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
     "props":{
       "autoFocus": true,
       "blurOnSubmit": true,
@@ -52,6 +55,17 @@
       "placeholder": "Busca tu producto",
       "blockClass": "busqueda",
       "compactMode": false
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "historyFirst": true,
+      "maxSuggestedProducts": 2,
+      "maxSuggestedTerms": 10,
+      "autocompleteWidth": 50
     }
   },
   "flex-layout.col#categorias-nav": {
