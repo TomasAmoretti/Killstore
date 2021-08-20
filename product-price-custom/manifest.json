@@ -1,7 +1,7 @@
 {
   "vendor": "killstorecl",
   "name": "product-price-custom",
-  "version": "1.22.10",
+  "version": "1.22.11",
   "title": "VTEX Product Price",
   "description": "Components used to show everything price related in the context of the product",
   "builders": {
