@@ -35,17 +35,6 @@
     font-size: 14px;
 }
 
-.filter__container--b {
-    position: absolute;
-    top: 295px;
-    min-height: 250px;
-}
-
-
-.filter__container--title {
-    margin-bottom: 245px;
-}
-
 .accordionFilter {
     display: grid;
 }
